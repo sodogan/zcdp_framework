@@ -1,0 +1,19 @@
+<mvc:View controllerName="aklc.cm.components.Questionnaires.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m">
+    <Table id="list" width="100%" mode="SingleSelectMaster" showUnread="true">
+        <columns>
+            <Column />
+            <Column hAlign="Right" />
+        </columns>
+        <items>
+            <ColumnListItem id="listItem" class="stepsTblCell" unread="{= ${Active} === false}" visible="{Visible}">
+                <cells>
+                    <Text text="{Label}" class="stepsText" />
+                    
+                    <core:Icon id="icon" src="{path     : 'Completed',
+                                               
+                                               formatter: '.formatIcon'}"  />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</mvc:View>

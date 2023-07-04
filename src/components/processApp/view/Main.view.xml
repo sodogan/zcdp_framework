@@ -1,0 +1,17 @@
+<mvc:View controllerName="aklc.cm.components.processApp.controller.Main"
+    xmlns:suite="aklc.cm.components.processApp.controls" xmlns:ux3="sap.ui.ux3"
+    xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc">
+    <suite:ProcessViewer id="ProcessViewer"
+        sidebarWidth="160px" facets="{vm>/Steps}" facetSelected="onFacetSelected"
+        select="onFacetSelected" visible="false">
+        <!-- Custom Facet Added for to show the user story content dynmaically based on the back end data-->
+        <suite:facets>
+            <suite:NavigationItem text="{vm>Description}"
+                key="{vm>StepKey}" icon="{vm>Icon}"></suite:NavigationItem>
+        </suite:facets>
+        <suite:footerContent>
+            <mvc:XMLView viewName="aklc.cm.components.processApp.view.Footer" />
+        </suite:footerContent>
+    </suite:ProcessViewer>
+
+</mvc:View>

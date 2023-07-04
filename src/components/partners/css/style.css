@@ -1,0 +1,20 @@
+.labelalignradio {
+	margin-top: 16.2px;
+	margin-bottom: 16.2px;
+	margin-left: 48px;
+}
+
+.labelalignstandard {
+	margin-top: 16.28px;
+	margin-bottom: 16.2px;
+}
+
+.Hboxleft {
+	margin-left: -48px;
+}
+
+.multifixer {
+	margin-left: 14px;
+	height: 100% !important;
+	line-height: 1.8rem !important;
+}

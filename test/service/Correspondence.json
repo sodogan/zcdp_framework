@@ -1,0 +1,993 @@
+[{
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 1,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1606",
+	"Description": "RFI COA 1st Letter",
+	"PartnerFunction": "Z0000025",
+	"PartnerFunctionText": "Owner",
+	"PartnerName": "Jason Hunt",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Request for Information",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003200000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003200000)\/",
+	"ReceivedDate": "\/Date(1444003200000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 2,
+	"MimeType": "application/msword",
+	"FileName": "AC2003",
+	"Description": "Building Consent Form",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Applicant",
+	"PartnerName": "Pheona Parrs",
+	"DocumentGroup": "Consent Conditions",
+	"DocumentType": "Engineering Conditions",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003200000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003200000)\/",
+	"ReceivedDate": "\/Date(1444003200000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 3,
+	"MimeType": "application/pdf",
+	"FileName": "AC1405.pdf",
+	"Description": 0,
+	"PartnerFunction": "Z0000049",
+	"PartnerFunctionText": "LBP Blocklaying",
+	"PartnerName": "John Blowhorn",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Outgoing Correspondence",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1424003200000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003200000)\/",
+	"ReceivedDate": "\/Date(1444003200000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 4,
+	"MimeType": "application/msword",
+	"FileName": "Plan-w-pool-english-kl",
+	"Description": "Floor plan with a pool",
+	"PartnerFunction": "Z0000049",
+	"PartnerFunctionText": "LBP Blocklaying",
+	"PartnerName": "John Blowhorn",
+	"DocumentGroup": "Plan",
+	"DocumentType": "As Built Plan",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(14440033000000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 5,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1005",
+	"Description": "Pre-application meeting outcome",
+	"PartnerFunction": "Z0000049",
+	"PartnerFunctionText": "Agent",
+	"PartnerName": "Adam McDonald",
+	"DocumentGroup": "Application Form",
+	"DocumentType": "License Application",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Ivan Boris",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 6,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1404",
+	"Description": "Enforcement action - Building Warrant of Fitness Expired",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Applicant",
+	"PartnerName": "Adam Scott",
+	"DocumentGroup": "Application Form",
+	"DocumentType": "Lim Application",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Ivan Boris",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 7,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1405",
+	"Description": "BWOF 1st reminder",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Builder",
+	"PartnerName": "Albert Einstein",
+	"DocumentGroup": "Application Form",
+	"DocumentType": "Property File Product Application",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 8,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1406",
+	"Description": "BWOF 2nd reminder",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Designer (Architect)",
+	"PartnerName": "Alex Woodlock",
+	"DocumentGroup": "Application Form",
+	"DocumentType": "Application Form",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Ivan Boris",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 9,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1407",
+	"Description": "BWOF 3rd reminder",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Dev Con Sold -to-party",
+	"PartnerName": "Allan Kelland",
+	"DocumentGroup": "Assessment",
+	"DocumentType": "Assesment of Environmental Effects",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 10,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1408",
+	"Description": "BWOF 4th reminder",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Drainlayer",
+	"PartnerName": "Austin Miscall",
+	"DocumentGroup": "Assessment",
+	"DocumentType": "Assessment",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 11,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1409",
+	"Description": "BWOF letter of acknowledgement",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Electrician",
+	"PartnerName": "Auto Create Dennis",
+	"DocumentGroup": "Calculations & Specifications",
+	"DocumentType": "Structural Calculations & Specifications",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "John Blowhorn",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 12,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1410",
+	"Description": "BWOF request for further information",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "GasFitter",
+	"PartnerName": "Auto Creation Customer Auto Creation Customer",
+	"DocumentGroup": "Calculations & Specifications",
+	"DocumentType": "Technical Literature",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 13,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1413",
+	"Description": "BWOF 5th letter expired",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "First Point of Contact",
+	"PartnerName": "Baljit Singh",
+	"DocumentGroup": "Calculations & Specifications",
+	"DocumentType": "Calculations & Specifications",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 14,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1414",
+	"Description": "BWOF 5th letter expired",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Head Contractor/Site Manager",
+	"PartnerName": "Barbara Jones & Co",
+	"DocumentGroup": "Certificate",
+	"DocumentType": "Acoustic Test Certificate",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 15,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1416",
+	"Description": "Compliance Schedule audit 1st letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Independently Qualified Person",
+	"PartnerName": "Bard and Angi Pitt",
+	"DocumentGroup": "Certificate",
+	"DocumentType": "Backflow Preventions Certificate",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "John Blowhorn",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 16,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1417",
+	"Description": "Compliance Schedule audit - defects remedied 2nd letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Blocklaying",
+	"PartnerName": "Barry Litt",
+	"DocumentGroup": "Certificate",
+	"DocumentType": "Certificate of Acceptance (COA)",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003200000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 17,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1418",
+<<<<<<< HEAD
+<<<<<<< HEAD
+	"Description": "Compliance schedule audit ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ defects not remedied 3rd letter",
+=======
+	"Description": "Compliance schedule audit ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ defects not remedied 3rd letter",
+>>>>>>> refs/heads/master
+=======
+<<<<<<< HEAD
+	"Description": "Compliance schedule audit ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ defects not remedied 3rd letter",
+=======
+	"Description": "Compliance schedule audit ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ defects not remedied 3rd letter",
+>>>>>>> refs/heads/master
+>>>>>>> refs/remotes/origin/master
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Bricklaying",
+	"PartnerName": "BC Test - Do Not Use",
+	"DocumentGroup": "Certificate",
+	"DocumentType": "Certificate of Compliance (COC)",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Quadling",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003200000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 18,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1419",
+	"Description": "Compliance Schedule general template",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Carpentry",
+	"PartnerName": "Ben Boisterous",
+	"DocumentGroup": "Certificate",
+	"DocumentType": "Certificate of Public Use (CPU)",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003200000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 19,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1420",
+	"Description": "Invalid building warrant of fitness",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP External Plastering",
+	"PartnerName": "Benny Blown",
+	"DocumentGroup": "Certificate",
+	"DocumentType": "Certificate of Title (COT)",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 20,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1421",
+	"Description": "Notice to fix will expire",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Foundation",
+	"PartnerName": "Betty Boop",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Abatement Notice",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 21,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1422",
+	"Description": "Notice to fix has expired",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Roofing",
+	"PartnerName": "Betty Smith",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Building Warrant of Fitness",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 22,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1423",
+	"Description": "Compliance schedule requirements",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Slab",
+	"PartnerName": "Bevan Richard Miles",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Classification",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 23,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1424",
+	"Description": "Compliance schedule suspended",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Waterproofing",
+	"PartnerName": "Blah De Blah",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Court Summary",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 24,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1512",
+	"Description": "ALBC letter to accompany certificate",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Occupier",
+	"PartnerName": "Bob Smith",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Dangerous Building Notice",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 25,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1513",
+	"Description": "ALBC Refusal",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Owner",
+	"PartnerName": "Bradley Cooper",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Enforcement Order",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 26,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1604",
+	"Description": "COA Successful lodgement",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Person in Control of Premise",
+	"PartnerName": "Business Partner",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Evidence",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 27,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1605",
+	"Description": "COA Unsuccessful lodgement",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Plubmer",
+	"PartnerName": "Cameron White",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Infringement",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": 0,
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 28,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1606",
+	"Description": "RFI COA 1st Letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Producer Statement Author",
+	"PartnerName": "Caroline Jane Griffin",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Notice to Fix",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 29,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1607",
+	"Description": "RFI COA 2nd Letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Receiving Officer",
+	"PartnerName": "Caroline Jane Griffin",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Prosecution",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 30,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1608",
+	"Description": "RFI COA 3rd Letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Related Company",
+	"PartnerName": "Cecily Wilson",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Requisition",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 31,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1609",
+	"Description": "COA ready for uplifting 1st letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Reporter (Person)",
+	"PartnerName": "Charon Lessing",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Warning",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 32,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1610",
+	"Description": "COA ready for uplifting 2nd letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Service Employee Group",
+	"PartnerName": "Christine Anne Scaletti Johnson",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Warrant",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 33,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1611",
+	"Description": "COA ready for uplifting 3rd letter",
+	"PartnerFunction": 1,
+	"PartnerFunctionText": "Sold-To Party",
+	"PartnerName": "Christine Anne Scaletti Johnson",
+	"DocumentGroup": "Compliance",
+	"DocumentType": "Compiance",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 34,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1612",
+	"Description": "COA refused letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Specialist (External)",
+	"PartnerName": "Cindy Bagnall",
+	"DocumentGroup": "Consent Conditions",
+	"DocumentType": "Planning Conditions",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Diane Burden",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 35,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1613",
+	"Description": "COA failed site inspection remedial work required",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Structural Engineer",
+	"PartnerName": "CRMReplication Test6",
+	"DocumentGroup": "Consent Conditions",
+	"DocumentType": "Specialist Conditions",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 36,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1614",
+	"Description": "Urgent work letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Team Responsible",
+	"PartnerName": "David Cameron",
+	"DocumentGroup": "Consent Conditions",
+	"DocumentType": "Consent Conditions",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 37,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1938",
+	"Description": "Application accepted for special exemption under s.6 of the FOSP",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Agent",
+	"PartnerName": "David John Blincoe",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Complaint",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 38,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1939",
+	"Description": "Application rejected for special exemption under s.6 of the FOSP",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Applicant",
+	"PartnerName": "David John Blincoe",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Incoming Correspondence",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 39,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1940",
+	"Description": "Exemption 2 of Schedule 1 granted",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Builder",
+	"PartnerName": "David Jones",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Completion documents",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 40,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1941",
+	"Description": "Exemption 2 of Schedule 1 declined",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Designer (Architect)",
+	"PartnerName": "David Ramsay",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Internal Correspondence",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 41,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1946",
+	"Description": "Earthquake-Prone building assessment letter",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Dev Con Sold -to-party",
+	"PartnerName": "Debbie Michelle Tugaga",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Internal Memo",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 42,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1948",
+	"Description": "Outcome of fire engineering brief (FEB) process",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Drainlayer",
+	"PartnerName": "Deborah Lee Cockerton",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Letter of Acceptance (LOA)",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 43,
+	"MimeType": "application/pdf",
+	"FileName": "Y_AC1949",
+	"Description": "Meeting to discuss fire engineering brief process",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Electrician",
+	"PartnerName": "Inun Dated",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Outgoing Correspondence",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 44,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC1950",
+	"Description": "FEB request for further information",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "GasFitter",
+	"PartnerName": "Israel Dagg",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Financial Dispute",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 45,
+	"MimeType": "application/msword",
+	"FileName": "Y_AC2407",
+	"Description": "Provisional assessment EQ prone",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "First Point of Contact",
+	"PartnerName": "Itchy Mouse",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Request for Information",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 46,
+	"MimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+	"FileName": "Y_AC2408",
+	"Description": "Provisional assessment (not EQ prone)",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Head Contractor/Site Manager",
+	"PartnerName": "Ivan Williams",
+	"DocumentGroup": "Correspondence",
+	"DocumentType": "Request for Waiver",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 47,
+	"MimeType": "image/png",
+	"FileName": "Y_AC2409",
+	"Description": "Final revised assessment (EQ prone)",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "Independently Qualified Person",
+	"PartnerName": "Jack Smythe",
+	"DocumentGroup": "Financial Document",
+	"DocumentType": "Broken ATP",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Rachel Thompson",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Public"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 48,
+	"MimeType": "application/ms-excel",
+	"FileName": "Y_AC2410",
+	"Description": "Final assessment (EQ prone)",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Blocklaying",
+	"PartnerName": "James Bond",
+	"DocumentGroup": "Financial Document",
+	"DocumentType": "Cancel ATP",
+	"DocumentStatusText": "Draft",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}, {
+	"__metadata": {
+		"media_src": "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/Correspondence()/$value"
+	},
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"AttachmentId": 49,
+	"MimeType": "application/vnd.ms-powerpointtd",
+	"FileName": "Y_AC2411",
+	"Description": "Final revised assessment (not EQ prone)",
+	"PartnerFunction": "Z0000031",
+	"PartnerFunctionText": "LBP Bricklaying",
+	"PartnerName": "James Bond",
+	"DocumentGroup": "Financial Document",
+	"DocumentType": "Debit Note",
+	"DocumentStatusText": "Final",
+	"CreatedOn": "\/Date(1444003300000)\/",
+	"Author": "Tyla Cochran",
+	"LegacyDate": "\/Date(1444003300000)\/",
+	"ReceivedDate": "\/Date(1444003300000)\/",
+	"AuthorisationScope": "Confidential"
+}]

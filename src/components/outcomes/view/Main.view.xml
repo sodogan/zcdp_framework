@@ -1,0 +1,15 @@
+<mvc:View xmlns:layout="sap.ui.commons.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <layout:MatrixLayout layoutFixed="true" columns="2" width="100%" class="aklcMatrixLayout">
+        <!-- Master & Detail views are splitted into 2 part with 50:50 percentage -->
+        <layout:MatrixLayoutRow>
+            <layout:cells>
+                <layout:MatrixLayoutCell width="40%" class="aklcMasterCell">
+                    <mvc:XMLView viewName="aklc.cm.components.outcomes.view.Master" />
+                </layout:MatrixLayoutCell>
+                <layout:MatrixLayoutCell width="60%" class="aklcMasterCell">
+                    <mvc:XMLView viewName="aklc.cm.components.outcomes.view.Detail" />
+                </layout:MatrixLayoutCell>
+            </layout:cells>
+        </layout:MatrixLayoutRow>
+    </layout:MatrixLayout>
+</mvc:View>

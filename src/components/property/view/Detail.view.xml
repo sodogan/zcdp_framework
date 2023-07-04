@@ -1,0 +1,76 @@
+<mvc:View controllerName="aklc.cm.components.property.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="PROPERTY_FORM">
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="4" labelSpanM="4" emptySpanL="4" emptySpanM="4" /> </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="legalDescriptionLabel" text="{/#AdditionalProperty/LegalDescription/@sap:label}" class="formLabel" required="true" />
+                            <Input id="legalDescription" value="{LegalDescription}" liveChange=".cancelKeyPress" valueLiveUpdate="true" placeholder="{i18n>LD_PLACEHOLDER_TXT}" showValueHelp="true" valueHelpRequest=".handlePSearchHelp" editable="false" class="formLabel">
+                            <tooltip>
+                                <commons:RichTooltip text="{LegalDescription}" title="{i18n>MULTIPLE_LEGAL_TXT}" />
+                            </tooltip>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AdditionalProperty/Address/@sap:label}" class="formLabel" />
+                            <Input id="address" editable="false" value="{Address}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AdditionalProperty/Owner/@sap:label}" class="formLabel" />
+                            <Input id="owner" editable="false" value="{Owner}">
+                            <tooltip>
+                                <commons:RichTooltip text="{Owner}" title="{i18n>MULTIPLE_LEGAL_TXT}" />
+                            </tooltip>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{i18n>PROPERTY_STATUS}" class="formLabel" />
+                            <Input id="statustext" editable="false" value="{StatusText}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AdditionalProperty/DateAdded/@sap:label}" class="formLabel" />
+                            <DatePicker id="dateCreated" displayFormat="dd/MM/yyyy" dateValue="{DateAdded}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" />
+                            <commons:Button id="add" text="{i18n>SAVE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton" visible="{vm>/SaveBtn_Visible}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

@@ -1,0 +1,49 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTg1OEUyOTkzRDgxMUQ0MjAsUkxU",
+	"ApplicationKey": "005056BC09BD1ED5A3CF68B0533CF424",
+	"ApplicationText": "8700002572",
+	"TransactionType": "YNOT",
+	"TransactionTypeText": "Notices",
+	"Status": "E0001",
+	"StatusText": "New",
+	"CategoryText": "Building Control Notices",
+	"OrderType": "BUS2000223",
+	"OrderTypeText": "CRM Service Request",
+	"WorkDescription": "This transaction is created as a follow up"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTg1OEUyOTkzRDgxMUQ0MjAsUkxU",
+	"ApplicationKey": "005056BC09BD1ED59F85D555D6B2B424",
+	"ApplicationText": "8700002090",
+	"TransactionType": "YBCP",
+	"TransactionTypeText": "Building Control Inspection",
+	"Status": "E0001",
+	"StatusText": "Open",
+	"CategoryText": "Cavity wrap",
+	"OrderType": "BUS2000126",
+	"OrderTypeText": "CRM Service Request",
+	"WorkDescription": "This related transaction is added manually"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTg1OEUyOTkzRDgxMUQ0MjAsUkxU",
+	"ApplicationKey": "005056BC09BD1ED5A3CF616442FAF424",
+	"ApplicationText": "BCO00002572",
+	"TransactionType": "YBCC",
+	"TransactionTypeText": "BC Consent",
+	"Status": "E0031",
+	"StatusText": "Issued",
+	"CategoryText": "Building Consent",
+	"OrderType": "BUS2000223",
+	"OrderTypeText": "CRM Service Request",
+	"WorkDescription": "tst"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTg1OEUyOTkzRDgxMUQ0MjAsUkxU",
+	"ApplicationKey": "005056BC09BD1ED58BFE0C9546519420",
+	"ApplicationText": "BWF20000105",
+	"TransactionType": "YBCO",
+	"TransactionTypeText": "BC Other",
+	"Status": "E0045",
+	"StatusText": "Compliance Schedule Issued",
+	"CategoryText": "Building Warrant of Fitness",
+	"OrderType": "BUS2000223",
+	"OrderTypeText": "CRM Service Request",
+	"WorkDescription": "This related transaction is added manually"
+}]

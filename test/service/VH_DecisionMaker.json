@@ -1,0 +1,29 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionMaker": "LOCALAUTH",
+	"Description": "Local Authority"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionMaker": "HEARCOMM",
+	"Description": "Hearing Commissioner"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RA",
+	"DecisionMaker": "INDCOMM",
+	"Description": "Independent Commissioner"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionMaker": "ENVCOURT",
+	"Description": "Environment Court"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RA",
+	"DecisionMaker": "APPREQ",
+	"Description": "At Applicant's Request"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionMaker": "DIRECT",
+	"Description": "Direct Referral"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionMaker": "DELEAUTH",
+	"Description": "Delegated Authority"
+}]

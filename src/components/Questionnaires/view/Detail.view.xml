@@ -1,0 +1,29 @@
+<mvc:View controllerName="aklc.cm.components.Questionnaires.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form" xmlns="sap.m" xmlns:commons="sap.ui.commons"
+    xmlns:html="http://www.w3.org/1999/xhtml">
+    <ScrollContainer id="idScrollContainer"
+        horizontal="true" vertical="true" focusable="false" height="90%" width="90%" class ="ScrollContainerClass">
+        <commons:RowRepeater id="rowRepeater" design="Transparent"
+            numberOfRows="1" class="acRowRepeater">
+            <form:Form class="editableForm" id="DETAIL_FORM" editable="true">
+                <form:layout>
+                    <form:ResponsiveGridLayout columnsM="1"
+                        columnsL="1" emptySpanL="3" />
+                </form:layout>
+                <form:formContainers>
+                    <form:FormContainer>
+                        <form:formElements>
+                            <form:FormElement>
+                                <form:fields>
+                                </form:fields>
+                            </form:FormElement>
+                        </form:formElements>
+                    </form:FormContainer>
+                </form:formContainers>
+            </form:Form>
+        </commons:RowRepeater>
+        <commons:Button id="next" class="rrNextFormButton" text="{vm>/nextButtonText}"
+            press="onNextStep" style="Emph" visible="{vm>/nextButtonVisible}" />
+    </ScrollContainer>
+</mvc:View>

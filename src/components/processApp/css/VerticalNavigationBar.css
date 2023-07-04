@@ -1,0 +1,213 @@
+/* ============================================= */
+
+/* CSS for control sap.suite.ui.commons/VerticalNavigationBar.control */
+
+/* ============================================= */
+.sapSuiteTvNav {
+    border-right: 2px solid #cccccc;
+    margin-top: 0px;
+    height: 73%;
+}
+
+.sapSuiteTvNavBar {
+    /*  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.85);*/
+    outline: 0;
+}
+
+.sapSuiteTvNavBarList {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.sapSuiteTvNavBarItem {
+    /*height: 8rem; */
+    /*32px;*/
+    height: 50px; overflow : hidden;
+    color: #333333;
+    overflow: hidden;   
+    border-bottom: 1.75px solid #e5e5e5;
+    /*cursor: pointer;*/
+}
+
+.sapSuiteTvNavBarItem.sapUiUx3NavBarItemSel {
+    background-color: #ffffff;
+    color: #007cc0;
+    font: bold 14px arial;
+}
+
+.sapSuiteTvNavBarItemLink:active {
+    /*background-color: #a9a9a9;*/
+    color: #000000;
+}
+
+.sapSuiteTvNavBarItemLink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 7px 0 7px 0;
+    color: inherit;
+    font-size: .875rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sapSuiteTvNavBarItem.sapUiUx3NavBarItemSel>a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 0 7px 0;
+}
+
+.sapSuiteTvNavBarItemLink>span {
+    pointer-events: none;
+    vertical-align: bottom;
+}
+
+.sapSuiteTvNavBarItemName {
+    text-align: center;
+    /*margin-left: 10px;*/
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sapSuiteTvNavBarItemTltp.sapUiRtt {
+    border-radius: 3px;
+    border: 1px #848484 solid;
+    width: auto;
+    height: auto;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    background-color: #ffffff;
+}
+
+.sapSuiteTvNavBarItemTltp .sapUiRttContentContainer {
+    padding: 0px;
+}
+
+.sapSuiteTvNavBarItemTltp .sapUiRttContent {
+    min-width: 0px;
+    padding: 0px 5px 0px 5px;
+    color: #d3d3d3;
+}
+
+/* added */
+.sapSuiteTvNavBarIconDiv {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    opacity: .5;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sapSuiteTvNavBarIcon {
+    display: inline-block;
+    /*line-height: 4.75rem;*/
+    line-height: 50px;
+    overflow: hidden;
+    background: #ffffff;
+    -moz-border-radius: 4rem;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.sapSuiteTvNavBarItemLink:hover {
+    
+}
+
+.sapSuiteTvNavBarItem:[data-sap-ui-vnb-step-active="true"]>.sapSuiteTvNavBarItemLink:hover
+    {
+    background-color: rgba(248, 248, 248, 0.85);
+    color: #007cc0;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-active="true"]>.sapSuiteTvNavBarItemLink:hover .acklNavBarIcon
+    {
+    color: #007cc0;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-active="true"] * .sapSuiteTvNavBarIconDiv
+    {
+    opacity: 1;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-active="true"] * .acklNoShowNavIcon
+    {
+    visibility: visible;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-active="true"] * .acklNoShowNavIcon1
+    {
+    visibility: hidden;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-active="true"]
+    {
+    cursor: pointer;
+}
+
+.sapSuiteTvNavBarIconAccept {
+    position: absolute;
+    /*visibility:visible;*/
+    visibility: hidden;
+    width: 1rem;
+    float: right;
+}
+
+.sapSuiteTvNavBarItemName {
+    opacity: .5;
+    line-height: 50px;
+    float: right;
+    margin-left: 20px;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-current="true"]>.sapSuiteTvNavBarItemLink
+    {
+    /*background-color: #ffffff;*/
+    color: #007cc0;
+    font: bold 14px arial;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-current="true"] * .sapSuiteTvNavBarIconDiv
+    {
+    opacity: 1;
+}
+
+.sapSuiteTvNavBarItem[data-sap-ui-vnb-step-current="true"] * .sapSuiteTvNavBarItemName
+    {
+    opacity: 1;
+}
+
+.sapUiUx3ActionBarItemRight {
+    outline: 0;
+}
+
+.sapUiUfdSpltCont {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.pncButtonBreak {
+    border-radius: 3px;
+    border: 1px #848484 solid;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+}
+}

@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="CondtionFilters" confirm="onHandleConfirm">
+        <filterItems>
+            <ViewSettingsFilterItem id="ConditionGrp" text="{i18n>COND_GRP}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem key="{ConditionGroup}" text="{ConditionGrpname}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="ConditionTypes" text="{i18n>COND_TYPE}" multiSelect="false">
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

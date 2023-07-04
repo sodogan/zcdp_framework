@@ -1,0 +1,124 @@
+<mvc:View controllerName="aklc.cm.components.partners.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout">
+    <form:Form class="editableForm" id="PARTIES_FORM">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="2" labelSpanM="2" emptySpanL="2" emptySpanM="2" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="partnerFunctionTextLabel" text="{/#AssignedPartners/PartnerFunctionText/@sap:label}" class="formLabel" required="true" />
+                            <!-- Removed selectedKey property from input because it is causing issue of
+                            disappearing of partnerFunctionTxt when user selects teh row in master after upgrade from UI5 1.56 to 1.60-->
+                            <Input id="partnerFunctionText" value="{PartnerFunctionText}" liveChange=".cancelKeyPress" valueLiveUpdate="true" placeholder="{i18n>PF_PLACEHOLDER_TEXT}" showValueHelp="true" valueHelpRequest=".handlePFSearchHelp"
+editable="false" class="formLabel" >
+                            <suggestionItems>
+                                <core:Item text="{Description}"/>
+                            </suggestionItems>
+
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="partnerSearchLabel" text="{i18n>NAME}" class="formLabel" required="true" />
+                            <Input id="partnerSearch" value="{FirstName} {LastName}" liveChange=".cancelKeyPress" valueLiveUpdate="true " placeholder="{i18n>PS_PLACEHOLDER_TEXT}" showValueHelp="true" suggestionItemSelected=".getNameDetails" valueHelpRequest=".handlePSearchHelp" editable="false">
+                            <suggestionItems> 
+                                 <core:Item text="{FirstName}" />
+                            </suggestionItems>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{i18n>PARTNER_NUMBER}" class="formLabel" />
+                            <Input id="partnerNumber" value="{PartnerNumber}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+           <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="addressLine1Label" text="{i18n>ADDRESS}" class="formLabel" />
+                            <Input id="addressLine1" value="{Address1} {Address2} {City}" editable="false" liveChange=".cancelKeyPress" valueLiveUpdate="true" placeholder="{i18n>PADD_PLACEHOLDER_TEXT}" valueHelpRequest=".handlePAddSearchHelp" showValueHelp="true" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" class="formLabel" />
+                            <Input id="addressLine2" value="{parts: [{path:'State'},{path:'Postcode'},{path:'Country'}],formatter: '.FormatAddLine2'}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+               <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AssignedPartners/Telephone/@sap:label}" class="formLabel" />
+                            <Text id="telephone" text="{path: 'Telephone', formatter: '.formatMultipleItems'}" editable="false" class="formLabel multifixer" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{i18n>EMAIL}" class="formLabel" />
+                            <Link id="email" text="{path: 'Email', formatter: '.formatMultipleItems'}" href="mailto:{Email}" wrapping="true" class="npcAlignEmail" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="validFromLabel" text="{/#AssignedPartners/ValidFrom/@sap:label}" class="formLabel" />
+                            <DatePicker id="validFrom" displayFormat="dd/MM/yyyy" dateValue="{ValidFrom}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="validToLabel" text="{/#AssignedPartners/ValidTo/@sap:label}" class="formLabel" />
+                            <DatePicker id="validTo" displayFormat="dd/MM/yyyy" dateValue="{ValidTo}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" class="formLabel" />
+                            <commons:Button id="save" text="{i18n>SAVE_BTN_TEXT}" press=".onSave" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/SaveBtn_Visible}" />
+                            <commons:Button id="update" text="{i18n>UPDATE_BTN_TEXT}" press=".onUpdate" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/UpdateBtn_Visible}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

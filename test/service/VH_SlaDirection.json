@@ -1,0 +1,10 @@
+[{
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "AdjustmentCode" : "INCR",
+    "AdjustmentText" : "Increase By"
+},
+{
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "AdjustmentCode" : "DECR",
+    "AdjustmentText" : "Decrease By"
+}]

@@ -1,0 +1,49 @@
+<mvc:View controllerName="aklc.cm.components.condition.controller.Monitor" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:rich="sap.ui.richtexteditor" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="MONITOR_FORM" editable="true">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="4" labelSpanM="4" emptySpanL="4" emptySpanM="4" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label text="{i18n>COMPLIANCE}" />
+                            <ComboBox id="compliance" selectionChange=".onValidateForm" selectedKey="{ConditionStat}" editable="true">
+                                <core:Item id="complianceDrp" key="{ConditionStatus}" text="{ConditionStatusText}" tooltip="{ConditionStatusText}" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label text="{i18n>FINAL}" />
+                            <SegmentedButton id="final" selectedKey="{ path: 'Final' ,
+                               formatter: '.setFinal' }" class="sapUiSmallMarginBottom">
+                                <items>
+                                    <SegmentedButtonItem text="Yes" key="true" />
+                                    <SegmentedButtonItem text="No" key="false" />
+                                </items>
+                            </SegmentedButton>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label text="" />
+                            <TextArea id="idCondition" height="100%" value="{Comments}" valueLiveUpdate="false"/>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

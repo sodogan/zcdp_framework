@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+        <edmx:DataServices m:DataServiceVersion="2.0">
+            <Schema Namespace="ZPNC_PROCESS_APP_SRV" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+                <EntityType Name="Process" sap:content-version="1">
+                    <Key>
+                        <PropertyRef Name="ProcessKey" />
+                    </Key>
+                    <Property Name="ProcessKey" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="ID" />
+                    <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Description" />
+                    <NavigationProperty Name="ProcessSteps" Relationship="ZPNC_PROCESS_APP_SRV.FK_ProcessProcessSteps" FromRole="FromRole_FK_ProcessProcessSteps" ToRole="ToRole_FK_ProcessProcessSteps" />
+                </EntityType>
+                <EntityType Name="ProcessSteps" sap:content-version="1">
+                    `
+                    <Key>
+                        <PropertyRef Name="ProcessKey" />
+                        <PropertyRef Name="StepKey" />
+                    </Key>
+                    <Property Name="ProcessKey" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="ID" />
+                    <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Checklist Step No." />
+                    <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Description" />
+                    <Property Name="Icon" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" />
+                    <Property Name="Component" Type="Edm.String" Nullable="false" MaxLength="40" />
+                    <Property Name="Active" Type="Edm.String" Nullable="false" MaxLength="1" />
+                    <Property Name="Current" Type="Edm.String" Nullable="false" MaxLength="1" />
+                    <Property Name="Dirty" Type="Edm.String" Nullable="false" MaxLength="1" />
+                </EntityType>
+                <EntityType Name="FormDataRt" sap:content-version="1">
+                    <Key>
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="Attribute" />
+                    </Key>
+                    <Property Name="Value" Type="ZPNC_PROCESS_APP_SRV.Value" Nullable="false" />
+                    <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" />
+                    <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Substep Key" />
+                    <Property Name="Attribute" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Attribute Name" />
+                    <Property Name="Required" Type="Edm.Boolean" />
+                    <Property Name="Enabled" Type="Edm.Boolean" />
+                    <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Group" />
+                    <Property Name="Active" Type="Edm.Boolean" />
+                    <Property Name="Dirty" Type="Edm.Boolean" />
+                    <Property Name="Visible" Type="Edm.Boolean" />
+                    <NavigationProperty Name="FormDataLookupRt" Relationship="ZPNC_PROCESS_APP_SRV.FK_FormDataRtFormDataLookupRt" FromRole="FromRole_FK_FormDataRtFormDataLookupRt" ToRole="ToRole_FK_FormDataRtFormDataLookupRt" />
+                </EntityType>
+                <EntityType Name="FormDataLookupRt" sap:content-version="1">
+                    <Key>
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="Attribute" />
+                        <PropertyRef Name="Key" />
+                    </Key>
+                    <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Substep Key" />
+                    <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" />
+                    <Property Name="Attribute" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Attribute Name" />
+                    <Property Name="Key" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Lookup Value" />
+                    <Property Name="Value" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Description" />
+                </EntityType>
+                <EntityType Name="SubStepsRt" sap:content-version="1">
+                    <Key>
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                    </Key>
+                    <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" />
+                    <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Substep Key" />
+                    <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Group" />
+                    <Property Name="Active" Type="Edm.Boolean" />
+                    <Property Name="Selected" Type="Edm.Boolean" />
+                    <Property Name="Completed" Type="Edm.Boolean" />
+                    <Property Name="Dirty" Type="Edm.Boolean" />
+                    <Property Name="Visible" Type="Edm.Boolean" />
+                    <NavigationProperty Name="FormDataRt" Relationship="ZPNC_PROCESS_APP_SRV.FK_SubStepsRtFormDataRt" FromRole="FromRole_FK_SubStepsRtFormDataRt" ToRole="ToRole_FK_SubStepsRtFormDataRt" />
+                </EntityType>
+                <ComplexType Name="Value">
+                    <Property Name="String" Type="Edm.String" />
+                    <Property Name="Boolean" Type="Edm.Boolean" />
+                    <Property Name="Date" Type="Edm.DateTime" Precision="7" />
+                    <Property Name="Number" Type="Edm.Int16" MaxLength="20" />
+                    <Property Name="Currency" Type="Edm.Decimal" Precision="16" Scale="3" sap:label="Expected Sales Vol." />
+                    <Property Name="Year" Type="Edm.String" MaxLength="4" sap:label="Fiscal Year" />
+                </ComplexType>
+                <Association Name="FK_ProcessProcessSteps" sap:content-version="1">
+                    <End Type="ZPNC_PROCESS_APP_SRV.Process" Multiplicity="1" Role="FromRole_FK_ProcessProcessSteps" />
+                    <End Type="ZPNC_PROCESS_APP_SRV.ProcessSteps" Multiplicity="*" Role="ToRole_FK_ProcessProcessSteps" />
+                    <ReferentialConstraint>
+                        <Principal Role="FromRole_FK_ProcessProcessSteps">
+                            <PropertyRef Name="ProcessKey" />
+                        </Principal>
+                        <Dependent Role="ToRole_FK_ProcessProcessSteps">
+                            <PropertyRef Name="ProcessKey" />
+                        </Dependent>
+                    </ReferentialConstraint>
+                </Association>
+                <Association Name="FK_FormDataRtFormDataLookupRt" sap:content-version="1">
+                    <End Type="ZPNC_PROCESS_APP_SRV.FormDataRt" Multiplicity="1" Role="FromRole_FK_FormDataRtFormDataLookupRt" />
+                    <End Type="ZPNC_PROCESS_APP_SRV.FormDataLookupRt" Multiplicity="*" Role="ToRole_FK_FormDataRtFormDataLookupRt" />
+                    <ReferentialConstraint>
+                        <Principal Role="FromRole_FK_FormDataRtFormDataLookupRt">
+                            <PropertyRef Name="StepKey" />
+                            <PropertyRef Name="SubStep" />
+                            <PropertyRef Name="Attribute" />
+                        </Principal>
+                        <Dependent Role="ToRole_FK_FormDataRtFormDataLookupRt">
+                            <PropertyRef Name="StepKey" />
+                            <PropertyRef Name="SubStep" />
+                            <PropertyRef Name="Attribute" />
+                        </Dependent>
+                    </ReferentialConstraint>
+                </Association>
+                <Association Name="FK_ProcessStepSubStepsRt" sap:content-version="1">
+                    <End Type="ZPNC_PROCESS_APP_SRV.ProcessSteps" Multiplicity="1" Role="FromRole_FK_ProcessStepSubStepsRt" />
+                    <End Type="ZPNC_PROCESS_APP_SRV.SubStepsRt" Multiplicity="*" Role="ToRole_FK_ProcessStepSubStepsRt" />
+                    <ReferentialConstraint>
+                        <Principal Role="FromRole_FK_ProcessStepSubStepsRt">
+                            <PropertyRef Name="StepKey" />
+                        </Principal>
+                        <Dependent Role="ToRole_FK_ProcessStepSubStepsRt">
+                            <PropertyRef Name="StepKey" />
+                        </Dependent>
+                    </ReferentialConstraint>
+                </Association>
+                <Association Name="FK_SubStepsRtFormDataRt" sap:content-version="1">
+                    <End Type="ZPNC_PROCESS_APP_SRV.SubStepsRt" Multiplicity="1" Role="FromRole_FK_SubStepsRtFormDataRt" />
+                    <End Type="ZPNC_PROCESS_APP_SRV.FormDataRt" Multiplicity="*" Role="ToRole_FK_SubStepsRtFormDataRt" />
+                    <ReferentialConstraint>
+                        <Principal Role="FromRole_FK_SubStepsRtFormDataRt">
+                            <PropertyRef Name="StepKey" />
+                            <PropertyRef Name="SubStep" />
+                        </Principal>
+                        <Dependent Role="ToRole_FK_SubStepsRtFormDataRt">
+                            <PropertyRef Name="StepKey" />
+                            <PropertyRef Name="SubStep" />
+                        </Dependent>
+                    </ReferentialConstraint>
+                </Association>
+                <EntityContainer Name="ZPNC_PROCESS_APP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                    <EntitySet Name="FormDataRt" EntityType="ZPNC_PROCESS_APP_SRV.FormDataRt" sap:content-version="1" />
+                    <EntitySet Name="FormDataLookupRt" EntityType="ZPNC_PROCESS_APP_SRV.FormDataLookupRt" sap:content-version="1" />
+                    <EntitySet Name="Process" EntityType="ZPNC_PROCESS_APP_SRV.Process" sap:content-version="1" />
+                    <EntitySet Name="SubStepsRt" EntityType="ZPNC_PROCESS_APP_SRV.SubStepsRt" sap:content-version="1" />
+                    <EntitySet Name="ProcessSteps" EntityType="ZPNC_PROCESS_APP_SRV.ProcessSteps" sap:content-version="1" />
+                    <AssociationSet Name="FK_ProcessProcessSteps" Association="ZPNC_PROCESS_APP_SRV.FK_ProcessProcessSteps" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                        <End EntitySet="Process" Role="FromRole_FK_ProcessProcessSteps" />
+                        <End EntitySet="ProcessSteps" Role="ToRole_FK_ProcessProcessSteps" />
+                    </AssociationSet>
+                    <AssociationSet Name="FK_FormDataRtFormDataLookupRtSet" Association="ZPNC_PROCESS_APP_SRV.FK_FormDataRtFormDataLookupRt" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                        <End EntitySet="FormDataRt" Role="FromRole_FK_FormDataRtFormDataLookupRt" />
+                        <End EntitySet="FormDataLookupRt" Role="ToRole_FK_FormDataRtFormDataLookupRt" />
+                    </AssociationSet>
+                    <AssociationSet Name="FK_ProcessStepSubStepsRt" Association="ZPNC_PROCESS_APP_SRV.FK_ProcessStepSubStepsRt" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                        <End EntitySet="ProcessStep" Role="FromRole_FK_ProcessStepSubStepsRt" />
+                        <End EntitySet="SubStepsRt" Role="ToRole_FK_ProcessStepSubStepsRt" />
+                    </AssociationSet>
+                    <AssociationSet Name="FK_SubStepsRtFormDataRt" Association="ZPNC_PROCESS_APP_SRV.FK_SubStepsRtFormDataRt" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                        <End EntitySet="SubStepsRt" Role="FromRole_FK_SubStepsRtFormDataRt" />
+                        <End EntitySet="FormDataRt" Role="ToRole_FK_SubStepsRtFormDataRt" />
+                    </AssociationSet>
+                    <AssociationSet Name="FK_PartnerFunctionsPartnerSearch_Assoc" Association="ODataDemo.FK_PartnerFunctionsPartnerSearch" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                        <End EntitySet="PartnerFunctions" Role="FromRole_PartnerFunctionsPartnerSearch" />
+                        <End EntitySet="PartnerSearch" Role="ToRole_PartnerFunctionsPartnerSearch" />
+                    </AssociationSet>
+                </EntityContainer>
+                <atom:link rel="self" href="http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZPNC_PROCESS_APP_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+                <atom:link rel="latest-version" href="http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZPNC_PROCESS_APP_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+            </Schema>
+        </edmx:DataServices>
+    </edmx:Edmx>

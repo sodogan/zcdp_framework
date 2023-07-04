@@ -1,0 +1,168 @@
+[{
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "COMBO-id_005056bc09bd1ed5ad9c0b5c55221424",
+		"Key": "id_005056bc09bd1ed5ad9c0c265fd4b424/id_005056bc09bd1ed5ad9c0c265fd5b424",
+		"Value": "Building consent"
+	},
+
+	{
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "COMBO-id_005056bc09bd1ed5ad9c0b5c55221424",
+		"Key": "id_005056bc09bd1ed5ad9c0c265fd4b424/id_005056bc09bd1ed5ad9c0dbac1463424",
+		"Value": "Amends"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf1c2a26ed424",
+		"Key": "id_005056bc09bd1ed5b5a2584d163e1424/id_005056bc09bd1ed5b5a25ddbb559b424",
+		"Value": ""
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf1c2a26ed424",
+		"Key": "id_005056bc09bd1ed5b5a2584d163e1424/id_005056bc09bd1ed5b5a258a5c2465424",
+		"Value": "B - Low"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf1c2a26ed424",
+		"Key": "id_005056bc09bd1ed5b5a2584d163e1424/id_005056bc09bd1ed5b5a25ce89a961424",
+		"Value": "C - Medium"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf1c2a26ed424",
+		"Key": "id_005056bc09bd1ed5b5a2584d163e1424/id_005056bc09bd1ed5b5a25f6c38545424",
+		"Value": "D - High"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf1c2a26ed424",
+		"Key": "id_005056bc09bd1ed5b5a2584d163e1424/id_005056bc09bd1ed5b5a260eb7947b424",
+		"Value": "SED - Specific Design"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf31cfdd11424",
+		"Key": "id_005056bc09bd1ed5b5a2637b54183424/id_005056bc09bd1ed5b5a4f57396d7b424",
+		"Value": ""
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf31cfdd11424",
+		"Key": "id_005056bc09bd1ed5b5a2637b54183424/id_005056bc09bd1ed5b5a263ee2593f424",
+		"Value": "Low"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf31cfdd11424",
+		"Key": "id_005056bc09bd1ed5b5a2637b54183424/id_005056bc09bd1ed5b5a26461e5867424",
+		"Value": "Medium"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf31cfdd11424",
+		"Key": "id_005056bc09bd1ed5b5a2637b54183424/id_005056bc09bd1ed5b5a265afc1935424",
+		"Value": "High"
+	},
+
+	{
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf31cfdd11424",
+		"Key": "id_005056bc09bd1ed5b5a2637b54183424/id_005056bc09bd1ed5b5a26643a459d424",
+		"Value": "Very High"
+	},
+
+	{
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf31cfdd11424",
+		"Key": "id_005056bc09bd1ed5b5a2637b54183424/id_005056bc09bd1ed5b5a26705a6257424",
+		"Value": "Extra High"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf41f4560b424",
+		"Key": "id_005056bc09bd1ed5b5a2699361eef424/id_005056bc09bd1ed5b5a46424c54a3424",
+		"Value": ""
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf41f4560b424",
+		"Key": "id_005056bc09bd1ed5b5a2699361eef424/id_005056bc09bd1ed5b5a269eb75ce3424",
+		"Value": "Residential 1"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf41f4560b424",
+		"Key": "id_005056bc09bd1ed5b5a2699361eef424/id_005056bc09bd1ed5b5a26c2841ce3424",
+		"Value": "Residential 2"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf41f4560b424",
+		"Key": "id_005056bc09bd1ed5b5a2699361eef424/id_005056bc09bd1ed5b5a26c6c6f887424",
+		"Value": "Residential 3"
+	},
+
+	{
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf506791bf424",
+		"Key": "id_005056bc09bd1ed5b5a272f37a945424/id_005056bc09bd1ed5b5a46424c548d424",
+		"Value": ""
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf506791bf424",
+		"Key": "id_005056bc09bd1ed5b5a272f37a945424/id_005056bc09bd1ed5b5a273ca049f3424",
+		"Value": "Residential 1"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf506791bf424",
+		"Key": "id_005056bc09bd1ed5b5a272f37a945424/id_005056bc09bd1ed5b5a274aaacbab424",
+		"Value": "Residential 2"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0000",
+		"Attribute": "id_005056bc09bd1ed5ad9bf506791bf424",
+		"Key": "id_005056bc09bd1ed5b5a272f37a945424/id_005056bc09bd1ed5b5a2756e7746b424",
+		"Value": "Residential 3"
+	},
+
+	{
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0002",
+		"Attribute": "id_005056bc09bd1ed5868e621a09e37420",
+		"Key": "id_005056bc09bd1ed5868e6828327eb420/id_005056bc09bd1ed5868e68839566f420",
+		"Value": "AS/NZS2918"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0002",
+		"Attribute": "id_005056bc09bd1ed5868e621a09e37420",
+		"Key": "id_005056bc09bd1ed5868e6956cf11b420/id_005056bc09bd1ed5868e6a18d0383420",
+		"Value": "CoW"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0002",
+		"Attribute": "id_005056bc09bd1ed5868e621a09e37420",
+		"Key": "id_005056bc09bd1ed5868e6b998e793420/id_005056bc09bd1ed5868e6c5d0ae45420",
+		"Value": "PS1"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0002",
+		"Attribute": "id_005056bc09bd1ed5868e621a09e37420",
+		"Key": "id_005056bc09bd1ed5868e6cfc45917420/id_005056bc09bd1ed5868e6cfc45987420",
+		"Value": "PS2"
+	}, {
+		"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+		"SubStep": "Section0002",
+		"Attribute": "id_005056bc09bd1ed5868e621a09e37420",
+		"Key": "id_005056bc09bd1ed5b0e2ac83aac95424/id_005056bc09bd1ed5b0e2ad7d051d3424",
+		"Value": "C/VM1"
+	}
+]

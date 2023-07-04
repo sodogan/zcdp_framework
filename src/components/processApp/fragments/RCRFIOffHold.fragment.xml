@@ -1,0 +1,58 @@
+<core:FragmentDefinition class="sapUiSizeCompact" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="aklc.cm.components.processApp.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Dialog title="{i18n>OffHoldTitle}" contentWidth="800px">
+		<content>
+			<layout:HorizontalLayout class="acklFooterActionTitleHL">
+				<core:Icon class="acklRCRFIOffHoldTitlestatusIcon" src="sap-icon://letter"/>
+				<VBox class="acklRCRFIOffHoldTitleVBox">
+					<Label text="{i18n>RFIPopupMessage1}" design="Bold"/>
+					<Text text="{i18n>RCOFFHoldPopupMessage1}"/>
+					<Text text="{i18n>RCOFFHoldPopupMessage2}"/>
+				</VBox>
+			</layout:HorizontalLayout>
+			<Table id="idRCRFIOffHoldlist" items="{RCRFIOffHold>/RCRFIOffHold/results}" width="auto" mode="SingleSelectMaster" showUnread="true"
+				class="acklOnHoldTable">
+				<columns>
+					<Column>
+						<Text text="{i18n>OnHoldReason}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OnHoldDate}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OnHoldTime}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OffHoldDate}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OffHoldTime}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem id="idRCRFIOffHoldllistItem" class="stepsTblCell acklOnHoldReason">
+						<cells>
+							<Text text="{RCRFIOffHold>ReasonText}" tooltip="{RCRFIOffHold>ReasonText}" class="ackHoldReasonText"/>
+							<DatePicker id="idOnHold" displayFormat="dd/MM/yyyy" dateValue="{RCRFIOffHold>OnHoldDate}" editable="false"/>
+							<Input value="{RCRFIOffHold>OnHoldtTme}" editable="false"/>
+							<DatePicker id="idOffHold" displayFormat="dd/MM/yyyy" dateValue="{RCRFIOffHold>OffHoldDate}"/>
+							<!--<Input value="{RCRFIOffHold>OffHoldtTme}" placeholder="HH:mm:ss" maxLength="8" />-->
+							<!-- <TimePicker id="idOffHold1" displayFormat="HH:mm:ss" dateValue="{RCRFIOffHold>OffHoldTme}" />-->
+							<TimePicker id="idOffHold1" displayFormat="HH:mm:ss" valueFormat="HH:mm:ss" value="{RCRFIOffHold>OffHoldTme}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+		<buttons>
+			<!--R-UX enable uppload and template, can't work with IDs ->duplicate ID error use text for identification -->
+			<!--<Button icon="sap-icon://add" text="{i18n>TEMPLATE_TXT}" press=".onPSearchHelp" tooltip="{i18n>TEMPLATE_TXT}"/>-->
+			<!--<Button id="link" icon="sap-icon://add" text="Link existing Document" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>-->
+			<Button icon="sap-icon://add" text="{i18n>UPLOAD_TXT}" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>
+			<!-- end R-UX -->
+			<Button text="{i18n>Ok}" press="handleRCRFIOffHoldOk"/>
+			<Button text="{i18n>Cancel}" press="handleRCRFIOffHoldCancel"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:layout="sap.ui.layout"
+	>
+	<Dialog title="Multi Input Value Help">
+		<content>
+			<Button icon="sap-icon://add" press="onAddRow" type="Transparent"/>
+			<ScrollContainer height="30rem" width="100%" horizontal="false" vertical="true" focusable="false"></ScrollContainer>
+		</content>
+		<!-- Footer Buttons for Filter -->
+		<buttons>
+			<Button text="Ok" press="_handleOk"/>
+			<Button text="Cancel" press="handleClose"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

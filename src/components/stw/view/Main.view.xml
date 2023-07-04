@@ -1,0 +1,11 @@
+<mvc:View  xmlns:unified="sap.ui.unified" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <unified:SplitContainer id="splitContainer" showSecondaryContent="true" secondaryContentSize="540px">
+    	<unified:content>
+    		<mvc:XMLView viewName="aklc.cm.components.stw.view.Detail" />
+    	</unified:content>
+        <unified:secondaryContent>
+            <mvc:XMLView viewName="aklc.cm.components.stw.view.Master" />
+        </unified:secondaryContent>
+    </unified:SplitContainer>
+</mvc:View>
+

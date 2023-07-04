@@ -1,0 +1,61 @@
+[{
+	"StepKey": "",
+	"Component": "TIMESHEET",
+	"Url": "https://sapnwgw-dev.aklc.govt.nz/sap/bc/ui5_ui5/sap/ztimesheet/index.html?sap-client=100",
+	"Icon": "sap-icon://timesheet",
+	"Description": "Time Sheet",
+	"Parameter1": "",
+	"Parameter2": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREXX",
+	"Component": "GIS",
+	"Url": "https://geomapsdev.aklc.govt.nz/bidirect/index.html?module=sap&task=affectedsearch&consentValue=8700002195&buffer=",
+	"Icon": "",
+	"Description": "",
+	"Parameter1": "",
+	"Parameter2": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"Component": "FORM",
+	"Url": "https://sapcrm-dev.aklc.govt.nz/sap/bc/webdynpro/sap/zpnc_ifba_wd?sap-client=140&GUID=005056BC09BD1",
+	"Icon": "",
+	"Description": "",
+	"Parameter1": "2600000683",
+	"Parameter2": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"Component": "TEMPLATE",
+	"Url": "https://sapcrm-dev.aklc.govt.nz/sap/bc/webdynpro/sap/zpnc_ifba_wd?sap-client=140&GUID=005056BC09BD1",
+	"Icon": "",
+	"Description": "",
+	"Parameter1": "2600000683",
+	"Parameter2": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"Component": "UPLOAD",
+	"Url": "https://sapcrm-dev.aklc.govt.nz/sap/bc/webdynpro/sap/zpnc_ifba_wd?sap-client=005056BC09BD1ED5A7DB63B7FF611424",
+	"Icon": "",
+	"Description": "",
+	"Parameter1": "",
+	"Parameter2": ""
+},{
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+    "Component" : "CONDHLINK",
+    "Url" : "http://acintranet.aklc.govt.nz/EN/departments/resourceconsents/Pages/standardisedconditionsmanual.aspx",
+    "Icon" : "",
+    "Parameter3" : "",
+    "Description" : "",
+    "Parameter1" : "",
+    "Parameter2" : ""
+  },{
+    "Component" : "CONDLINK",
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+    "Parameter2" : "",
+    "Url" : "https://sapcrm-dev.aklc.govt.nz/sap/bc/webdynpro/sap/zpnc_ifba_wd?sap-client=140&GUID=005056BC09BD1ED5858E2868CD701420",
+    "Icon" : "",
+    "Parameter1" : "",
+    "Description" : "",
+    "Parameter2" : ""
+  }
+
+]

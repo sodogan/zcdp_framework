@@ -1,0 +1,46 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core"     xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form">
+    <Dialog id="chklistStepDialog" contentWidth="30%" title="{i18n>CHK_STEPS}">
+    <Table  
+        id="chklistStepTable"
+        mode="SingleSelectMaster"
+        itemPress="_handleChklistStepsDialogClose" 
+        noDataText="{i18n>NO_CHKSTEPS_FOUND}"    
+        class="sapUiPopupWithPadding"
+         rememberSelections= "false">
+          <headerToolbar>    
+            <Toolbar height="100px">
+            <VBox class="sapUiLargeMarginBegin">
+
+       
+        <HBox class="sapUiSmallMarginBottom">
+            <Label text="Process Type:" design="Bold" class="sapUiTinyMarginEnd"/>
+            <Text id="idProcessType" />
+        </HBox>
+        <HBox class="sapUiSmallMarginBottom">
+            <Label text="Form Type:" design="Bold" class="sapUiTinyMarginEnd"/>
+            <Text id="idFormType" />
+        </HBox>
+            </VBox>
+
+            </Toolbar>
+    </headerToolbar>
+        <columns>
+            <Column>
+                <header>
+                    <Text text="Checklist Step ID" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" >
+                <header>
+                    <Text text="Checklist Step Description" />
+                </header>
+            </Column>
+            
+        </columns>
+    </Table>
+        <endButton>
+            <Button text="Cancel" press="_handleChklistStepsDialogClose"/>
+        </endButton>
+</Dialog>
+</core:FragmentDefinition>

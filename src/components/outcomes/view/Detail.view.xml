@@ -1,0 +1,85 @@
+<mvc:View controllerName="aklc.cm.components.outcomes.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="OUTCOMES_FORM" editable="true">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="4" labelSpanM="4" emptySpanL="2" emptySpanM="2" class="aklcGridLayout" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="decisionCodeLabel" text="{/#Outcomes/DecisionCode/@sap:label}" class="formLabel" required="true" />
+                            <ComboBox id="decisionCode" placeholder="{i18n>DECISIONCODE_PLACEHOLDER}" selectionChange=".onValidateForm" selectedKey="{DecisionCode}" editable="false">
+                                <core:Item id="decCodeListTemp" key="{DecisionCode}" text="{Description}" tooltip="{Description}" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer id="decisionMakerContainer" visible="{vm>/DecisionMaker_Visible}">
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="decisionMakerLabel" text="{/#Outcomes/DecisionMaker/@sap:label}" class="formLabel" required="{vm>/DecisionMaker_Visible}" />
+                            <ComboBox id="decisionMaker" placeholder="{i18n>DECISIONMAKER_PLACEHOLDER}" selectionChange=".onValidateForm" selectedKey="{DecisionMaker}" editable="false">
+                                <core:Item id="decMakerListTemp" key="{DecisionMaker}" text="{Description}" tooltip="{Description}" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="decisionDateLabel" text="{/#Outcomes/DecisionDate/@sap:label}" class="formLabel" required="true" />
+                            <DatePicker id="decisionDate" displayFormat="dd/MM/yyyy" change=".onValidateForm" editable="false" dateValue="{DecisionDate}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="commentsLabel" text="{/#Outcomes/Comments/@sap:label}" class="formLabel" required="true" />
+                            <TextArea id="comments" value="{Comments}" liveChange=".onValidateForm" cols="50" rows="5" placeholder="{i18n>NOTES_PLACEHOLDER}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#Outcomes/CreatedAt/@sap:label}" class="formLabel" />
+                            <DatePicker id="dateCreated" displayFormat="dd/MM/yyyy" dateValue="{CreatedAt}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="Created By" class="formLabel" />
+                            <Input id="createdBy" value="{CreatedByName}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" />
+                            <commons:Button id="add" text="{i18n>SAVE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton" visible="{vm>/SaveBtn_Visible}" width="35%" tooltip="{i18n>SAVE_BTN_TXT}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

@@ -1,0 +1,39 @@
+{
+	"name": "POC1",
+	"version": "1.0.0",
+	"description": "Proof of concept",
+	"private": true,
+	"scripts": {
+		"postinstall": "bower install && grunt build",
+		"start": "./node_modules/grunt-cli/bin/grunt serve:dist"
+	},
+	"keywords": [],
+	"author": "",
+	"contributors": [
+		""
+	],
+	"dependencies": {
+		"grunt-cli": "^0.1.13",
+		"grunt": "^0.4.5",
+		"bower": "*",
+		"eslint-plugin-openui5": "0.1.0",
+		"grunt-contrib-clean": "^0.6.0",
+		"grunt-contrib-connect": "^0.9.0",
+		"grunt-contrib-copy": "^0.7.0",
+		"grunt-eslint": "^3.0.0",
+		"grunt-openui5": "^0.5.0",
+		"connect-openui5": "^0.4.0",
+		"eslint": "^0.21.0",
+		"grunt-eslint": "^3.0.0",
+		"grunt-karma": "^0.12.0",
+		"karma": "^0.13.3",
+		"karma-chrome-launcher": "^0.2.0",
+		"karma-coverage": "^0.3.1",
+		"karma-junit-reporter": "^0.2.2",
+		"karma-openui5": "^0.2.1",
+		"karma-phantomjs-launcher": "^0.2.0",
+		"karma-phantomjs-shim": "^1.0.0",
+		"karma-qunit": "^0.1.5",
+		"qunitjs": "^1.18.0"
+	}
+}

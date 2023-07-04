@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="SlaFilters" confirm="onHandleConfirm" resetFilters="onResetFilter">
+        <filterItems>
+            <ViewSettingsFilterItem id="reason" text="{i18n>REASON_TXT}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{ReasonText}" key="{ReasonCode}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="adjustment" text="{i18n>ADJUSTMENT_DIRECTION_TXT}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{AdjustmentText}" key="{AdjustmentCode}" />
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

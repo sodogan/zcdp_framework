@@ -1,0 +1,8 @@
+<mvc:View controllerName="aklc.cm.components.processApp.controller.Footer" xmlns:suite="aklc.cm.components.processApp.controls" xmlns:ux3="sap.ui.ux3" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <suite:ActionBar id="ActionBar" flagState="false" favoriteState="false" updateState="false" showUpdate="false" showFollow="false" showFlag="false" showFavorite="false" showOpen="false">
+        <suite:_businessActionButtons>
+            <commons:Button  id="oButton" class="acActionBarBtn" icon="{Icon}" lite="true" press=".onActionPress"  tooltip="{Description}">
+            </commons:Button>
+        </suite:_businessActionButtons>
+    </suite:ActionBar>
+</mvc:View>

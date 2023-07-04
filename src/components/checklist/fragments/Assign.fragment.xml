@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+     <SelectDialog  id="assignCheckSelect" noDataText="{i18n>NoTeamFound}" title="{i18n>Assign}" search="handleAssignSearch" 
+     	confirm="handleAssignConfirm">
+        <!--  <StandardListItem  id="assignCheckTemp" title="{path: 'Partnername', formatter: '.formatPname'}" description="{Teamname}" /> -->
+    </SelectDialog>
+
+</core:FragmentDefinition>

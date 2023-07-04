@@ -1,0 +1,156 @@
+<mvc:View controllerName="aklc.cm.components.stw.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="STW_FORM" editable="true">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout 
+            	columnsM="1" 
+        		columnsL="1" 
+        		labelSpanL="4" 
+        		labelSpanM="4" 
+        		emptySpanL="4" 
+        		emptySpanM="4" /> 
+        	</form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="dischargePointNoLabel" text="{/#StormwaterDischargePoint/DischargePointNo/@sap:label}" class="formLabel" required="true" />
+                            <Input id="dischargePointNo" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{DischargePointNo}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="locationLabel" text="{/#StormwaterDischargePoint/Location/@sap:label}" class="formLabel" required="false" />
+                            <Input id="location" editable="true" type="Text" change=".onValidateForm" valueLiveUpdate="true" value="{Location}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="eastingLabel" text="{/#StormwaterDischargePoint/Easting/@sap:label}" class="formLabel" required="false" />
+                            <Input id="easting" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{Easting}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="northingLabel" text="{/#StormwaterDischargePoint/Northing/@sap:label}" class="formLabel" required="false" />
+                            <Input id="northing" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{Northing}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>          
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="contributionAreaLabel" text="{/#StormwaterDischargePoint/ContributionArea/@sap:label}" class="formLabel" required="false" />
+                            <Input id="contributionArea" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{ContributionArea}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>                    
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="erosionProtDevLabel" text="{/#StormwaterDischargePoint/ErosionProtDev/@sap:label}" class="formLabel" required="false"/>
+                            <ComboBox id="erosionProtDev" placeholder="{i18n>EROSION_PLACEHOLDER}" selectedKey="{ErosionProtDev}" editable="true" selectionChange=".onSelectionChange">
+                                <core:Item id="erosionProtDevVal" key="{ErosionProtDev}" text="{ErosionProtDevText}" />
+                            </ComboBox>
+                        </form:fields>                    	
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="outletTypeLabel" text="{/#StormwaterDischargePoint/OutletType/@sap:label}" class="formLabel" required="false"/>
+                            <ComboBox id="outletType" placeholder="{i18n>OUTLET_TYPE_PLACEHOLDER}" selectedKey="{OutletType}" editable="true" selectionChange=".onSelectionChange">
+                                <core:Item id="outletTypeVal" key="{OutletType}" text="{OutletTypeText}" />
+                            </ComboBox>
+                        </form:fields>                    	
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>            
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="sizeLabel" text="{/#StormwaterDischargePoint/SizeDimension/@sap:label}" class="formLabel" required="false" />
+                            <Input id="size" editable="true" type="Number" valueLiveUpdate="true" value="{SizeDimension}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="treatmentTypeLabel" text="{/#StormwaterDischargePoint/TreatmentType/@sap:label}" class="formLabel" required="false"/>
+                            <ComboBox id="treatmentType" placeholder="{i18n>TREATMENT_TYPE_PLACEHOLDER}" selectedKey="{TreatmentType}" editable="true" selectionChange=".onSelectionChange">
+                                <core:Item id="treatmentTypeVal" key="{TreatmentType}" text="{TreatmentTypeText}" />
+                            </ComboBox>
+                        </form:fields>                    	
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>              
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="volResidenceTimeLabel" text="{/#StormwaterDischargePoint/VolumeResidenceTime/@sap:label}" class="formLabel" required="false" />
+                            <Input id="volResidenceTime" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{VolumeResidenceTime}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>          
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="stormwaterUnitLabel" text="{/#StormwaterDischargePoint/StormwaterUnit/@sap:label}" class="formLabel" required="false"/>
+                            <ComboBox id="stormwaterUnit" placeholder="{i18n>STORMWATER_UNIT_PLACEHOLDER}" selectedKey="{StormwaterUnit}" editable="true" selectionChange=".onSelectionChange">
+                                <core:Item id="stormwaterUnitVal" key="{StormwaterUnit}" text="{StormwaterUnitText}" />
+                            </ComboBox>
+                        </form:fields>                    	
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>              
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label id="efficiencyLabel" text="{/#StormwaterDischargePoint/Efficiency/@sap:label}" class="formLabel" required="false" />
+                            <Input id="efficiency" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{Efficiency}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>  
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <Label text="" />
+                            <commons:Button id="add" text="{i18n>SAVE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/SaveBtn_Visible}" />
+                            <commons:Button id="update" text="{i18n>UPDATE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/UpdateBtn_Visible}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

@@ -1,0 +1,26 @@
+[{
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"MessageNo": "001",
+	"MessageType": "A",
+	"Message": "Alert Message 1"
+}, {
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31421",
+	"MessageNo": "002",
+	"MessageType": "A",
+	"Message": "Alert Message 2"
+}, {
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"MessageNo": "003",
+	"MessageType": "A",
+	"Message": "Alert Message 3"
+}, {
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"MessageNo": "004",
+	"MessageType": "A",
+	"Message": "Alert Message 4"
+}, {
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"MessageNo": "005",
+	"MessageType": "A",
+	"Message": "Alert Message 5"
+}]

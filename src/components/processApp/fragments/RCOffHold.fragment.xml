@@ -1,0 +1,47 @@
+<core:FragmentDefinition class="sapUiSizeCompact" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="aklc.cm.components.processApp.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Dialog title="{i18n>OffHoldTitle}" contentWidth="500px">
+		<content>
+			<layout:HorizontalLayout class="acklFooterActionTitleHL">
+				<core:Icon class="acklFooterActionTitlestatusIcon" src="sap-icon://letter"/>
+				<VBox class="acklFooterActionTitleVBox">
+					<Label text="{i18n>RCOFFHoldPopupMessage1}" design="Bold"/>
+					<Label text="{i18n>RCOFFHoldPopupMessage2}" design="Bold"/>
+				</VBox>
+			</layout:HorizontalLayout>
+			<Table id="idRCOffHoldlist" items="{RCOffHoldReason>/RCOffHoldReason/results}" width="auto" mode="SingleSelectMaster" showUnread="true"
+				class="acklOnHoldTable">
+				<columns>
+					<Column>
+						<Text text="{i18n>OnHoldReason}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OnHoldDate}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OffHoldDate}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem id="idRCOffHoldlistItem" class="stepsTblCell acklOnHoldReason">
+						<cells>
+							<Text text="{RCOffHoldReason>ReasonText}"/>
+							<DatePicker id="idOHold" displayFormat="dd/MM/yyyy" dateValue="{RCOffHoldReason>OnHoldDate}" editable="false"/>
+							<DatePicker id="idOffHold" displayFormat="dd/MM/yyyy" dateValue="{RCOffHoldReason>OffHoldDate}" editable="true"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+		<buttons>
+			<!--R-UX enable uppload and template, can't work with IDs ->duplicate ID error use text for identification -->
+			<!--<Button icon="sap-icon://add" text="{i18n>TEMPLATE_TXT}" press=".onPSearchHelp" tooltip="{i18n>TEMPLATE_TXT}"/>-->
+			<!--<Button id="link" icon="sap-icon://add" text="Link existing Document" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>-->
+			<Button icon="sap-icon://add" text="{i18n>UPLOAD_TXT}" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>
+			<!-- end R-UX -->
+			<Button text="{i18n>Ok}" press="handleRCOffHoldOk"/>
+			<Button text="{i18n>Cancel}" press="handleRCOffHoldCancel"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

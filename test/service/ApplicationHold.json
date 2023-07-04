@@ -1,0 +1,12 @@
+[{
+	"RecordId": "",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"Rfi": "-",
+	"Reason": "RFI",
+	"ReasonText": "Request For More Information",	
+	"OnHoldDate" : "\/Date(1456099200000)\/",
+    "OnHoldtTme" : "PT16H46M00S",
+    "OffHoldDate" : null,
+    "OffHoldTime" : "PT00H00M00S",
+	"HoldOnOff": " "
+}]

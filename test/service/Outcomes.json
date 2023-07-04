@@ -1,0 +1,31 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"RecordId": "005056BC-09BD-1ED5-9ADC-220BFF23F420",
+	"DecisionCode": "APU",
+	"DecisionDate": "\/Date(1444003200000)\/",
+	"DecisionMaker": "ENVCOURT",
+	"DecisionMakerText":"Environment Court",
+	"DecisionCodeText":"Appeal Upheld",
+	"Comments": "Testing Outcomes",
+	"CreatedBy": "D012667",
+	"CreatedByName": "Abhishek Periwal",
+	"CreatedAt": "\/Date(1444003200000)\/",
+	"Enabled": "",
+	"Editable": "",
+	"Required": ""
+}, {
+	"CreatedByName": "Abhishek Periwal",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"RecordId": "005056BC-09BD-1ED5-9ADC-241B25C63420",
+	"DecisionCode": "GRT",
+	"DecisionDate": "\/Date(1444003200000)\/",
+	"DecisionMaker": "HEARCOMM",
+	"DecisionMakerText": "Hearing Commissioner",
+	"DecisionCodeText":"Granted",
+	"Comments": "Grant Outcomes",
+	"CreatedBy": "D012667",
+	"CreatedAt": "\/Date(1444003200000)\/",
+	"Enabled": "",
+	"Editable": "",
+	"Required": ""
+}]

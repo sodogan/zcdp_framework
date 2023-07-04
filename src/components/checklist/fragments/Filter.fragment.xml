@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="checkListFilters" confirm="onHandleConfirm">
+        <filterItems>
+            <ViewSettingsFilterItem id="stepDescFilter" text="{i18n>STEP_DESC}"  multiSelect="false">
+                <!-- <items>
+                    <ViewSettingsItem key="{StepNo}" text="{StepNo}"/>
+                </items> -->
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="stepStatusFilter" text="{i18n>STEP_STATUS}"  multiSelect="false">
+                <!-- <items>
+                    <ViewSettingsItem key="{StepStatus}" text="{StepStatus}"/>
+                </items> -->
+            </ViewSettingsFilterItem>
+            
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

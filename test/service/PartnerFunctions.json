@@ -1,0 +1,50 @@
+[{
+	"PartnerFunction": "Z0000025",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBBU04D",
+	"Description": "Owner",
+	"CountLow": "1",
+	"CountHigh": 1,
+	"TransactionType": "YRCA"
+}, {
+	"PartnerFunction": "00000151",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBBU04D",
+	"Description": "Reporter",
+	"CountLow": "1",
+	"CountHigh": 1,
+	"TransactionType": "YRCA"
+}, {
+	"PartnerFunction": "00000056",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBBU04D",
+	"Description": "Service Employee Group",
+	"CountLow": "0",
+	"CountHigh": 1,
+	"TransactionType": "YRCA"
+}, {
+	"PartnerFunction": "00000001",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBBU04D",
+	"Description": "Sold-to Party",
+	"CountLow": "1",
+	"CountHigh": 10,
+	"TransactionType": "YRCA"
+}, {
+	"PartnerFunction": "Z0000031",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBBU04D",
+	"Description": "Applicant",
+	"CountLow": "0",
+	"CountHigh": 10,
+	"TransactionType": "YRCA"
+}, {
+	"PartnerFunction": "Z0000041",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"Description": "Designer (Architect)",
+	"CountLow": "0",
+	"CountHigh": 10,
+	"TransactionType": "YRCA"
+}, {
+	"PartnerFunction": "Z0000049",
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"Description": "LBP Blocklaying",
+	"CountLow": "0",
+	"CountHigh": 5,
+	"TransactionType": "YRCA"
+}]

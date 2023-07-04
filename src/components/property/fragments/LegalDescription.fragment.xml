@@ -1,0 +1,46 @@
+<core:FragmentDefinition xmlns="sap.m"
+    xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout">
+    <TableSelectDialog id="legalDescriptionDialog"
+        noDataText="{i18n>NO_LEGAL_FOUND}" title="{i18n>LEGAL_DESCRIPTION_SEARCH}
+"
+        rememberSelections="false" contentWidth="70%"
+        class="sapUiPopupWithPadding ackFilterStatusHeader" search="_handlePSValueHelpSearch" confirm="_handleValueHelpClose"
+        cancel="_handleValueHelpClose">
+        <ColumnListItem id="propertySearchTmpl">
+            <cells>
+                <ObjectIdentifier title="{LegalDescription}" />
+                <Text text="{Address}" />
+                <Text text="{Owner}" />
+                <Text text="{PropStatusText}" />
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>LEGAL_DESC_TXT}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>ADDRESS_TXT}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>OWNER_TXT}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <layout:HorizontalLayout>
+                        <Text text="{i18n>STATUS_TXT}" />
+                        <Button icon="sap-icon://filter" type="Transparent" press="handleFilter"
+                            tooltip="{i18n>TOOLTIP_STATUS_FILTER}" />
+                        <Button icon="sap-icon://refresh" type="Transparent" press="handleResetFilter"
+                            tooltip="{i18n>TOOLTIP_STATUS_RESET_FILTER}" />
+                    </layout:HorizontalLayout>
+                </header>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>

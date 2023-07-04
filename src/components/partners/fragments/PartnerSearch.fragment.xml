@@ -1,0 +1,122 @@
+<core:FragmentDefinition
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core">
+    <!-- items= "{/PartnerSearch}" -->
+<Dialog 
+        id="partnerSearchDialog"  
+        title= "{i18n>PARTNER_SEARCH}"
+        contentWidth= "80%"
+        contentHeight="2000px"
+        class= "sapUiPopupWithPadding"
+        afterClose="onAfterClose">
+        <customHeader>
+            <Bar>
+                <contentRight>
+                    <CheckBox id ="idEnableColSearch" text="{i18n>ENABLE_COL_SEARCH}" selected="true" select="onColumnSearchSelect" class="sapUiLargeMarginEnd"/>
+                </contentRight>
+               <contentMiddle>
+                    <Title text="{i18n>PARTNER_SEARCH}"/>
+                </contentMiddle>
+            </Bar>
+        </customHeader>
+        <Table 
+            id="partnersTable" 
+            mode="SingleSelectMaster"
+            itemPress="_handleValueHelpPSClose"  
+            noDataText= "{i18n>NO_PARTNERS_FOUND}"  
+            rememberSelections= "false">
+            <headerToolbar>
+                <Toolbar>
+                    <SearchField id="idPartnerSearchBar" width="100%" search="_handlePSValueHelpSearch"/>
+                    <!-- If you need Live search for Partner search - please uncomment below code-->
+                        <!--<SearchField id="idPartnerSearchBar" width="100%" search="_handlePSValueHelpSearch"  
+                        liveChange= "_handlePSValueHelpSearch"/>-->
+                </Toolbar>
+            </headerToolbar>
+            <columns >
+            
+            <Column
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center" width="20%">
+                <header>
+                      <HBox id="nameHbox" justifyContent="Center" class ="Hboxleft">
+                            <RadioButton id="nameSelect" text="{i18n>NAME}"  selected="true"/>
+                            <Text id ="idNameCol" text="{i18n>NAME}" textAlign="Center" class="labelalignradio"  visible="false"/>
+                      </HBox>
+                </header>
+            </Column>
+            <Column
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center"  width="12%">
+                <header>
+                      <HBox id="numberHbox" justifyContent="Center" class ="Hboxleft">
+                        <RadioButton  id="partnerNoSelect" text="{i18n>PARTNER_NUMBER}" />
+                        <Text id="idPartnerNoCol" text="{i18n>PARTNER_NUMBER}" textAlign="Center" class="labelalignradio" visible="false"/>
+                      </HBox>
+                </header>
+            </Column>
+            <Column
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center" width="20%">
+                <header>
+                    <HBox id="addressHbox" justifyContent="Center" class ="Hboxleft">
+                        <RadioButton id="addressSelect" text="{i18n>ADDRESS}" />
+                        <Text id="idAddressCol" text="{i18n>ADDRESS}" textAlign="Center" class="labelalignradio" visible="false"/>
+                    </HBox>
+                </header>
+            </Column>
+            <Column
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center" width="15%">
+                <header>
+                    <HBox id="teleHbox" justifyContent="Center" class ="Hboxleft">
+                        <RadioButton  id="telephoneSelect"  text="{i18n>TELEPHONE}"  />
+                        <Text id="idTeleCol" text="{i18n>TELEPHONE}"  textAlign="Center" class="labelalignradio" visible="false"/>
+                    </HBox>
+                </header>
+            </Column>
+            <Column
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center">
+                <header>
+                    <HBox id="emailHbox" justifyContent="Center" class ="Hboxleft">
+                        <RadioButton  id="emailSelect"  text="{i18n>EMAIL}" />
+                        <Text id="idEmailCol" text="{i18n>EMAIL}" textAlign="Center" class="labelalignradio" visible="false"/>
+                    </HBox>
+                </header>
+            </Column>
+            <Column
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center" >
+                <header>
+                    <HBox id="attributesHbox" justifyContent="Center" class ="Hboxleft">
+                        <Text id="idAttriCol" text="{i18n>ATTRIBUTES}"  textAlign="Center" class="labelalignradio"/>
+                    </HBox>
+                </header>
+            </Column>
+            <Column 
+                minScreenWidth="Tablet"
+                demandPopin="true"
+                hAlign="Center">
+                <header>
+                      <HBox justifyContent="Center">
+                            <Text id ="idStandardCol" text="{i18n>STANDARD}" class="labelalignstandard"/>
+                      </HBox>
+                </header>
+            </Column>
+        </columns>
+
+        </Table>
+        <endButton>
+            <Button text="Cancel" press="_handleValueHelpPSClose"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>
+
+   

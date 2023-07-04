@@ -1,0 +1,115 @@
+<mvc:View controllerName="aklc.cm.components.gis.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="GIS_FORM">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="4" labelSpanM="4" emptySpanL="4" emptySpanM="4" /> </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="locationTypeLabel" text="{/#GisLocation/LocationType/@sap:label}" class="formLabel" required="true" />
+                            <ComboBox id="locationType" placeholder="{i18n>LOCATION_TYPE_PLACEHOLDER}" selectedKey="{LocationType}" editable="true" selectionChange=".onSelectionChange">
+                                <core:Item id="locationTypeTmpl" key="{LocationType}" text="{LocationTypeText}"/> 
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="collectionMethodLabel" text="{/#GisLocation/CollectionMethod/@sap:label}" class="formLabel" required="true"/>
+                            <ComboBox id="collectionMethod" placeholder="{i18n>COLLECTION_METHOD_PLACEHOLDER}" selectedKey="{CollectionMethod}" editable="true" selectionChange=".onSelectionChange">
+                                <core:Item id="collectionMethodTmpl" key="{CollectionMethod}" text="{CollectionMethodText}" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="collectionDateLabel" text="{/#GisLocation/CollectionDate/@sap:label}" class="formLabel" required="true"/>
+                            <DatePicker id="collectionDate" displayFormat="dd/MM/yyyy" change=".onValidateForm" dateValue="{CollectionDate}" editable="true" />
+                        </form:fields>                    	
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="accuracyRatingLabel" text="{/#GisLocation/AccuracyRating/@sap:label}" class="formLabel" required="false" />
+                            <Input id="accuracyRating" editable="true" type="Number" valueLiveUpdate="true" value="{AccuracyRating}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="sequenceNumberLabel" text="{/#GisLocation/SequenceNumber/@sap:label}" class="formLabel" required="true" />
+                            <Input id="sequenceNumber" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{SequenceNumber}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="eastingLabel" text="{/#GisLocation/Easting/@sap:label}" class="formLabel" required="true" />
+                            <Input id="easting" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{Easting}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="northingLabel" text="{/#GisLocation/Northing/@sap:label}" class="formLabel" required="true" />
+                            <Input id="northing" editable="true" type="Number" change=".onValidateForm" valueLiveUpdate="true" value="{Northing}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>            
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="dateCreatedLabel" text="{/#GisLocation/CreatedOn/@sap:label}" class="formLabel" />
+                            <DatePicker id="dateCreated" displayFormat="dd/MM/yyyy" dateValue="{CreatedOn}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="changedOnLabel" text="{/#GisLocation/ChangedOn/@sap:label}" class="formLabel" />
+                            <DatePicker id="changedOn" displayFormat="dd/MM/yyyy" dateValue="{ChangedOn}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" />
+                            <commons:Button id="add" text="{i18n>SAVE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/SaveBtn_Visible}" />
+                            <commons:Button id="update" text="{i18n>UPDATE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/UpdateBtn_Visible}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

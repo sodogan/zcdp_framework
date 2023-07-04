@@ -1,0 +1,36 @@
+{
+  "d" : {
+    "results" : [
+      {
+        "__metadata" : {
+          "id" : "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/VH_ConditionStatus(StepKey='MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O',ConditionStatus='')",
+          "uri" : "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/VH_ConditionStatus(StepKey='MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O',ConditionStatus='')",
+          "type" : "ZCDP_PROCESS_APP_SRV.VH_ConditionStatus"
+        },
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionStatus" : "",
+        "ConditionStatusText" : ""
+      },
+      {
+        "__metadata" : {
+          "id" : "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/VH_ConditionStatus(StepKey='MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O',ConditionStatus='CMPL')",
+          "uri" : "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/VH_ConditionStatus(StepKey='MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O',ConditionStatus='CMPL')",
+          "type" : "ZCDP_PROCESS_APP_SRV.VH_ConditionStatus"
+        },
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionStatus" : "CMPL",
+        "ConditionStatusText" : "Compliant"
+      },
+      {
+        "__metadata" : {
+          "id" : "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/VH_ConditionStatus(StepKey='MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O',ConditionStatus='BRCH')",
+          "uri" : "http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/VH_ConditionStatus(StepKey='MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O',ConditionStatus='BRCH')",
+          "type" : "ZCDP_PROCESS_APP_SRV.VH_ConditionStatus"
+        },
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionStatus" : "BRCH",
+        "ConditionStatusText" : "Breach"
+      }
+    ]
+  }
+}

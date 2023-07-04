@@ -1,0 +1,57 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Label": "Project Overview",
+	"Active": true,
+	"Selected": true,
+	"Completed": "",
+	"Visible": true,
+	"Dirty": false
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00002",
+	"Label": "I am hidden",
+	"Active": true,
+	"Selected": false,
+	"Completed": "",
+	"Visible": false,
+	"Dirty": false
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00003",
+	"Label": "Project Details",
+	"Active": true,
+	"Selected": false,
+	"Completed": "",
+	"Visible": true,
+	"Dirty": false
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Label": "Flooring",
+	"Active": false,
+	"Selected": false,
+	"Completed": "",
+	"Visible": true,
+	"Dirty": false
+}, 
+{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00005",
+	"Label": "Multi Input Fields",
+	"Active": true,
+	"Selected": false,
+	"Completed": "",
+	"Visible": true,
+	"Dirty": false
+},
+{
+	"StepKey": "836000064820",
+	"SubStep": "00004",
+	"Label": "not Selected",
+	"Active": false,
+	"Selected": false,
+	"Completed": "E",
+	"Visible": true,
+	"Dirty": false
+}]

@@ -1,0 +1,71 @@
+<mvc:View controllerName="aklc.cm.components.transact.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="Transaction_Form">
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="4" labelSpanM="4" emptySpanL="4" emptySpanM="4" /> </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="orderTypeLabel" text="{i18n>OBJECT_TYPE_TXT}" class="formLabel" required="true" />
+                            <Input id="orderType" value="{OrderTypeText}" liveChange=".cancelKeyPress" valueLiveUpdate="true" placeholder="{i18n>OBJECT_PLACEHOLDER_TXT}" showValueHelp="true" valueHelpRequest=".handleObjectSearchHelp" editable="false" class="formLabel">
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="subjectLabel" text="{/#RelatedTransaction/ApplicationText/@sap:label}" class="formLabel" required="true" />
+                            <Input id="subject" value="{ApplicationText}" liveChange=".cancelKeyPress" valueLiveUpdate="true" placeholder="{i18n>SUBJECT_PLACEHOLDER_TXT}" showValueHelp="true" valueHelpRequest=".handleTransactionSearchHelp" editable="{vm>/SubjectEditable}" class="formLabel">
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{i18n>TRAN_TYPE_TXT}" class="formLabel" />
+                            <Input id="transactionType" editable="false" value="{TransactionTypeText}">
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#RelatedTransaction/CategoryText/@sap:label}" class="formLabel" />
+                            <Input id="category" value="{CategoryText}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#RelatedTransaction/StatusText/@sap:label}" class="formLabel" />
+                            <Input id="status" value="{StatusText}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" />
+                            <commons:Button id="add" text="{i18n>SAVE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton" visible="{vm>/SaveBtn_Visible}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

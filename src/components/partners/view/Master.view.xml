@@ -1,0 +1,35 @@
+<mvc:View controllerName="aklc.cm.components.partners.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Button icon="sap-icon://add" class="npcRowRepeatAdd" press=".onAddRow" type="Transparent" enabled="{vm>/CreateMode}" />
+    <Button icon="sap-icon://filter" class="npcRowRepeatToolBar" press=".onFilter" tooltip="{i18n>FILTER_LIST}" type="Transparent" />
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilter" tooltip="{i18n>RESET_FILTER}" type="Transparent" />
+    <!-- Master View Details -->
+    <ScrollContainer id="scrollrow" height="40rem" width="100%" horizontal="false" vertical="true" focusable="false">
+        <commons:RowRepeater id="parties" design="Transparent" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows title="{i18n>FILTER_TITLE}">
+                <layout:HorizontalLayout id="RowTemp" class="npcRowRepeat">
+                    <commons:Image id="statusBar" class="npcStatusBar" src="{ path : 'ActiveFilter',
+                                               formatter: '.formatStatusBar'
+                                            }">
+                    </commons:Image>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{PartnerFunctionText}" width="12rem" wrapping="true" class="npcRRLargeLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{FirstName}" class="formLabel" />
+                        <commons:TextView text="{LastName}" width="10rem" class="formLabel" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <layout:HorizontalLayout>
+                            <core:Icon src="sap-icon://iphone" width="1.2rem" color="#3993B9"></core:Icon>
+                            <commons:Label text="{path:'Telephone',formatter:'.formatTeleandEmail'}" class="formLabel" />
+                        </layout:HorizontalLayout>
+                        <layout:HorizontalLayout>
+                            <core:Icon src="sap-icon://email" width="1.2rem" color="#3993B9"></core:Icon>
+                            <Link text="{path:'Email',formatter:'.formatTeleandEmail'}" href="mailto:{Email}" width="16rem" wrapping="true" class="npcRREmailLabel formLabel" />
+                        </layout:HorizontalLayout>
+                    </layout:VerticalLayout>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

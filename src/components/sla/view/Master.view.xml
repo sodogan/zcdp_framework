@@ -1,0 +1,27 @@
+<mvc:View controllerName="aklc.cm.components.sla.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Button icon="sap-icon://add" class="npcRowRepeatToolBar" press=".onAddRow" tooltip="{i18n>ADD_NEW_SLA}" type="Transparent" enabled="{vm>/CreateMode}" />
+    <Button icon="sap-icon://filter" class="npcRowRepeatToolBar" press=".onFilter" tooltip="{i18n>FILTER_LIST}" type="Transparent" />
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilter" tooltip="{i18n>RESET_FILTER}" type="Transparent" />
+    <ScrollContainer height="30rem" width="100%" horizontal="false" vertical="true" focusable="false">
+        <commons:RowRepeater id="slas" design="Transparent" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows>
+                <layout:HorizontalLayout id="RowTmpl" class="npcRowRepeat">
+                    <commons:Image class="npcStatusBar"></commons:Image>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#SlaExtensions/ReasonText/@sap:label}" />
+                        <commons:TextView text="{ReasonText}" width="16rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#SlaExtensions/AdjustmentText/@sap:label}" />
+                        <commons:TextView text="{AdjustmentText}" width="8rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#SlaExtensions/Duration/@sap:label}" />
+                        <commons:TextView text="{Duration}" width="5rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <core:Icon src="sap-icon://decline" color="#FF0000" class="npcRowRepeatDelete" press="onDeleteRow" visible="false"></core:Icon>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

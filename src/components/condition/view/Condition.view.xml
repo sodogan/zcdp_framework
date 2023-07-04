@@ -1,0 +1,42 @@
+<mvc:View controllerName="aklc.cm.components.condition.controller.Condition" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:commons="sap.ui.commons" xmlns:rich="sap.ui.richtexteditor" xmlns:mvc="sap.ui.core.mvc" >
+    <form:Form id="CONDITION_FORM" editable="true" height="50rem">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="1" labelSpanM="1" emptySpanM="0" emptySpanL="0" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="Text1Label" text="{/#Conditions/Parameter1/@sap:label}" class="formLabel" required="false" />
+                            <Input id="Parameter1" value="{Parameter1}" liveChange="onChangeParam1" valueLiveUpdate="false" editable="true" maxLength="60">
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#Conditions/Parameter2/@sap:label}" class="formLabel" required="false" />
+                            <Input id="Parameter2" value="{Parameter2}" editable="true" maxLength="60" liveChange="onChangeParam2" valueLiveUpdate="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#Conditions/ConditionText/@sap:label}" class="formLabel" required="false" />
+                            <rich:RichTextEditor id="richtext" value="{ConditionText}" height="200px" width="100%" editable="{ path: 'EditFlag', formatter :'.handleConditionEdit'}" beforeEditorInit="handleBeforeEditorInit" showGroupStructure="false" showGroupTextAlign="false">  </rich:RichTextEditor>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

@@ -1,0 +1,12 @@
+[
+      {
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionGroup" : "BC-CSSS",
+        "ConditionGrpname" : "BC CS Specified Systems"
+      },
+      {
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionGroup" : "BC-SECTB_NOT_INSP",
+        "ConditionGrpname" : "BC Section B - Notifiable Insp"
+      }
+]

@@ -1,0 +1,147 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Lodge application",
+	"Icon": "sap-icon://activity-2",
+	"Component": "formData",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": " ",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVV",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "CRM Linked Application",
+	"Icon": "sap-icon://letter",
+	"Component": "CRMLINKED",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": " ",
+	"CrmUrl": "https://sapcrm-dev.aklc.govt.nz/sap/bc/webdynpro/sap/zpnc_ifba_wd?sap-client=140&GUID=005056BC09BD1"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Outcomes",
+	"Icon": "sap-icon://activity-items",
+	"Component": "outcomes",
+	"Active": false,
+	"Current": true,
+	"Dirty": false,
+	"Status": "E",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBBU04D",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Assigned Partners",
+	"Icon": "sap-icon://citizen-connect",
+	"Component": "partners",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Extensions of Timeframes",
+	"Icon": "sap-icon://company-view",
+	"Component": "sla",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBDUlMt",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Additional Properties",
+	"Icon": "sap-icon://add-equipment",
+	"Component": "property",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTg1OEUyOTkzRDgxMUQ0MjAsUkxU",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Related Transactions",
+	"Icon": "sap-icon://accidental-leave",
+	"Component": "transact",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREXX",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Affected Parties",
+	"Icon": "sap-icon://citizen-connect",
+	"Component": "parties",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1XX",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Correspondence",
+	"Icon": "sap-icon://letter",
+	"Component": "correspond",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+},{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Condition",
+	"Icon": "sap-icon://wrench",
+	"Component": "condition",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"Status": "S",
+	"CrmUrl": ""
+},{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Notes",
+	"Icon": "sap-icon://notes",
+	"Component": "notes",
+	"Active": false,
+	"Current": true,
+	"Dirty": false,
+	"CrmUrl": ""
+
+
+},
+
+{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Questionnare",
+	"Icon": "sap-icon://letter",
+	"Component": "Questionnaires",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"CrmUrl": ""
+},
+{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVB",
+	"ApplicationKey": "005056BC-09BD-1ED5-96E6-D431FFF31420",
+	"Description": "Heating Questionnare",
+	"Icon": "sap-icon://letter",
+	"Component": "Questionnaires",
+	"Active": false,
+	"Current": false,
+	"Dirty": false,
+	"CrmUrl": ""
+}
+]

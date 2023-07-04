@@ -1,0 +1,149 @@
+.sapUiForm .sapUiLbl,
+.sapUiForm .sapMText {
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.sapMTokenizer {
+    width: auto !important;
+}
+
+.sapUiRespGridBreak {
+    clear: none;
+}
+
+.nextButton {
+    padding-right: 0;
+    /*font-family: "Segoe UI";*/
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.formDetailColor {
+    background-color: #E6F2F9;
+}
+
+.sapMLIB.sapMLIBSelected,
+.sapMLIB.sapMLIBSelected > td {
+    background: #0F92CE;
+}
+
+.hdrButton {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: bottom;
+    display: block;
+    border: none;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.navButton {
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-size: 1rem;
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.formLabel {
+    font-size: .875rem;
+    outline: none;
+}
+
+.sapUiBtnS.sapUiBtnNorm.navButton {
+    background-color: #009de0;
+    border-color: #008bc7;
+    font-weight: inherit;
+}
+
+.statusIcon {
+    background: #FFCB00;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+    width: 2rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+
+.stepsTblCell > .sapMListTblCell {
+    height: 2rem;
+}
+
+.sapUiForm .sapUiFormTitle {
+    border-width: 0.0625rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+
+.sapMListTblCell > .stepsText {
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+}
+
+.sapMListTblCell > .sapMListTbl .sapMText .stepsText {
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+}
+
+.sapMLIBUnread .stepsText {
+    opacity: .5;
+    font-weight: normal;
+}
+
+.npcRowRepeat {
+    padding-top: 1rem;
+    padding-right: 0.4rem;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.npcRowRepeat:hover {
+    background-color: #D1DDFF;
+}
+
+.npcStatusBar {
+    width: 0.4rem;
+    background-color: #009DE0;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.npcRowRepeatDelete {
+    font-size: 1.1rem;
+    padding-left: 0.3rem;
+}
+
+.npcRowRepeatToolBar {
+    float: right;
+    color: #525151;
+}
+
+.npcSelectedRow {
+    background-color: #D1DDFF;
+}
+
+.npcUnSelectedRow {
+    background-color: #000000;
+}

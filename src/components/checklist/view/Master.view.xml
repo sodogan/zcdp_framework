@@ -1,0 +1,51 @@
+<mvc:View controllerName="aklc.cm.components.checklist.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout"
+    xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons"  xmlns:html="http://www.w3.org/1999/xhtml"  height="100%">
+    <Button icon="sap-icon://add" class="npcRowRepeatAdd" press=".onAddRow" type="Transparent" enabled="{vm>/CreateMode}"
+        tooltip="{i18n>ADD_ROW}"/>
+
+    <Button icon="sap-icon://filter" class="npcRowRepeatToolBar" press="onFilter" tooltip="{i18n>FILTER_LIST}" type="Transparent"/>
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press="onResetFilter" tooltip="{i18n>RESET_FILTER}" type="Transparent"/>
+  
+   <ScrollContainer id="chkMasterScrollContainer" height="36rem" width="100%" horizontal="false" vertical="true" focusable="false">
+    
+         <Table  id="checklistTable" inset="false" fixedLayout="false" mode="SingleSelectMaster" selectionChange="onSelectionChange" updateFinished="onUpdateFinished" sticky="ColumnHeaders">
+        <headerToolbar>    
+            <Toolbar>
+                <Label text="Sort By:" design="Bold" class="formLabel">
+                    <layoutData>
+                            <ToolbarLayoutData shrinkable="false" />
+                    </layoutData>
+                </Label>
+                <Button text="{i18n>STEP_NUMBER}"  press="onStepNoSort"  class="colLabel">
+                    <layoutData>
+                            <ToolbarLayoutData shrinkable="true" />
+                    </layoutData>
+                </Button>
+                 <Button text="{i18n>STEP_DESC}"   class="colLabel" press="onStepDescSort">
+                    <layoutData>
+                            <ToolbarLayoutData shrinkable="true" />
+                    </layoutData>
+                </Button>
+                 <Button text="{i18n>STEP_STATUS}"  class="colLabel" press="onStepStatSort">
+                    <layoutData>
+                            <ToolbarLayoutData shrinkable="true" />
+                    </layoutData>
+                </Button>
+            </Toolbar>
+    </headerToolbar>
+  
+                <columns>
+                    <Column id="stepNoCol">
+                        <Label text="{i18n>CHECKLIST_STEP_NUMBER}"  design="Bold" class="formLabel"/>
+                    </Column>
+                    <Column id="stepDesCol">
+                        <Label text="{i18n>CHECKLIST_STEP_DESC}"  design="Bold" class="formLabel"/>
+                    </Column>
+                    <Column id="stepStatusCol">
+                        <Label text="{i18n>CHECKLIST_STEP_STATUS}"  design="Bold" class="formLabel"/>
+                    </Column>
+                </columns>
+            </Table> 
+     </ScrollContainer>
+
+</mvc:View>

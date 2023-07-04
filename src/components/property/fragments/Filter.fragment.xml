@@ -1,0 +1,20 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<!-- Status Filter for Additional Properties -->
+	<Dialog title="{i18n>FILTER_TITLE}">
+		<content>
+			<List id="idStatusFilter" items="{FilterStatus>/FilterStatus}" mode="SingleSelectLeft" includeItemInSelection="true">
+				<items>
+					<!-- Bind the Status -->
+					<StandardListItem title="{FilterStatus>Status}"
+						type="Active" />
+				</items>
+			</List>
+		</content>
+		<!-- Footer Buttons for Filter -->
+		<buttons>
+			<Button text="{i18n>OK_TXT}" tooltip="{i18n>OK_TXT}" press="handleFilterOk" />
+			<Button text="{i18n>CANCEL_TXT}" tooltip="{i18n>CANCEL_TXT}" press="handleFilterClose" />
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

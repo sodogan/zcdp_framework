@@ -1,0 +1,23 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="PartyFilters" confirm="onHandleConfirm">
+        <filterItems>
+            <ViewSettingsFilterItem id="ResponseFilter" text="{i18n>RESPONSE}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem key="{ResponseType}" text="{ResponseText}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="ToBeHeardFilter" text="{i18n>TO_BE_HEARD}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem key="true" text="{i18n>YES_TXT}" />
+                    <ViewSettingsItem key="false" text="{i18n>NO_TXT}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="GISOrManualFilter" text="{i18n>GIS_MANUAL}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem key="true" text="{i18n>GIS}" />
+                    <ViewSettingsItem key="false" text="{i18n>MANUALLY}" />
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

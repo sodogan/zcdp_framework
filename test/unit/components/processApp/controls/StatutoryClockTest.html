@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8">
+	<title>Statutory Clock test</title>
+	<link rel="stylesheet" type="text/css" href="/src/components/processApp/css/StatutoryClock.css">
+	<script id="sap-ui-bootstrap" src="/resources/sap-ui-core.js" data-sap-ui-libs="sap.m" data-sap-ui-xx-bindingSyntax="complex" data-sap-ui-theme="sap_bluecrystal" data-sap-ui-preload="async" data-sap-ui-accessibility="false" data-sap-ui-resourceroots='{"aklc.cm": "/src/", "test": "/test/"}'>
+	</script>
+	<script>
+	sap.ui.getCore().attachInitEvent(function() {
+		sap.ui.require([
+			"aklc/cm/components/processApp/controls/StatutoryClock",
+		], function(StatutoryClock) {
+
+			var aData = [{
+				clockColour: "#FF0000",
+				daysCompleted: 0,
+				daysRemaining: 20,
+				clockText1: "0",
+				clockText2: "stat days"
+			}, {
+				clockColour: "#FF0000",
+				daysCompleted: 5,
+				daysRemaining: 15,
+				clockText1: "5",
+				clockText2: "stat days"
+			}, {
+				clockColour: "#FF0000",
+				daysCompleted: 10,
+				daysRemaining: 10,
+				clockText1: "10",
+				clockText2: "stat days"
+			}, {
+				clockColour: "#FF8845",
+				daysCompleted: 15,
+				daysRemaining: 5,
+				clockText1: "15",
+				clockText2: "stat days"
+			}, {
+				clockColour: "#FF0000",
+				daysCompleted: 17,
+				daysRemaining: 3,
+				clockText1: "3",
+				clockText2: "stat days"
+			}, {
+				clockColour: "#000000",
+				daysCompleted: 20,
+				daysRemaining: 0,
+				clockText1: "0",
+				clockText2: "stat days"
+			}, {
+				clockColour: "#4F81BD",
+				daysCompleted: 15,
+				daysRemaining: 5,
+				clockText1: "5",
+				clockText2: "stat days"
+			}];
+
+			aData.forEach(function(oData) {
+				new StatutoryClock(oData).placeAt("content");
+			});
+		});
+	});
+	</script>
+</head>
+
+<body class="sapUiBody" id="content"></body>
+
+</html>

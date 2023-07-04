@@ -1,0 +1,615 @@
+.sapUiFormM:not(.sapUiFormEdit) .sapUiFormResGridCont>div {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    font-size: 1px;
+}
+
+div[class*="sapUiRespGrid"]>div[class*="sapUiRespGridSpan"] {
+    float: left;
+    overflow: hidden;
+    min-height: 0px;
+}
+
+.sapUiFormM:not(.sapUiFormEdit) .sapUiFormResGridCont {
+    margin-top: -0.25rem;
+    padding-bottom: 0rem;
+}
+
+.sapMInputBaseReadonlyInner .sapMInputBaseInner {
+    border-color: transparent;
+    background: transparent;
+}
+
+.buttonmargin {
+    margin-top: 7px;
+}
+
+.sapMInputBaseReadonlyInner .sapMInputBaseInner:not(.sapMInputBaseReadonlyInner):not(.sapMInputBaseStateInner):focus {
+    border-color: #ffffff;
+}
+
+.sapUiFormResGridCont {
+    padding-bottom: 0rem;
+}
+.sapUiMltSepLWL {
+   vertical-align: top !important;
+}
+
+.LayoutStyle{
+    width: 100%;
+}
+
+.LayoutStyle > div{
+    max-width: 44% !important;
+}
+
+.ackHoldReasonText {
+   line-height: 48px;  
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+.ScrollContainerClass{
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.ackActionSheetList .sapMSLIInfo {
+    visibility: hidden;
+    width: 0px;
+}
+.ackErrorstatusIcon {
+    background: #FFCB00;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+    width: 2rem;
+    background-color: rgb(255, 0, 0);
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+
+.acklRCRFIOffHoldTitleVBox {
+    align-items: center;
+    width: 697px;    
+}
+
+.ackTimeInput {
+    width: 38% !important;
+}
+
+.acklRCRFIOffHoldTitlestatusIcon {
+    background: #FFCB00;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 3rem;
+    line-height: 2.5rem;
+    overflow: hidden;
+    width: 3rem;
+    margin-top: 4px;
+    margin-left: 6px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+.acklOnHoldTable {
+    margin-top: 15px;
+}
+
+.acklOnHoldReason {
+    padding-bottom: 0px;
+    vertical-align: bottom !important;
+}
+
+.acklOnHoldReason .sapMListTblCell{    
+    vertical-align: bottom !important;
+}
+
+.acklFooterActionTitlestatusIcon {
+    background: #FFCB00;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 3rem;
+    line-height: 2.5rem;
+    overflow: hidden;
+    width: 3rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+
+.acklFooterActionTitleBCOnHoldstatusIcon {
+    background: #FFCB00;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+   border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 3rem;
+    line-height: 2.5rem;
+    overflow: hidden;
+    width: 3rem;
+    margin-top: 4px;
+    margin-left: 40px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+.acklFooterActionTitleHL {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.ackmultisapMTokenizer {
+   width:23rem!important;
+     }
+
+.acklFooterActionBCOnHoldTitleHL {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 10px;
+    width: 760px;
+}
+
+.acklFooterActionTitleVBox {
+    align-items: center;
+    width: 420px;
+}
+
+.acklFooterActionBCOnHoldTitleVBox {
+    align-items: center;
+    width: 420px;
+    margin-left: 75px;
+}
+
+.acklNavBarHLayout {
+    width: 97%;
+    padding-top: 6px;
+}
+
+.acklNoShowNavIcon {
+    float: right;
+    visibility: hidden;
+}
+
+.acklNoShowNavIcon1 {
+    float: right;
+    visibility: hidden;
+}
+
+.acklShowNavIcon {
+    float: right;
+    visibility: visible;
+}
+
+.acklNavBarIcon {
+    padding-right: 18px;
+}
+
+.sapUiForm .sapUiLbl, .sapUiForm .sapMText {
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.sapMTokenizer {
+   display: inline-block;
+   max-width: 100%!important;
+}
+
+
+.sapUiRespGridBreak {
+    clear: none;
+}
+
+.nextButton {
+    padding-right: 0;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.formDetailColor {
+    background-color: #E6F2F9;
+}
+
+.sapMLIB.sapMLIBSelected, .sapMLIB.sapMLIBSelected>td {
+    background: #0F92CE;
+}
+
+.hdrButton {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    vertical-align: bottom;
+    display: block;
+    border: none;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.navButton {
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-size: 1rem;
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.notesnextButton {
+    padding-right: 0;
+    font-weight: normal !important;
+    font-size: 1rem;
+}
+
+.navigationButton {
+    float: left;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 1rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-stretch: condensed;
+}
+
+.formLabel {
+    font-size: .875rem;
+    outline: none;
+}
+
+.sapUiBtnS.sapUiBtnNorm.navButton {
+    background-color: #009de0;
+    border-color: #008bc7;
+    font-weight: inherit;
+}
+
+.statusIcon {
+    background: #00FF00;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    -moz-border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+    width: 2rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none
+}
+
+.stepsTblCell>.sapMListTblCell {
+    height: 2rem;
+}
+
+.sapUiForm .sapUiFormTitle {
+    border-width: 0.0625rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+
+.sapMListTblCell>.stepsText {
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+}
+
+.sapMListTblCell>.sapMListTbl .sapMText .stepsText {
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: inherit;
+}
+
+.sapMLIBUnread .stepsText {
+    opacity: .5;
+    font-weight: normal;
+}
+
+.npcRowRepeat {
+    padding-top: 1rem;
+    padding-right: 0.4rem;
+    border-bottom: 1px solid #cdcdcd;     
+}
+
+.npcRowRepeat:hover {
+    background-color: #D1DDFF;
+}
+
+.npcStatusBar {
+    width: 0.4rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    background-repeat: repeat;
+    background-color: #009DE0;
+}
+
+.npcRowRepeatDelete {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+.npcRowRepeatAdd {
+    font-size: 1.5rem;
+    padding-right: .8rem;
+    float: right;
+}
+
+.npcRowRepeatToolBar {
+    float: right;
+    color: #525151;
+}
+
+.npcSelectedRow {
+    background-color: #D1DDFF;
+}
+
+.npcUnSelectedRow {
+    background-color: #000000;
+}
+
+/*Partner and Affected parties CSS*/
+.npcRRLargeLabel {
+    font-size: .775rem;
+}
+
+.npcIconFormSize {
+    font-size: 1.5rem;
+}
+
+.npcGrayColor {
+    color: #777575;
+}
+
+.npcRREmailLabel {
+    font-size: .75rem;
+}
+
+.npcAlignEmail {
+    padding-top: 0.6rem;
+    padding-left: 0.75rem;
+}
+
+/*Form Data CSS*/
+.rrNextButton {
+    position: absolute;
+    padding-right: 0;
+    /*right: 46px;*/
+    height: 40px;
+    font-weight: normal !important;
+    vertical-align: middle;
+    padding: 0 20px;
+    font-size: 1rem;
+    margin-left: 15px;
+    /*margin-right: 20px;*/
+}
+
+/*Form Data CSS*/
+.rrNextFormButton {
+    position: absolute;
+    height: 40px;
+    font-weight: normal !important;
+    vertical-align: middle;
+    font-size: 1rem;
+    width: 90px;
+}
+
+.rrFormLabel {
+    padding-top: .875rem;
+    font-size: .875rem;
+}
+
+.rrSegmentError {
+    padding: 0 0;
+    border: 2px solid #e52929;
+     height: 44px;
+}
+
+.acRowRepeater>.sapUiRrFtr {
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 0px;
+}
+
+/*Correspondence*/
+.npcMimeIcon {
+    font-size: 1.5rem;
+    padding-right: 0.8rem;
+    text-align: right;
+}
+
+.npcMSWordIcon {
+    color: #297FA2;
+}
+
+.npcPDFIcon {
+    color: #E94D4E;
+}
+
+/*Condition*/
+.ncpLinkFont{
+    color: #006400 !important;
+    font-size: 1rem !important;
+    padding-left: 2rem !important;
+    font-weight: bold;
+
+}
+
+/*FormData*/
+.mainClass{
+    
+    height: 25rem;
+}
+/*FormData*/
+.detailMainClass{
+    height:85%;
+}
+/*FormData*/
+.masterMainClass{
+    
+    padding-bottom: 2rem;
+}
+
+.aklcMasterCell {  
+    vertical-align: top !important; 
+}
+
+.aklcMatrixLayout {  
+    overflow-y: auto;
+    position: absolute;
+    height: 73% !important;      
+}
+
+.aklcScrollContainer .sapMScrollContScroll .sapUiRrDesignTransparent .sapUiRrBody {
+    overflow-x: auto !important;
+    position: absolute !important;
+    width: 100% !important;       
+}
+
+.aklcGridLayout {
+    height: 63% !important;
+    overflow-y: auto;
+    position: fixed;
+}
+
+.aklcOutcomesRowRepeat {
+    padding-top: 1rem;
+    /*padding-right: 0.4rem;*/
+    border-bottom: 1px solid #cdcdcd;
+    width: 100% !important;   
+}
+
+.aklcOutComesRowRepeat:hover {
+    background-color: #D1DDFF;
+}
+
+.aklcOutComesRowRepeat .sapUiHLayoutChildWrapper:nth-child(1) {
+    width: 7% !important;
+}
+
+.aklcOutComesRowRepeat .sapUiHLayoutChildWrapper:nth-child(2) {
+    width: 40% !important;
+}
+
+.aklcOutComesRowRepeat .sapUiHLayoutChildWrapper:nth-child(3) {
+    width: 30% !important;
+}
+
+.aklcOutComesRowRepeat .sapUiHLayoutChildWrapper:nth-child(4) {
+    width: 20% !important;
+}
+
+.aklcPartnersRowRepeat {
+    padding-top: 1rem;
+    /*padding-right: 0.4rem;*/
+    border-bottom: 1px solid #cdcdcd;
+    width: 100% !important;    
+}
+
+.aklcPartnersRowRepeat:hover {
+    background-color: #D1DDFF;
+}
+
+.aklcPartnersRowRepeat .sapUiHLayoutChildWrapper:nth-child(1) {
+    width: 5% !important;
+}
+
+.aklcPartnersRowRepeat .sapUiHLayoutChildWrapper:nth-child(2) {
+    width: 30% !important;
+}
+
+.aklcPartnersRowRepeat .sapUiHLayoutChildWrapper:nth-child(3) {
+    width: 30% !important;
+}
+
+.aklcPartnersRowRepeat .sapUiHLayoutChildWrapper:nth-child(4) {
+    width: 35% !important;
+}
+
+.akclPartnerCommunicationPhone {
+    width: 100%;
+}
+
+.akclPartnerCommunication .akclPartnerCommunicationPhone .sapUiHLayoutChildWrapper:nth-child(1) {
+    width: 5% !important;        
+}
+
+.akclPartnerCommunication .akclPartnerCommunicationPhone .sapUiHLayoutChildWrapper:nth-child(2) {
+    width: 95% !important;
+    padding-left: 6%;    
+}
+
+.akclPartnerCommunicationEmail {
+    width: 100%;
+}
+
+.akclPartnerCommunication .akclPartnerCommunicationEmail .sapUiHLayoutChildWrapper:nth-child(1) {
+    width: 5% !important;
+}
+
+.akclPartnerCommunication .akclPartnerCommunicationEmail .sapUiHLayoutChildWrapper:nth-child(2) {
+    width: 95% !important;
+    padding-left: 6%;    
+}
+
+.sapMNavItem{
+    position:relative ;
+}
+
+.sapMNav.sapMSplitContainerMaster {
+
+    width: 40% ;
+    
+}
+.akclChkLstDetailForm{
+margin-top:35px;
+}
+.chkInputVHelp{
+    position:relative;
+    bottom:10px;
+}
+
+.colLabel .sapMBtnContent{
+font-size: 0.775rem;
+}

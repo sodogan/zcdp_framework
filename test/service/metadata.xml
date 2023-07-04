@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="ZCDP_PROCESS_APP_SRV" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="Application" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ApplicationKey" />
+                </Key>
+                <Property Name="ApplicationKey" Type="Edm.Guid" Nullable="false" sap:label="Object GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldReason1" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldReason2" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CustomField" Type="Edm.String" Nullable="false" sap:label="Custom field" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldReason3" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DaysCompleted" Type="Edm.Int16" Nullable="false" sap:label="Days Completed" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldReason4" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyAddress" Type="Edm.String" Nullable="false" sap:label="Property Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldReason5" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DaysRemaining" Type="Edm.Int16" Nullable="false" sap:label="Days Remaining" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Impact" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Impact" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Officer" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Full Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Urgency" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Urgency" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ImpactUrgency" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DaysProcessing" Type="Edm.Int16" Nullable="false" sap:label="DaysProcessing" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StatusText" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DaysPlanned" Type="Edm.Int16" Nullable="false" sap:label="DaysPlanned" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DescriptionOfWork" Type="Edm.String" Nullable="false" sap:label="Description of Work" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ClockColour" Type="Edm.String" Nullable="false" MaxLength="7" sap:label="Color" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DaysOnHold" Type="Edm.Int16" Nullable="false" sap:label="DaysOnHold" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ClockText1" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Clock Text 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReceivedDate" Type="Edm.DateTime" Precision="7" sap:label="Received Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ClockText2" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Clock Text 2" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LodgedDate" Type="Edm.DateTime" Precision="7" sap:label="Lodged Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ProcessedDate" Type="Edm.DateTime" Precision="7" sap:label="Processed Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="IssueDate" Type="Edm.DateTime" Precision="7" sap:label="Issue Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ServiceTeam" Type="Edm.String" Nullable="false" sap:label="Service Team" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepDescription" Type="Edm.String" Nullable="false" sap:label="Checklist Step Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepStatus" Type="Edm.String" Nullable="false" sap:label="Checklist Step Status Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ApplicationType" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Application Type(RC/BC)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TeamResponsible" Type="Edm.String" Nullable="false" sap:label="Team Responsible" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="ApplicationStep" Relationship="ZCDP_PROCESS_APP_SRV.FK_ApplicationApplicationStep" FromRole="FromRole_FK_ApplicationApplicationStep" ToRole="ToRole_FK_ApplicationApplicationStep" />
+            </EntityType>
+            <EntityType Name="ApplicationStep" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ApplicationKey" />
+                    <PropertyRef Name="StepKey" />
+                </Key>
+                <Property Name="ApplicationKey" Type="Edm.Guid" Nullable="false" sap:label="Object GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Status of current Step (Complete(S)/Error(E)/Not visited" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CrmUrl" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Icon" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Component" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Component" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Active" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Current" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dirty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="Application" Relationship="ZCDP_PROCESS_APP_SRV.FK_ApplicationApplicationStep" FromRole="ToRole_FK_ApplicationApplicationStep" ToRole="FromRole_FK_ApplicationApplicationStep" />
+            </EntityType>
+            <EntityType Name="AssignedPartners" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="RecordId" />
+                    <PropertyRef Name="StepKey" />
+                </Key>
+                <Property Name="Company" Type="Edm.String" MaxLength="40" sap:label="Name 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SearchTerm" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Search term 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="FirstName" Type="Edm.String" MaxLength="40" sap:label="First name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Address1" Type="Edm.String" MaxLength="80" sap:label="Line 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="RecordId" Type="Edm.Guid" Nullable="false" sap:label="Object GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Address2" Type="Edm.String" MaxLength="80" sap:label="Line 2" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LastName" Type="Edm.String" MaxLength="40" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="City" Type="Edm.String" MaxLength="40" sap:label="City" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFunction" Type="Edm.String" MaxLength="8" sap:label="Partner Function" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="State" Type="Edm.String" MaxLength="3" sap:label="Region" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Postcode" Type="Edm.String" MaxLength="10" sap:label="Postal Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Telephone" Type="Edm.String" MaxLength="30" sap:label="Telephone" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ActiveFilter" Type="Edm.String" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Country" Type="Edm.String" MaxLength="3" sap:label="Country" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerNumber" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="Partner Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MainPartner" Type="Edm.String" MaxLength="1" sap:label="Main Partner" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValidFrom" Type="Edm.DateTime" Precision="0" sap:label="Valid From" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Email" Type="Edm.String" MaxLength="241" sap:label="E-Mail Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValidTo" Type="Edm.DateTime" Precision="0" sap:label="Valid to" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReadOnly" Type="Edm.String" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Mandatory" Type="Edm.String" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFunctionText" Type="Edm.String" MaxLength="30" sap:label="Partner Function" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="FormData" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="SubStep" />
+                    <PropertyRef Name="Attribute" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Attribute" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Attribute Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Required" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Enabled" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Visible" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Active" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dirty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Attribute Descriptio" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Type" Type="Edm.String" Nullable="false" sap:label="Data Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValuePath" Type="Edm.String" Nullable="false" sap:label="Value Path in Value structure" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Tooltip" Type="Edm.String" Nullable="false" sap:label="Tooltip for UI" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Placeholder" Type="Edm.String" Nullable="false" sap:label="Place Holder for UI" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="String" Type="Edm.String" Nullable="false" sap:label="COMBO/MCOMBO - Code lookup from ZTT_PNC_ATTRCHK" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Boolean" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Date" Type="Edm.DateTime" Precision="7" sap:label="Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Number" Type="Edm.String" sap:label="Integer" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Currency" Type="Edm.Decimal" Precision="16" Scale="3" sap:label="Expected Sales Vol." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Year" Type="Edm.String" MaxLength="4" sap:label="Fiscal Year" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dependents" Type="Edm.String" Nullable="false" sap:label="Dependent Attributes" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DependentsValue" Type="Edm.String" Nullable="false" MaxLength="512" sap:label="Attribute Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="FormDataLookup" Relationship="ZCDP_PROCESS_APP_SRV.FK_FormDataFormDataLookup" FromRole="FromRole_FK_FormDataFormDataLookup" ToRole="ToRole_FK_FormDataFormDataLookup" />
+                <NavigationProperty Name="SubSteps" Relationship="ZCDP_PROCESS_APP_SRV.FK_SubStepFormData" FromRole="ToRole_FK_SubStepFormData" ToRole="FromRole_FK_SubStepFormData" />
+            </EntityType>
+            <EntityType Name="FormDataLookup" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="SubStep" />
+                    <PropertyRef Name="Attribute" />
+                    <PropertyRef Name="Key" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Attribute" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Attribute Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Key" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Lookup Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Value" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="FormData" Relationship="ZCDP_PROCESS_APP_SRV.FK_FormDataFormDataLookup" FromRole="ToRole_FK_FormDataFormDataLookup" ToRole="FromRole_FK_FormDataFormDataLookup" />
+            </EntityType>
+            <EntityType Name="Outcomes" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="RecordId" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="RecordId" Type="Edm.Guid" Nullable="false" sap:label="Record ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionCode" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Decision Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionDate" Type="Edm.DateTime" Precision="0" sap:label="Decision Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionMaker" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Decision Maker" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Comments" Type="Edm.String" Nullable="false" MaxLength="512" sap:label="Comments" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CreatedBy" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Created By" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Enabled" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Editable" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Required" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CreatedByName" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Decision Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionCodeText" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Code Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionMakerText" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Decision Maker" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CreatedAt" Type="Edm.DateTime" Precision="0" sap:label="Created At" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="PartnerFunctions" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="PartnerFunction" />
+                    <PropertyRef Name="StepKey" />
+                </Key>
+                <Property Name="PartnerFunction" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="Partner Function" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CountLow" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="No. of occurrences" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CountHigh" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="No. of occurrences" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TransactionType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Transaction Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="PartnerSearch" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="PartnerNumber" />
+                </Key>
+                <Property Name="PartnerNumber" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="Partner Number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFunction" Type="Edm.String" Nullable="false" MaxLength="8" sap:label="Partner Function" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="FirstName" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="First name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LastName" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Last name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Company" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Name 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Address1" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Line 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Address2" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Line 2" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="City" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="City" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="State" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Region" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Postcode" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Postal Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Country" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Country" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Telephone" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Telephone" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="241" sap:label="E-Mail Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SearchTerm" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Search term 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="SubSteps" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="SubStep" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Group Desc" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Active" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Selected" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Completed" Type="Edm.String" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dirty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Visible" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="FormData" Relationship="ZCDP_PROCESS_APP_SRV.FK_SubStepFormData" FromRole="FromRole_FK_SubStepFormData" ToRole="ToRole_FK_SubStepFormData" />
+            </EntityType>
+            <EntityType Name="VH_DecisionCode" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="DecisionCode" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionCode" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Decision Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Code Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_DecisionMaker" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="DecisionMaker" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DecisionMaker" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Decision Maker" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Code Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_ReasonCode" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ReasonCode" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReasonCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Reason Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReasonText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Duration" Type="Edm.Int16" Nullable="false" sap:label="Duration" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_SlaDirection" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="AdjustmentCode" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AdjustmentCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Adj. Sign" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AdjustmentText" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Code Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="SlaExtensions" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="RecordId" />
+                </Key>
+                <Property Name="CreatedAt" Type="Edm.DateTime" Precision="0" sap:label="Created at" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="RecordId" Type="Edm.Guid" Nullable="false" sap:label="Record ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Duration" Type="Edm.Int16" Nullable="false" sap:label="Days Adjusted" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReasonCode" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="RequestedBy" Type="Edm.String" MaxLength="50" sap:label="Added by" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Notes" Type="Edm.String" MaxLength="255" sap:label="Notes" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AdjustmentCode" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Adjustment Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AdjustmentText" Type="Edm.String" MaxLength="120" sap:label="Adjustment Direction" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReasonText" Type="Edm.String" MaxLength="40" sap:label="Reason" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="PropertySearch" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="PropertyId" />
+                </Key>
+                <Property Name="SearchTerm" Type="Edm.String" Nullable="false" sap:label="Search Term" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyId" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Architectural Object" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LegalDescription" Type="Edm.String" Nullable="false" sap:label="Legal Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Address" Type="Edm.String" Nullable="false" sap:label="Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Owner" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Owner" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="AdditionalProperty" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="PropertyId" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyId" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Architectural Object" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DateAdded" Type="Edm.DateTime" Precision="0" sap:label="Date Added" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LegalDescription" Type="Edm.String" Nullable="false" sap:label="Legal Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AddedBy" Type="Edm.String" Nullable="false" MaxLength="80" sap:label="Added by" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Address" Type="Edm.String" Nullable="false" sap:label="Property Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Owner" Type="Edm.String" Nullable="false" MaxLength="150" sap:label="Owners" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PrimaryProperty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="ApplicationLinks" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Component" />
+                    <PropertyRef Name="StepKey" />
+                </Key>
+                <Property Name="Component" Type="Edm.String" Nullable="false" sap:label="Component" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter1" Type="Edm.String" Nullable="false" MaxLength="100" sap:label="Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter2" Type="Edm.String" Nullable="false" MaxLength="100" sap:label="Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Url" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Icon" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter3" Type="Edm.String" Nullable="false" MaxLength="100" sap:label="Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="RelatedTransaction" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ApplicationKey" />
+                </Key>
+                <Property Name="OrderType" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Order Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Current Application key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ApplicationKey" Type="Edm.Guid" Nullable="false" sap:label="Linked  guid" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OrderTypeText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Order Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ApplicationText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Subject" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TransactionType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Transaction Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TransactionTypeText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Transaction Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StatusText" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CategoryText" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Category" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="WorkDescription" Type="Edm.String" Nullable="false" sap:label="Work Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DeletionInd" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Deletion Indicator" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_OrderType" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="OrderType" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Current Application key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OrderType" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Trans. Cat." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OrderTypeText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Object Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="TransactionSearch" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ApplicationKey" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Current Application key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ApplicationKey" Type="Edm.Guid" Nullable="false" sap:label="Linked guid" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ApplicationText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Subject" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OrderType" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Trans. Cat." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OrderTypeText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Object Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TransactionType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Transaction Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TransactionTypeText" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Transaction description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StatusText" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Status text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SearchTerm" Type="Edm.String" Nullable="false" sap:label="Search term" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="WorkDescription" Type="Edm.String" Nullable="false" sap:label="Work Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CategoryText" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Category" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_TransactionStatus" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="Status" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Current Application Guid" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Status" Type="Edm.String" Nullable="false" MaxLength="5" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StatusText" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Status Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="AffectedParties" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="RecordId" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="RecordId" Type="Edm.Guid" Nullable="false" sap:label="Record ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyId" Type="Edm.String" MaxLength="30" sap:label="Property ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartyType" Type="Edm.String" MaxLength="6" sap:label="Party Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerNumber" Type="Edm.String" MaxLength="10" sap:label="Party ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ResponseType" Type="Edm.String" MaxLength="7" sap:label="Response" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ResponseDate" Type="Edm.DateTime" Precision="7" sap:label="Response Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ToBeHeard" Type="Edm.Boolean" sap:label="To be Heard" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CanBeDeleted" Type="Edm.Boolean" sap:label="Can Be Deleted" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartyTypeText" Type="Edm.String" MaxLength="60" sap:label="Party Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFullName" Type="Edm.String" sap:label="Party Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ResponseText" Type="Edm.String" MaxLength="60" sap:label="Response" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="FromGIS" Type="Edm.Boolean" sap:label="GIS" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LegalDescription" Type="Edm.String" sap:label="Legal Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MailingAddress" Type="Edm.String" sap:label="Mailing Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyAddress" Type="Edm.String" sap:label="Property Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_Response" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ResponseType" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ResponseType" Type="Edm.String" Nullable="false" MaxLength="7" sap:label="Response" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ResponseText" Type="Edm.String" Nullable="false" sap:label="Response" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="PartySearch" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="PropertyId" />
+                    <PropertyRef Name="PartnerNumber" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyId" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Property ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerNumber" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Party ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFullName" Type="Edm.String" Nullable="false" sap:label="Party Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LegalDescription" Type="Edm.String" Nullable="false" sap:label="Legal Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MailingAddress" Type="Edm.String" Nullable="false" sap:label="Mailing Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PropertyAddress" Type="Edm.String" Nullable="false" sap:label="Property Address" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Telephone" Type="Edm.String" Nullable="false" MaxLength="60" sap:label="Telephone" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Email" Type="Edm.String" Nullable="false" sap:label="Email" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SearchTerm" Type="Edm.String" Nullable="false" MaxLength="60" sap:label="Search Term" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="Correspondence" m:HasStream="true" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="AttachmentId" />
+                </Key>
+                <Property Name="CreatedOn" Type="Edm.DateTime" Precision="0" sap:label="Created On" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AttachmentId" Type="Edm.Guid" Nullable="false" sap:label="Attachment Id" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="LegacyDate" Type="Edm.DateTime" Precision="0" sap:label="Legacy Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MimeType" Type="Edm.String" Nullable="false" sap:label="Icon Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReceivedDate" Type="Edm.DateTime" Precision="0" sap:label="Received Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="FileName" Type="Edm.String" Nullable="false" sap:label="Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" sap:label="File Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFunction" Type="Edm.String" Nullable="false" sap:label="Partner Id" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerFunctionText" Type="Edm.String" Nullable="false" sap:label="Partner Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="PartnerName" Type="Edm.String" Nullable="false" sap:label="Parner Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DocumentGroup" Type="Edm.String" Nullable="false" sap:label="Document Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DocumentType" Type="Edm.String" Nullable="false" sap:label="Document Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DocumentStatusText" Type="Edm.String" Nullable="false" sap:label="Status Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CreatedBy" Type="Edm.String" Nullable="false" sap:label="Created By" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Author" Type="Edm.String" Nullable="false" sap:label="Author" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Type" Type="Edm.String" Nullable="false" sap:label="Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="AuthorisationScope" Type="Edm.String" Nullable="false" sap:label="Authorisation Scope" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_DocumentStatus" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="DocumentStatusText" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DocumentStatusText" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Doc Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_DocumentGroup" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="DocumentGroup" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DocumentGroup" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Document Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_DocumentType" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="DocumentType" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DocumentType" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Document Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_DocumentFormat" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="MimeType" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MimeType" Type="Edm.String" Nullable="false" sap:label="Mime Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MimeTypeText" Type="Edm.String" Nullable="false" sap:label="Mime Type Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="Conditions" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ConditionType" />
+                    <PropertyRef Name="ValidFrom" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionTitle" Type="Edm.String" MaxLength="120" sap:label="Title" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionGroup" Type="Edm.String" MaxLength="20" sap:label="Conditon Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionGrpname" Type="Edm.String" MaxLength="30" sap:label="ConditionGrp Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionType" Type="Edm.String" Nullable="false" MaxLength="6" sap:label="Condition Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionTypeDesc" Type="Edm.String" MaxLength="30" sap:label="Cond Type Desc" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionHlink" Type="Edm.Boolean" sap:label="Newcore Consenting Condition Help text link" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValidFrom" Type="Edm.DateTime" Nullable="false" Precision="8" sap:label="Valid From" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValidTo" Type="Edm.DateTime" Precision="8" sap:label="Valid To" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionSeq" Type="Edm.String" MaxLength="4" sap:label="Sequence" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionStat" Type="Edm.String" MaxLength="4" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionStatDesc" Type="Edm.String" MaxLength="40" sap:label="Status Desc" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Final" Type="Edm.Boolean" sap:label="Final" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextId" Type="Edm.String" MaxLength="4" sap:label="Text ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter1" Type="Edm.String" MaxLength="60" sap:label="Parameter 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter2" Type="Edm.String" MaxLength="60" sap:label="Parameter 2" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionText" Type="Edm.String" sap:label="Newcore Consenting Condition Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionHelpText" Type="Edm.String" sap:label="Newcore Consenting Help text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Comments" Type="Edm.String" MaxLength="512" sap:label="Comments" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="EditFlag" Type="Edm.Boolean" sap:label="Edit Flag" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_ConditionStatus" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ConditionStatus" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionStatus" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionStatusText" Type="Edm.String" Nullable="false" sap:label="Newcore Consent Condtion Status text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="Notes" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="TextObject" />
+                    <PropertyRef Name="TextName" />
+                    <PropertyRef Name="TextId" />
+                    <PropertyRef Name="Language" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextObject" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Text object" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextName" Type="Edm.String" Nullable="false" MaxLength="70" sap:label="Note Guid" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextId" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Note Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Language" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Language" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextType" Type="Edm.String" MaxLength="30" sap:label="Note Type Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Impact" Type="Edm.String" MaxLength="1" sap:label="Impact" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ImpactDesc" Type="Edm.String" MaxLength="40" sap:label="Impact Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="UserName" Type="Edm.String" MaxLength="80" sap:label="User Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DateSystem" Type="Edm.DateTime" Precision="8" sap:label="Entry Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Subject" Type="Edm.String" MaxLength="40" sap:label="Subject" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Text" Type="Edm.String" sap:label="Note Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MigratedFlag" Type="Edm.Boolean" Nullable="false" sap:label="Migrated Flag" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_NotesImpact" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="Impact" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Impact" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Impact" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Description" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Impact Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_NotesType" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="Language" />
+                    <PropertyRef Name="TextObject" />
+                    <PropertyRef Name="TextId" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Language" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Language" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextObject" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Text object" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextId" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Note Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="TextType" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Note Type Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="ApplicationButtons" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ButtonId" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="StepKey" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ButtonId" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Button ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Icon" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="Icon" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ButtonText" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Button Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="ConditionSearch" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ConditionType" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionTitle" Type="Edm.String" MaxLength="120" sap:label="Title" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionType" Type="Edm.String" Nullable="false" MaxLength="6" sap:label="Condition" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionTypeDesc" Type="Edm.String" MaxLength="30" sap:label="Cond Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionGroup" Type="Edm.String" MaxLength="20" sap:label="Conditon Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionGrpname" Type="Edm.String" MaxLength="30" sap:label="Group Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValidFrom" Type="Edm.DateTime" Precision="7" sap:label="Valid From" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValidTo" Type="Edm.DateTime" Precision="7" sap:label="Valid To" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionSeq" Type="Edm.String" MaxLength="4" sap:label="Sequence" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionStat" Type="Edm.String" MaxLength="4" sap:label="Status" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionStatDesc" Type="Edm.String" MaxLength="40" sap:label="Status Desc" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Final" Type="Edm.String" MaxLength="1" sap:label="Final" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="CondTextId" Type="Edm.String" MaxLength="4" sap:label="Text ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter1" Type="Edm.String" MaxLength="60" sap:label="Parameter 1" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Parameter2" Type="Edm.String" MaxLength="60" sap:label="Parameter 2" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Comments" Type="Edm.String" MaxLength="512" sap:label="Comments" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionText" Type="Edm.String" sap:label="Newcore Consenting Condition Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionHelpText" Type="Edm.String" sap:label="Newcore Consenting Help text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionLink" Type="Edm.String" MaxLength="255" sap:label="URL" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SearchTerm" Type="Edm.String" Nullable="false" sap:label="Search term" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="ApplicationHold" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="RecordId" />
+                    <PropertyRef Name="StepKey" />
+                </Key>
+                <Property Name="RecordId" Type="Edm.Guid" Nullable="false" sap:label="Record ID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Rfi" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Reason" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Reason Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReasonText" Type="Edm.String" Nullable="false" MaxLength="60" sap:label="Reason Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldDate" Type="Edm.DateTime" Precision="7" sap:label="RFI Start Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OnHoldtTme" Type="Edm.Time" Precision="0" sap:label="RFI Start Time" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OffHoldDate" Type="Edm.DateTime" Precision="7" sap:label="RFI End Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="OffHoldTime" Type="Edm.Time" Precision="0" sap:label="RFI End Time" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="HoldOnOff" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="ApplicationAlert" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ApplicationKey" />
+                    <PropertyRef Name="MessageNo" />
+                </Key>
+                <Property Name="ApplicationKey" Type="Edm.Guid" Nullable="false" sap:label="Object GUID" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Message" Type="Edm.String" Nullable="false" sap:label="Message text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MessageNo" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Message number" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="MessageType" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Message type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_RfiReason" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="Reason" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Reason" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Reason Code" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ReasonText" Type="Edm.String" Nullable="false" MaxLength="60" sap:label="Reason Text" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="QSubSteps" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="SubStep" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SubStep" Type="Edm.String" Nullable="false" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Group Desc" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Active" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Selected" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Completed" Type="Edm.String" Nullable="false" sap:label="Boolean Variable (S=Sucess, E=Error, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dirty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Visible" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="QFormData" Relationship="ZCDP_PROCESS_APP_SRV.FK_QSubStepFormData" FromRole="FromRole_FK_QSubStepFormData" ToRole="ToRole_FK_QSubStepFormData" />
+            </EntityType>
+            <EntityType Name="QFormData" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="SubStep" />
+                    <PropertyRef Name="Attribute" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SubStep" Type="Edm.String" Nullable="false" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Attribute" Type="Edm.String" Nullable="false" sap:label="Attribute Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Required" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Enabled" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Visible" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Active" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dirty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Attribute Descriptio" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Type" Type="Edm.String" Nullable="false" sap:label="Data Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ValuePath" Type="Edm.String" Nullable="false" sap:label="Value Path in Value structure" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Tooltip" Type="Edm.String" Nullable="false" sap:label="Tooltip for UI" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Placeholder" Type="Edm.String" Nullable="false" sap:label="Place Holder for UI" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="String" Type="Edm.String" Nullable="false" sap:label="COMBO/MCOMBO - Code lookup from ZTT_PNC_ATTRCHK" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Boolean" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Date" Type="Edm.DateTime" Precision="7" sap:label="Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Number" Type="Edm.String" sap:label="Integer" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Currency" Type="Edm.Decimal" Precision="16" Scale="3" sap:label="Expected Sales Vol." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Year" Type="Edm.String" MaxLength="4" sap:label="Fiscal Year" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Dependents" Type="Edm.String" Nullable="false" sap:label="Dependent Attributes" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="DependentsValue" Type="Edm.String" Nullable="false" MaxLength="512" sap:label="Attribute Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="QSubSteps" Relationship="ZCDP_PROCESS_APP_SRV.FK_QSubStepFormData" FromRole="ToRole_FK_QSubStepFormData" ToRole="FromRole_FK_QSubStepFormData" />
+                <NavigationProperty Name="QFormDataLookup" Relationship="ZCDP_PROCESS_APP_SRV.FK_QFormDataFormDataLookup" FromRole="FromRole_FK_QFormDataFormDataLookup" ToRole="ToRole_FK_QFormDataFormDataLookup" />
+            </EntityType>
+            <EntityType Name="QFormDataLookup" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="SubStep" />
+                    <PropertyRef Name="Attribute" />
+                    <PropertyRef Name="Key" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="SubStep" Type="Edm.String" Nullable="false" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Attribute" Type="Edm.String" Nullable="false" sap:label="Attribute Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Key" Type="Edm.String" Nullable="false" sap:label="Lookup Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="Value" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <NavigationProperty Name="QFormData" Relationship="ZCDP_PROCESS_APP_SRV.FK_QFormDataFormDataLookup" FromRole="ToRole_FK_QFormDataFormDataLookup" ToRole="FromRole_FK_QFormDataFormDataLookup" />
+            </EntityType>
+            <EntityType Name="VH_ConditionType" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ConditionType" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionType" Type="Edm.String" Nullable="false" MaxLength="6" sap:label="Condition Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionTypeDesc" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Condition Type Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <EntityType Name="VH_ConditionGrp" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="ConditionGroup" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionGroup" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Conditon Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ConditionGrpname" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Group Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+            </EntityType>
+            <Association Name="FK_ApplicationApplicationStep" sap:content-version="1">
+                <End Type="ZCDP_PROCESS_APP_SRV.Application" Multiplicity="1" Role="FromRole_FK_ApplicationApplicationStep" />
+                <End Type="ZCDP_PROCESS_APP_SRV.ApplicationStep" Multiplicity="*" Role="ToRole_FK_ApplicationApplicationStep" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_FK_ApplicationApplicationStep">
+                        <PropertyRef Name="ApplicationKey" />
+                    </Principal>
+                    <Dependent Role="ToRole_FK_ApplicationApplicationStep">
+                        <PropertyRef Name="ApplicationKey" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_QFormDataFormDataLookup" sap:content-version="1">
+                <End Type="ZCDP_PROCESS_APP_SRV.QFormData" Multiplicity="1" Role="FromRole_FK_QFormDataFormDataLookup" />
+                <End Type="ZCDP_PROCESS_APP_SRV.QFormDataLookup" Multiplicity="*" Role="ToRole_FK_QFormDataFormDataLookup" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_FK_QFormDataFormDataLookup">
+                        <PropertyRef Name="Attribute" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="StepKey" />
+                    </Principal>
+                    <Dependent Role="ToRole_FK_QFormDataFormDataLookup">
+                        <PropertyRef Name="Attribute" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="StepKey" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_SubStepFormData" sap:content-version="1">
+                <End Type="ZCDP_PROCESS_APP_SRV.SubSteps" Multiplicity="1" Role="FromRole_FK_SubStepFormData" />
+                <End Type="ZCDP_PROCESS_APP_SRV.FormData" Multiplicity="*" Role="ToRole_FK_SubStepFormData" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_FK_SubStepFormData">
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                    </Principal>
+                    <Dependent Role="ToRole_FK_SubStepFormData">
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_QSubStepFormData" sap:content-version="1">
+                <End Type="ZCDP_PROCESS_APP_SRV.QSubSteps" Multiplicity="1" Role="FromRole_FK_QSubStepFormData" />
+                <End Type="ZCDP_PROCESS_APP_SRV.QFormData" Multiplicity="*" Role="ToRole_FK_QSubStepFormData" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_FK_QSubStepFormData">
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="StepKey" />
+                    </Principal>
+                    <Dependent Role="ToRole_FK_QSubStepFormData">
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="StepKey" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_FormDataFormDataLookup" sap:content-version="1">
+                <End Type="ZCDP_PROCESS_APP_SRV.FormData" Multiplicity="1" Role="FromRole_FK_FormDataFormDataLookup" />
+                <End Type="ZCDP_PROCESS_APP_SRV.FormDataLookup" Multiplicity="*" Role="ToRole_FK_FormDataFormDataLookup" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_FK_FormDataFormDataLookup">
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="Attribute" />
+                    </Principal>
+                    <Dependent Role="ToRole_FK_FormDataFormDataLookup">
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="Attribute" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="ZCDP_PROCESS_APP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="ApplicationStep" EntityType="ZCDP_PROCESS_APP_SRV.ApplicationStep" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="AssignedPartners" EntityType="ZCDP_PROCESS_APP_SRV.AssignedPartners" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="FormData" EntityType="ZCDP_PROCESS_APP_SRV.FormData" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="FormDataLookup" EntityType="ZCDP_PROCESS_APP_SRV.FormDataLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="Outcomes" EntityType="ZCDP_PROCESS_APP_SRV.Outcomes" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="PartnerFunctions" EntityType="ZCDP_PROCESS_APP_SRV.PartnerFunctions" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="PartnerSearch" EntityType="ZCDP_PROCESS_APP_SRV.PartnerSearch" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="SubSteps" EntityType="ZCDP_PROCESS_APP_SRV.SubSteps" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_DecisionCode" EntityType="ZCDP_PROCESS_APP_SRV.VH_DecisionCode" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_DecisionMaker" EntityType="ZCDP_PROCESS_APP_SRV.VH_DecisionMaker" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_ReasonCode" EntityType="ZCDP_PROCESS_APP_SRV.VH_ReasonCode" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_SlaDirection" EntityType="ZCDP_PROCESS_APP_SRV.VH_SlaDirection" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="SlaExtensions" EntityType="ZCDP_PROCESS_APP_SRV.SlaExtensions" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="PropertySearch" EntityType="ZCDP_PROCESS_APP_SRV.PropertySearch" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="AdditionalProperty" EntityType="ZCDP_PROCESS_APP_SRV.AdditionalProperty" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="ApplicationLinks" EntityType="ZCDP_PROCESS_APP_SRV.ApplicationLinks" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="RelatedTransaction" EntityType="ZCDP_PROCESS_APP_SRV.RelatedTransaction" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_OrderType" EntityType="ZCDP_PROCESS_APP_SRV.VH_OrderType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="TransactionSearch" EntityType="ZCDP_PROCESS_APP_SRV.TransactionSearch" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_TransactionStatus" EntityType="ZCDP_PROCESS_APP_SRV.VH_TransactionStatus" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="AffectedParties" EntityType="ZCDP_PROCESS_APP_SRV.AffectedParties" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="VH_Response" EntityType="ZCDP_PROCESS_APP_SRV.VH_Response" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="PartySearch" EntityType="ZCDP_PROCESS_APP_SRV.PartySearch" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="Correspondence" EntityType="ZCDP_PROCESS_APP_SRV.Correspondence" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_DocumentStatus" EntityType="ZCDP_PROCESS_APP_SRV.VH_DocumentStatus" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_DocumentGroup" EntityType="ZCDP_PROCESS_APP_SRV.VH_DocumentGroup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_DocumentType" EntityType="ZCDP_PROCESS_APP_SRV.VH_DocumentType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_DocumentFormat" EntityType="ZCDP_PROCESS_APP_SRV.VH_DocumentFormat" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="Conditions" EntityType="ZCDP_PROCESS_APP_SRV.Conditions" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="VH_ConditionStatus" EntityType="ZCDP_PROCESS_APP_SRV.VH_ConditionStatus" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="Notes" EntityType="ZCDP_PROCESS_APP_SRV.Notes" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_NotesImpact" EntityType="ZCDP_PROCESS_APP_SRV.VH_NotesImpact" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="VH_NotesType" EntityType="ZCDP_PROCESS_APP_SRV.VH_NotesType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="ApplicationButtons" EntityType="ZCDP_PROCESS_APP_SRV.ApplicationButtons" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="ConditionSearch" EntityType="ZCDP_PROCESS_APP_SRV.ConditionSearch" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="ApplicationHold" EntityType="ZCDP_PROCESS_APP_SRV.ApplicationHold" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="ApplicationAlert" EntityType="ZCDP_PROCESS_APP_SRV.ApplicationAlert" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_RfiReason" EntityType="ZCDP_PROCESS_APP_SRV.VH_RfiReason" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="QSubSteps" EntityType="ZCDP_PROCESS_APP_SRV.QSubSteps" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="QFormData" EntityType="ZCDP_PROCESS_APP_SRV.QFormData" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="QFormDataLookup" EntityType="ZCDP_PROCESS_APP_SRV.QFormDataLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="VH_ConditionType" EntityType="ZCDP_PROCESS_APP_SRV.VH_ConditionType" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <EntitySet Name="VH_ConditionGrp" EntityType="ZCDP_PROCESS_APP_SRV.VH_ConditionGrp" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1" />
+                <EntitySet Name="Application" EntityType="ZCDP_PROCESS_APP_SRV.Application" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                <AssociationSet Name="FK_QFormDataFormDataLookup" Association="ZCDP_PROCESS_APP_SRV.FK_QFormDataFormDataLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="QFormData" Role="FromRole_FK_QFormDataFormDataLookup" />
+                    <End EntitySet="QFormDataLookup" Role="ToRole_FK_QFormDataFormDataLookup" />
+                </AssociationSet>
+                <AssociationSet Name="FK_QSubStepFormData" Association="ZCDP_PROCESS_APP_SRV.FK_QSubStepFormData" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="QSubSteps" Role="FromRole_FK_QSubStepFormData" />
+                    <End EntitySet="QFormData" Role="ToRole_FK_QSubStepFormData" />
+                </AssociationSet>
+                <AssociationSet Name="FK_ApplicationApplicationStep" Association="ZCDP_PROCESS_APP_SRV.FK_ApplicationApplicationStep" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Application" Role="FromRole_FK_ApplicationApplicationStep" />
+                    <End EntitySet="ApplicationStep" Role="ToRole_FK_ApplicationApplicationStep" />
+                </AssociationSet>
+                <AssociationSet Name="FK_SubStepFormData" Association="ZCDP_PROCESS_APP_SRV.FK_SubStepFormData" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="SubSteps" Role="FromRole_FK_SubStepFormData" />
+                    <End EntitySet="FormData" Role="ToRole_FK_SubStepFormData" />
+                </AssociationSet>
+                <AssociationSet Name="FK_FormDataFormDataLookup" Association="ZCDP_PROCESS_APP_SRV.FK_FormDataFormDataLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="FormData" Role="FromRole_FK_FormDataFormDataLookup" />
+                    <End EntitySet="FormDataLookup" Role="ToRole_FK_FormDataFormDataLookup" />
+                </AssociationSet>
+            </EntityContainer>
+            <atom:link rel="self" href="http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+            <atom:link rel="latest-version" href="http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

@@ -1,0 +1,41 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="CorrespondenceFilters" confirm=".onHandleConfirm" resetFilters=".onResetFilters">
+        <sortItems>
+            <ViewSettingsItem text="{/#Correspondence/CreatedOn/@sap:label}" key="CreatedOn" selected="true" />
+            <ViewSettingsItem text="{/#Correspondence/FileName/@sap:label}" key="FileName" />
+            <ViewSettingsItem text="{/#Correspondence/Description/@sap:label}" key="Description" />
+            <ViewSettingsItem text="{/#Correspondence/PartnerFunctionText/@sap:label}" key="PartnerFunctionText" />
+            <ViewSettingsItem text="{/#Correspondence/PartnerName/@sap:label}" key="PartnerName" />
+            <ViewSettingsItem text="{/#Correspondence/DocumentGroup/@sap:label}" key="DocumentGroup" />
+            <ViewSettingsItem text="{/#Correspondence/DocumentType/@sap:label}" key="DocumentType" />
+            <ViewSettingsItem text="{/#Correspondence/DocumentStatusText/@sap:label}" key="DocumentStatusText" />
+        </sortItems>
+        <filterItems>
+            <ViewSettingsFilterItem id="documentStatusText" text="{/#Correspondence/DocumentStatusText/@sap:label}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{DocumentStatusText}" key="{StepKey}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="partnerFunctionText" text="{/#Correspondence/PartnerFunctionText/@sap:label}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{Description}" key="{StepKey}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="documentGroup" text="{/#Correspondence/DocumentGroup/@sap:label}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{DocumentGroup}" key="{StepKey}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="documentType" text="{/#Correspondence/DocumentType/@sap:label}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{DocumentType}" key="{StepKey}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="mimeType" text="{/#Correspondence/MimeType/@sap:label}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{MimeType}" key="{StepKey}" />
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

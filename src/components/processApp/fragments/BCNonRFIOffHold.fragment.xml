@@ -1,0 +1,27 @@
+<core:FragmentDefinition class="sapUiSizeCompact" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="aklc.cm.components.processApp.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Dialog title="{i18n>OffHoldTitle}" contentWidth="500px">
+		<content>
+			<layout:HorizontalLayout class="acklFooterActionTitleHL">
+				<core:Icon class="acklFooterActionTitlestatusIcon" src="sap-icon://letter"/>
+				<VBox class="acklFooterActionTitleVBox">
+					<Label text="{i18n>BCNonRFIOffHoldPopupMessage1}" design="Bold"/>
+					<Label text="{i18n>BCNonRFIOffHoldPopupMessage2}" design="Bold"/>
+					<!--R-UX-->
+					<!--<Label text="{i18n>BCNonRFIOffHoldPopupMessage3}" design="Bold"/>-->
+					<!--End R-UX-->
+				</VBox>
+			</layout:HorizontalLayout>
+		</content>
+		<buttons>
+			<!--R-UX enable uppload and template, can't work with IDs ->duplicate ID error use text for identification -->
+			<!--<Button icon="sap-icon://add" text="{i18n>TEMPLATE_TXT}" press=".onPSearchHelp" tooltip="{i18n>TEMPLATE_TXT}"/>-->
+			<!--<Button id="link" icon="sap-icon://add" text="Link existing Document" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>-->
+			<Button icon="sap-icon://add" text="{i18n>UPLOAD_TXT}" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>
+			<!-- end R-UX -->
+			<Button text="{i18n>Ok}" press="handleBCNonRFIOffHoldOk"/>
+			<Button text="{i18n>Cancel}" press="handleBCNonRFIOffHoldCancel"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

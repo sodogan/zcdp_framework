@@ -1,0 +1,91 @@
+<mvc:View xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:rich="sap.ui.richtexteditor" xmlns:mvc="sap.ui.core.mvc" controllerName="aklc.cm.components.notes.controller.Detail">
+    <form:Form class="editableForm" id="NOTES_FORM">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="6" labelSpanS="4" labelSpanM="6" emptySpanL="2" emptySpanM="2" emptySpanS="2"/>
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="typeLabel" text="{i18n>Type_Form}" class="formLabel" required="true"/>
+                            <ComboBox id="type" class="formLabel" placeholder="{i18n>SELECT_NOTE_TYPE}" selectedKey="{TextId}" selectionChange=".onValidateForm" editable="true" width="14.5rem">
+                                <core:Item id="typeItem" key="{TextId}" text="{TextType}"/>
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="priorityLabel" text="{i18n>Priority_Form}" class="formLabel" required="true"/>
+                            <ComboBox id="priority" placeholder="{i18n>SELECT_NOTE_PRIORITY}" selectedKey="{Impact}" selectionChange=".onValidateForm" class="formLabel" width="14.5rem">
+                                <core:Item id="impactItem" key="{Impact}" text="{Description}" tooltip="{Description}"/>
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="subjectLabel" text="{/#Notes/Subject/@sap:label}" class="formLabel" required="true"/>
+                            <Input id="subject" value="{Subject}" placeholder="{i18n>ENTER_NOTE_SUBJECT}" editable="true" class="formLabel" width="14.5rem" maxLength="40" liveChange="onSubjectLC" valueStateText="Maximum 40 Characters Allowed"/>
+                            
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="notesLabel" text="{i18n>Note}" class="formLabel" required="true"/>
+                            <TextArea id="notes" value="{path     : 'Text',                                                formatter: '.formatString'}" rows="6" width="19.5rem" growing="true" growingMaxLines="15"/>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{i18n>entry_date}" class="formLabel"/>
+                         <DatePicker id="entryDate" displayFormat="dd/MM/yyyy" dateValue="{DateSystem}" editable="false"/>
+
+
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{i18n>User}" class="formLabel"/>
+                            <Input id="createdBy" value="{UserName}" editable="false"/>
+
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text=""/>
+                            <commons:Button id="add" text="{i18n>UPDATE_BTN_TXT}" press=".onAdd" style="Emph" class="notesnextButton navigationButton " visible="true" tooltip="{i18n>UPDATE_BTN_TXT}"/>
+                            <commons:Button id="noteslog" text="{i18n>DISPLAY_NOTES_LOG}" press=".onPressApplicationID" style="Emph" class="notesnextButton navigationButton " visible="{path: 'Log', formatter: '.formatNotesLog'}" tooltip="{i18n>DISPLAY_NOTES_LOG}"/>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

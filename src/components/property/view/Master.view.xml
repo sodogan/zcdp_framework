@@ -1,0 +1,61 @@
+<mvc:View controllerName="aklc.cm.components.property.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <commons:Label text="{i18n>PRIMARY_PROPERTY}" class="formLabel" design="Bold" />
+    <commons:RowRepeater id="primaryProperties" design="Transparent" numberOfRows="20">
+        <commons:rows>
+            <layout:HorizontalLayout id="RowPrimaryTmpl" class="npcRowRepeat" visible="{PrimaryProperty}">
+                <commons:Image class="npcStatusBar"></commons:Image>
+                <layout:VerticalLayout>
+                    <commons:Label text="{/#AdditionalProperty/LegalDescription/@sap:label}" />
+                    <commons:TextView text="{LegalDescription}" width="10rem" wrapping="true" class="formLabel" design="Bold" />
+                </layout:VerticalLayout>
+                <layout:VerticalLayout>
+                    <commons:Label text="{/#AdditionalProperty/Address/@sap:label}" />
+                    <commons:TextView text="{Address}" width="15rem" wrapping="true" class="formLabel" design="Bold" />
+                </layout:VerticalLayout>
+                <layout:VerticalLayout>
+                    <commons:Label text="{/#AdditionalProperty/Owner/@sap:label}" />
+                    <commons:TextView text="{Owner}" width="9rem" wrapping="true" class="formLabel" design="Bold">
+                        <commons:tooltip>
+                            <commons:RichTooltip text="{Owner}" title="{i18n>MULTIPLE_OWNER_TXT}" />
+                        </commons:tooltip>
+                    </commons:TextView>
+                </layout:VerticalLayout>
+                <core:Icon src="sap-icon://decline" color="#FF0000" class="npcRowRepeatDelete" press="onDeleteRow" visible="false"></core:Icon>
+            </layout:HorizontalLayout>
+        </commons:rows>
+    </commons:RowRepeater>
+    <commons:Label text="{i18n>ADDITIONAL_PROPERTIES}" class="formLabel" design="Bold" />
+    <Button icon="sap-icon://add" class="npcRowRepeatToolBar" enabled="{vm>/CreateMode}" press=".onAddRow" tooltip="{i18n>ADD_NEW_PROPERTY}" type="Transparent" />
+    
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilters" tooltip="{i18n>RESET_FILTER}" type="Transparent" />
+    <ScrollContainer height="30rem" width="100%" horizontal="false" vertical="true" focusable="false">
+        <commons:RowRepeater id="additionalProperties" design="Transparent" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows>
+                <layout:HorizontalLayout id="RowAdditionalTmpl" class="npcRowRepeat" visible="{= !${PrimaryProperty} }">
+                    <commons:Image class="npcStatusBar"></commons:Image>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#AdditionalProperty/LegalDescription/@sap:label}" />
+                        <commons:TextView text="{LegalDescription}" width="10rem" wrapping="false" class="formLabel" design="Bold">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{LegalDescription}" title="{i18n>MULTIPLE_LEGAL_TXT}" />
+                            </commons:tooltip>
+                        </commons:TextView>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#AdditionalProperty/Address/@sap:label}" />
+                        <commons:TextView text="{Address}" width="15rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#AdditionalProperty/Owner/@sap:label}" />
+                        <commons:TextView text="{Owner}" width="9rem" wrapping="false" class="formLabel" design="Bold">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{Owner}" title="{i18n>MULTIPLE_OWNER_TXT}" />
+                            </commons:tooltip>
+                        </commons:TextView>
+                    </layout:VerticalLayout>
+                    <core:Icon src="sap-icon://decline" color="#FF0000" class="npcRowRepeatDelete" press="onDeleteRow" visible="true"></core:Icon>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

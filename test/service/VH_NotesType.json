@@ -1,0 +1,45 @@
+[{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Language" : "E",
+        "TextObject" : "CRM_ORDERH",
+        "TextId" : "0002",
+        "TextType" : "General note"
+     
+},
+{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Language" : "E",
+        "TextObject" : "CRM_ORDERH",
+        "TextId" : "0003",
+        "TextType" : "Fee note"
+      
+},
+{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Language" : "E",
+        "TextObject" : "CRM_ORDERH",
+        "TextId" : "S002",
+        "TextType" : "Monitoring note"
+     
+},
+{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Language" : "E",
+        "TextObject" : "CRM_ORDERH",
+        "TextId" : "Y008",
+        "TextType" : "Enforcement Note"
+     
+},
+{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Language" : "E",
+        "TextObject" : "CRM_ORDERH",
+        "TextId" : "Y004",
+        "TextType" : "Engineering Note"
+     
+}]

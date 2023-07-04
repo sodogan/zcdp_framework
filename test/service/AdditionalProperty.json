@@ -1,0 +1,50 @@
+[{
+    "StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBDUlMt",
+    "PropertyId": "158678",
+    "LegalDescription": "Lot 3 DP 3546764",
+    "LegalDescriptionLong": "Lot 3 DP 3546764, Lot 3 DP 3546764, Lot 3 DP 3546764, Lot 3 DP 3546764",
+    "Address": "14 Bright Terrrace, Grey Lynn, Auckland",
+    "Owner": "James Town",
+    "OwnerLong": "James Town, James Town, James Town, James Town",
+    "LotDPNo": "1234/L3546764",
+    "PrimaryProperty": true,
+    "DateAdded": "\/Date(1444003200000)\/",
+    "AddedBy": "Raj Govender"
+
+}, {
+    "StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBDUlMt",
+    "PropertyId": "158679",
+    "LegalDescription": "Lot 4 DP 3546768, Lot 4 DP 3546768, Lot 4 DP 3546768, Lot 4 DP 3546768",
+    "LegalDescriptionLong": "Lot 4 DP 3546768, Lot 4 DP 3546768, Lot 4 DP 3546768, Lot 4 DP 3546768",
+    "Address": "958-5354 Lorem Avenue",
+    "Owner": "James Brown",
+    "OwnerLong": "James Brown, James Brown, James Brown, James Brown",
+    "LotDPNo": "234/L233737",
+    "PrimaryProperty": false,
+    "DateAdded": "\/Date(1444003200000)\/",
+    "AddedBy": "Raj Govender"
+}, {
+    "StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBDUlMt",
+    "PropertyId": "158699",
+    "LegalDescription": "Lot 12 DP 3546764",
+    "LegalDescriptionLong": "Lot 12 DP 3546764, Lot 12 DP 3546764, Lot 12 DP 3546764, Lot 12 DP 3546764",
+    "Address": "Ap #636-6537 Justo St.",
+    "Owner": "Magaret Fisher",
+    "OwnerLong": "Magaret Fisher, Magaret Fisher, Magaret Fisher, Magaret Fisher",
+    "LotDPNo": "6634/L2546764",
+    "PrimaryProperty": false,
+    "DateAdded": "\/Date(1444003200000)\/",
+    "AddedBy": "Raj Govender"
+}, {
+    "StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjBDUlMt",
+    "PropertyId": "158888",
+    "LegalDescription": "Lot 234 DP sss",
+    "LegalDescriptionLong": "Lot 234 DP sss, Lot 234 DP sss, Lot 234 DP sss, Lot 234 DP sss",
+    "Address": "637-1589 Et Road",
+    "Owner": "Gordan Schumway",
+    "OwnerLong": "Gordan Schumway, Gordan Schumway, Gordan Schumway, Gordan Schumway",
+    "LotDPNo": "1244/L6646764",
+    "PrimaryProperty": false,
+    "DateAdded": "\/Date(1444003200000)\/",
+    "AddedBy": "Raj Govender"
+}]

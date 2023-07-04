@@ -1,0 +1,28 @@
+<core:FragmentDefinition class="sapUiSizeCompact"
+      xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+      xmlns="sap.m" xmlns:form="sap.ui.layout.form" 
+      controllerName="aklc.cm.components.processApp.controller.Main"
+      xmlns:html="http://www.w3.org/1999/xhtml">
+      <Dialog title="{i18n>EditHeader}" contentWidth="60%"  verticalScrolling="false">
+            <content>
+                <form:SimpleForm id="HeaderEditForm"
+                    editable="true"
+                    layout="ResponseGridLayout">
+                    <form:content>
+                      <Label  text="{i18n>WorkDescription}" design="Bold" textAlign="TextAlign.Left" required="true" width="70%">
+                        <layoutData>
+                          <layout:ResponsiveFlowLayoutData weight="4" margin="false">
+                          </layout:ResponsiveFlowLayoutData>
+                        </layoutData>
+                      </Label>
+                      <TextArea id="workdescriptionarea" growing="true" width="90%" valueLiveUpdate="true">
+                        <layoutData>
+                          <layout:ResponsiveFlowLayoutData weight="9">
+                          </layout:ResponsiveFlowLayoutData>
+                        </layoutData>
+                      </TextArea>
+                    </form:content>
+                </form:SimpleForm>
+            </content>
+      </Dialog>
+</core:FragmentDefinition>

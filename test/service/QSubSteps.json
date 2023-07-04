@@ -1,0 +1,48 @@
+[{
+
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+	"SubStep": "Section0000",
+	"Label": "Details",
+	"Active": true,
+	"Selected": false,
+	"Completed": "",
+	"Dirty": false,
+	"Visible": true
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+	"SubStep": "Section0001",
+	"Label": "PIM / PIC Non-Standard Issues",
+	"Active": true,
+	"Selected": false,
+	"Completed": "E",
+	"Dirty": false,
+	"Visible": true
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+	"SubStep": "Section0002",
+	"Label": "Means of Compliance",
+	"Active": true,
+	"Selected": false,
+	"Completed": "S",
+	"Dirty": false,
+	"Visible": true
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVU",
+	"SubStep": "Section0003",
+	"Label": "Heating Appliance",
+	"Active": true,
+	"Selected": false,
+	"Completed": "E",
+	"Dirty": false,
+	"Visible": true
+},
+{
+	 "StepKey" : "MDA1MDU2QkMwOUJEMUVENUI1RUE4MzE1OUJCODM0MjYsREVB",
+        "SubStep" : "Section0001",
+        "Label" : "Supervision (signature)",
+        "Active" : true,
+        "Selected" : false,
+        "Completed" : "",
+        "Dirty" : false,
+        "Visible" : true
+}]

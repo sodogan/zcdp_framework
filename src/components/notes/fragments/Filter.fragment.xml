@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="NotesFilters" confirm="onHandleConfirm" resetFilters="onResetFilter">
+        <filterItems>
+            <ViewSettingsFilterItem id="notesImpactFilter" text="{i18n>IMPACT_TXT}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{Description}" key="{Impact}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="notesTypeFilter" text="{i18n>TYPE_TXT}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{TextId}" key="{TextType}" />
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition> 

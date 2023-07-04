@@ -1,0 +1,43 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <TableSelectDialog id="transactionSearchDialog" noDataText="{i18n>NO_TRANSACTION_FOUND}" title="{i18n>TRANSACTION_SEARCH}" rememberSelections="false" contentWidth="70%" class="sapUiPopupWithPadding" search="_handleTransValueHelpSearch" liveChange="_handleTransValueHelpSearch" confirm="_handleValueHelpClose" cancel="_handleValueHelpClose">
+        <ColumnListItem>
+            <cells>
+                <ObjectIdentifier title="{ApplicationText}" />
+                <Text text="{TransactionTypeText}" />
+                <Text text="{StatusText}" />
+            </cells>
+        </ColumnListItem>
+        <columns>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>SUBJECT_TXT}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>DESCRIPTION_OF_WORK}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>CAT_TXT}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>PROPERTY_ADDR}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>REC_DATE}" />
+                </header>
+            </Column>
+            <Column minScreenWidth="Tablet" demandPopin="true" hAlign="Left">
+                <header>
+                    <Text text="{i18n>STATUS_TXT}" />
+                </header>
+            </Column>
+        </columns>
+    </TableSelectDialog>
+</core:FragmentDefinition>

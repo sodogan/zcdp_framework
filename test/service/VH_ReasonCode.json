@@ -1,0 +1,50 @@
+[
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "IHRD",
+    "ReasonText" : "Issue hearing decision",
+    "Duration" : 15
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "LNHR",
+    "ReasonText" : "Limited notified hearing",
+    "Duration" : 45
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "NNHR",
+    "ReasonText" : "Notification with no hearing",
+    "Duration" : 20
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "PNHR",
+    "ReasonText" : "Publicly notified hearing",
+    "Duration" : 75
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "SUPR",
+    "ReasonText" : "Submission period",
+    "Duration" : 20
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "AGAP",
+    "ReasonText" : "Applicant Agreement(S37A(4)(b)(ii))",
+    "Duration" : 0
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "AGAR",
+    "ReasonText" : "Applicant Agreement(S37A(5))",
+    "Duration" : 0
+  },
+  {
+    "StepKey" : "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+    "ReasonCode" : "SPCR",
+    "ReasonText" : "Special circumstances(S37A(4)(b)(i))",
+    "Duration" : 0
+  }
+]

@@ -1,0 +1,21 @@
+[{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Impact" : "10",
+        "Description" : "Normal"
+      
+},
+{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Impact" : "20",
+        "Description" : "Urgent"
+     
+},
+{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "Impact" : "30",
+        "Description" : "Critical"
+      
+}]

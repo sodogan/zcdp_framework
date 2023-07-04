@@ -1,0 +1,31 @@
+<mvc:View controllerName="aklc.cm.components.notes.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout"
+    xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <ScrollContainer height="30rem" width="100%" horizontal="false" vertical="true" focusable="false">
+        <Toolbar>
+            <SearchField search="onSearch" class="npcRowRepeatToolBar"/>
+            <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilter" type="Transparent" tooltip="{i18n>RESET_FILTER}"/>
+            <Button icon="sap-icon://add-filter" class="npcRowRepeatToolBar" press=".onFilter" type="Transparent" tooltip="{i18n>FILTER_LIST}"/>
+            <Button icon="sap-icon://refresh" class="npcRowRepeatToolBar" press=".onResetFilter" type="Transparent" enabled="{vm>/CreateMode}" tooltip="{i18n>REFRESH}"/>
+            <Button icon="sap-icon://add" class="npcRowRepeatToolBar" press=".onAddRow" type="Transparent" enabled="{vm>/CreateMode}"
+                tooltip="{i18n>ADD_NEW_NOTES}"/>
+        </Toolbar>
+        <commons:RowRepeater id="notes" design="Transparent" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows>
+                <layout:HorizontalLayout id="RowTemp" class="npcRowRepeat">
+                    <commons:Image class="npcStatusBar"></commons:Image>
+                    <layout:VerticalLayout>
+                        <commons:TextView text="{Subject}" width="18rem" wrapping="false" class="formLabel" design="Bold"/>
+                        <commons:TextView text="{path : 'Text', formatter: '.formatString'}" width="12rem" wrapping="false" class=" formLabel"/>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout id="TextTypeRow">
+                        <commons:TextView text="{ImpactDesc}" width="12rem" wrapping="false" class="formLabel" design="Bold"/>
+                        <commons:TextView text="{TextType}" width="12rem" wrapping="false" class="formLabel"/>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:TextView text="{ path : 'DateSystem', formatter: '.formatDate' }" width="5rem" wrapping="true" class="formLabel"/>
+                    </layout:VerticalLayout>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

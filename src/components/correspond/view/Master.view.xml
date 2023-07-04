@@ -1,0 +1,68 @@
+<mvc:View controllerName="aklc.cm.components.correspond.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilters" tooltip="{i18n>RESET_FILTER}" type="Transparent" />
+    <Button id="sort" icon="sap-icon://sort" class="npcRowRepeatToolBar" press=".onFilter" tooltip="{i18n>SORT_TXT}" type="Transparent" />
+    <Button id="filter" icon="sap-icon://filter" class="npcRowRepeatToolBar" press=".onFilter" tooltip="{i18n>FILTER_LIST}" type="Transparent" />
+    <Button icon="sap-icon://refresh" class="npcRowRepeatToolBar" press=".onRefresh" tooltip="{i18n>REFRESH_TXT}" type="Transparent" />
+    <Button id="template" icon="sap-icon://add" text="Template" class="npcRowRepeatToolBar" press=".onPSearchHelp" tooltip="{i18n>TEMPLATE_TXT}" />
+    <!-- <Button id="form" icon="sap-icon://add" text="Form" class="npcRowRepeatToolBar" press=".onPSearchHelp" tooltip="{i18n>FORM_TXT}" /> -->
+    <Button id="upload" icon="sap-icon://add" text="Upload" class="npcRowRepeatToolBar" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}" />
+    <ScrollContainer height="40rem" width="98%" horizontal="false" vertical="true" focusable="false">
+        <commons:RowRepeater id="correspondence" design="Standard" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows>
+                <layout:HorizontalLayout id="RowCorrespondenceTmpl" class="npcRowRepeat">
+                    <core:Icon src="{path: 'MimeType',
+                                     formatter: '.getIconFromMimeType'
+                                    }" color="{path: 'MimeType',
+                                     formatter: '.getIconColor'
+                                    }" class="npcMimeIcon" tooltip="{path: 'MimeType',
+                                     formatter: '.getIconTooltip'
+                                    }" />
+                    <layout:VerticalLayout>
+                        <commons:Link text="{FileName}" href="{__metadata/media_src}" target="_blank" class="formLabel" />
+                        <commons:TextView text="{Description}" width="24rem" wrapping="true" class="formLabel" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{PartnerFunctionText}" />
+                        <commons:TextView text="{PartnerName}" width="12rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#Correspondence/CreatedOn/@sap:label}">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{ parts: [{path: 'CreatedOn'}, {path: 'LegacyDate'},{path: 'ReceivedDate'}],
+                                               formatter: '.formatDates'
+                                            }" title="Dates" />
+                            </commons:tooltip>
+                        </commons:Label>
+                        <commons:TextView text="{ path: 'CreatedOn',
+                                               formatter: '.formatDate'
+                                            }" width="6rem" class="formLabel" design="Bold">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{ parts: [{path: 'CreatedOn'}, {path: 'LegacyDate'},{path: 'ReceivedDate'}],
+                                               formatter: '.formatDates'
+                                            }" title="Dates" />
+                            </commons:tooltip>
+                        </commons:TextView>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{DocumentGroup}" />
+                        <commons:TextView text="{DocumentType}" width="10rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#Correspondence/Author/@sap:label}" />
+                        <commons:TextView text="{Author}" width="14rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <core:Icon src="{path: 'AuthorisationScope',
+                                     formatter: '.getAuthorisationScopeIcon'
+                                    }" width="2rem" tooltip="{AuthorisationScope}" class="npcMimeIcon" color="#E94D4E" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <core:Icon src="{path: 'DocumentStatusText',
+                                     formatter: '.getDocumentStatusIcon'
+                                    }" width="3rem" tooltip="{DocumentStatusText}" class="npcMimeIcon" color="#297FA2" />
+                    </layout:VerticalLayout>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

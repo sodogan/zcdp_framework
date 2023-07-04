@@ -1,0 +1,92 @@
+<mvc:View controllerName="aklc.cm.components.sla.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="SLA_FORM" editable="true">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="4" labelSpanM="4" emptySpanL="4" emptySpanM="4" /> </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="reasonCodeLabel" text="{/#SlaExtensions/ReasonCode/@sap:label}" class="formLabel" required="true" />
+                            <ComboBox id="reasonCode" placeholder="{i18n>REASON_PLACEHOLDER}" selectedKey="{ReasonCode}" editable="false" selectionChange=".onSelectionChange">
+                                <core:Item id="reasonCodeTmpl" key="{ReasonCode}" text="{ReasonText} ({ReasonCode})" tooltip="{ReasonText} ({ReasonCode})" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#SlaExtensions/AdjustmentCode/@sap:label}" class="formLabel" />
+                            <ComboBox id="adjustmentCode" placeholder="{i18n>ADJUSTMENT_PLACEHOLDER}" selectedKey="{AdjustmentCode}" editable="false">
+                                <core:Item id="adjustCodeTmpl" key="{AdjustmentCode}" text="{AdjustmentText}" tooltip="{AdjustmentText}" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="durationLabel" text="{/#SlaExtensions/Duration/@sap:label}" required="true" class="formLabel" />
+                            <Input id="duration" editable="{vm>/Duration_Editable}" type="Number" valueLiveUpdate="true" liveChange=".onValidateForm" value="{
+                                    path:'Duration',
+                                    type: 'sap.ui.model.odata.type.Int16',
+                                    constraints: {
+                                        nullable: false,
+                                        maxlength: 4
+                                    }
+                                }" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="notesLabel" text="{/#SlaExtensions/Notes/@sap:label}" class="formLabel" required="true" />
+                            <TextArea id="notes" value="{Notes}" liveChange=".onValidateForm" cols="50" rows="5" placeholder="{i18n>NOTES_PLACEHOLDER}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#SlaExtensions/CreatedAt/@sap:label}" class="formLabel" />
+                            <DatePicker id="dateCreated" displayFormat="dd/MM/yyyy" dateValue="{CreatedAt}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#SlaExtensions/RequestedBy/@sap:label}" class="formLabel" />
+                            <Input id="createdBy" value="{RequestedBy}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" />
+                            <commons:Button id="add" text="{i18n>SAVE_BTN_TXT}" press=".onAdd" style="Emph" class="nextButton navButton" visible="{vm>/SaveBtn_Visible}" />
+                            <commons:Button id="update" text="{i18n>UPDATE_BTN_TXT}" press=".onUpdate" style="Emph" class="nextButton navButton" visible="{vm>/UpdateBtn_Visible}" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

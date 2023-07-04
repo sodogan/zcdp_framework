@@ -1,0 +1,126 @@
+<mvc:View controllerName="aklc.cm.components.checklist.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form"
+    xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+     <ScrollContainer id = "chkDetailScrollContainer" height="35rem" width="100%" horizontal="false" vertical="true" focusable="false" class="scrollBar">
+    <form:Form id="CHECKLIST_FORM" class="editableForm" editable="true">
+         <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout 
+                columnsM="1" columnsL="1" labelSpanL="2" labelSpanM="2" emptySpanL="2" emptySpanM="2" />
+        </form:layout>
+        <form:formContainers>
+                  <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="checklistStepNumberLabel" text="{i18n>CHECKLIST_STEP_NUMBER}" class="formLabel" />
+                            <Input value="{StepNo}" editable="false" class="formLabel"></Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="checklistDescriptionLabel" text="{i18n>CHECKLIST_STEP_DESC}" class="formLabel" />
+                            <Input value="{ChklstDescr}"  class="formLabel" showSuggestion="true" showValueHelp="true"   valueHelpRequest="handleChecklistDescVHEdit" editable="false"></Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+           <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement >
+                        <form:fields>
+                            <commons:Label id="chkempResponsibleLabel" text="{i18n>EMP_RESPONSIBLE}" class="formLabel" required="false"/>
+                            <Input id="inputEmpResponsible" value="{EmployeeResponsible}"  type="Text" placeholder="{i18n>EMP_RESP_PLACEHOLDER}" showSuggestion="true" showValueHelp="true"
+                             valueHelpRequest="handleEmpRespPSearchHelp" editable="false">
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+             <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="chkTeamResponsibleLabel" text="{i18n>TEAM_RESPONSIBLE}" class="formLabel" required="false"/>
+                            <Input id="inputTeamResponsible" value="{TeamResponsible}" type="Text" placeholder="{i18n>TEAM_RESP_PLACEHOLDR}" showSuggestion="true" showValueHelp="true"
+                                valueHelpRequest="handleTeamRespPSearchHelp" editable="false">
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="checklistStatusLabel" text="{i18n>CHECKLIST_STATUS}" class="formLabel" />
+                             <Select id="chklistStatDD" forceSelection="false" change="onChangeStatus"></Select>
+                            <!--  <Input value="{StepStatus}" editable="false" class="formLabel"></Input> -->
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+             <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="checklistOptLabel" text="{i18n>CHECKLIST_OPTION}" class="formLabel"/>
+                            <Select id="chklistOptDD" forceSelection="false" change="onChangeOption">
+                            </Select>
+                            <!--<Input value="{StepStatus}" editable="false" class="formLabel"></Input> -->
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="actStartDateLabel" text="{i18n>ACT_START_DATE}" class="formLabel" />
+                           <!--  <DatePicker id="actStartDate" displayFormat="dd/MM/yyyy" dateValue="{ActulStaDate}"  change="onDateChange"/> -->
+                            <DateTimePicker
+                            id="actStartDate"
+                            dateValue="{ActulStaDate}" valueFormat="dd/MM/yyyy-HH:mm" displayFormat="dd/MM/yyyy-HH:mm"
+                            class="sapUiSmallMarginBottom"/>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+           
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="actCompDateLabel" text="{i18n>ACT_COMP_DATE}" class="formLabel" />
+                      <!--       <DatePicker id="actCompDate" displayFormat="dd/MM/yyyy" dateValue="{ActulEndDate}"  change="onActEndDateChange" /> -->
+                            <DateTimePicker
+                            id="actCompDate"
+                            dateValue="{ActulEndDate}" valueFormat="dd/MM/yyyy-HH:mm" displayFormat="dd/MM/yyyy-HH:mm"
+                            class="sapUiSmallMarginBottom"/>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+           
+             <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" class="formLabel" />
+                            <commons:Button id="save" text="{i18n>SAVE_BTN_TEXT}" press="onSave" style="Emph" class="nextButton navButton buttonmargin"  visible="{vm>/SaveBtn_Visible}"/>
+                              <commons:Button id="update" text="{i18n>UPDATE_BTN_TEXT}" press="onUpdate" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/UpdateBtn_Visible}" />
+                              <commons:Button id="assign" text="{i18n>ASSIGN_BTN_TEXT}" press="handleAssignButton" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/AssignBtn_Visible}" />
+                             <commons:Button id="cancel" text="{i18n>CANCEL_BTN_TEXT}" press="onCancel" style="Emph" class="nextButton navButton buttonmargin" visible="{vm>/CancelBtn_Visible}" /> 
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+     
+ </ScrollContainer>
+</mvc:View>

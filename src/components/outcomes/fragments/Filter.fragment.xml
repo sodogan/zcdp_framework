@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <ViewSettingsDialog id="OutcomesFilters" confirm="onHandleConfirm" resetFilters="onResetFilter">
+        <filterItems>
+            <ViewSettingsFilterItem id="decisionCodeFilter" text="{i18n>DECISION_CODE_TXT}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{Description}" key="{DecisionCode}" />
+                </items>
+            </ViewSettingsFilterItem>
+            <ViewSettingsFilterItem id="decisionMakerFilter" text="{i18n>DECISION_MAKER_TXT}" multiSelect="false">
+                <items>
+                    <ViewSettingsItem text="{Description}" key="{DecisionMaker}" />
+                </items>
+            </ViewSettingsFilterItem>
+        </filterItems>
+    </ViewSettingsDialog>
+</core:FragmentDefinition>

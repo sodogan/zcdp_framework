@@ -1,0 +1,45 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+	"RecordId": "005056BC-09BD-1ED5-9ADC-220BFF23F420",
+	"Duration": 15,
+	"ReasonCode": "IHRD",
+	"RequestedBy": "Abhishek Periwal",
+	"CreatedAt": "\/Date(1444003200000)\/",
+	"Notes": "test",
+	"AdjustmentCode": "INCR",
+	"AdjustmentText": "Increase By",
+	"ReasonText": "Issue hearing decision"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+	"RecordId": "005056BC-09BD-1ED5-9ADC-241B25C63420",
+	"Duration": 20,
+	"ReasonCode": "SUPR",
+	"RequestedBy": "Abhishek Periwal",
+	"CreatedAt": "\/Date(1444003300000)\/",
+	"Notes": "decreased",
+	"AdjustmentCode": "DECR",
+	"AdjustmentText": "Decrease By",
+	"ReasonText": "Submission period"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+	"RecordId": "005056BC-09BD-1ED5-9ADC-241B25C63425",
+	"Duration": 75,
+	"ReasonCode": "PNHR",
+	"RequestedBy": "Abhishek Periwal",
+	"CreatedAt": "\/Date(1444003400000)\/",
+	"Notes": "decreased",
+	"AdjustmentCode": "INCR",
+	"AdjustmentText": "Increase By",
+	"ReasonText": "Publicly notified hearing"
+},{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlFODdERkM5MjZCMDc0MjQsU0xB",
+	"RecordId": "005056BC-09BD-1ED5-9ADC-520BFF23F620",
+	"Duration": 15,
+	"ReasonCode": "IHRD",
+	"RequestedBy": "Abhishek Periwal",
+	"CreatedAt": "\/Date(1444003500000)\/",
+	"Notes": "test",
+	"AdjustmentCode": "INCR",
+	"AdjustmentText": "Increase By",
+	"ReasonText": "Issue hearing decision"
+}]

@@ -1,0 +1,53 @@
+<core:FragmentDefinition class="sapUiSizeCompact" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:form="sap.ui.layout.form" controllerName="aklc.cm.components.processApp.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Dialog title="{i18n>OnHoldTitle}" contentWidth="800px">
+		<content>
+			<layout:HorizontalLayout class="acklFooterActionBCOnHoldTitleHL">
+				<core:Icon class="acklFooterActionTitleBCOnHoldstatusIcon" src="sap-icon://letter"/>
+				<VBox class="acklFooterActionBCOnHoldTitleVBox">
+					<Label text="{i18n>RFIPopupMessage1}" design="Bold"/>
+					<Text text="{i18n>RFIPopupMessage2}"/>
+					<Text text="{i18n>RFIPopupMessage3}"/>
+					<!--R-UX start -->
+					<!--<Text text="{i18n>RFIPopupMessage4}"/>-->
+					<!-- end R-UX -->
+				</VBox>
+			</layout:HorizontalLayout>
+			<Table items="{BCRFIReasons>/BCRFIReason}" width="auto" mode="SingleSelectMaster" showUnread="true" class="acklOnHoldTable">
+				<columns>
+					<Column>
+						<Text text="{i18n>OnHoldReason}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OnHoldDate}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>OnHoldTime}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem class="stepsTblCell acklOnHoldReason">
+						<cells>
+							<!--<Text text="{BCRFIReason>ReasonText}" /> -->
+							<ComboBox items="{BCRFIReasons>ReasonValues}" selectionChange="handleBCOnHoldSelectionChange">
+								<core:Item key="{BCRFIReasons>Reason}" text="{BCRFIReasons>ReasonText}" tooltip="{BCRFIReasons>ReasonText}"/>
+							</ComboBox>
+							<DatePicker displayFormat="dd/MM/yyyy" dateValue="{BCRFIReasons>OnHoldDate}" editable="true"/>
+							<Input value="{BCRFIReasons>OnHoldtTme}" maxLength="8" class="ackTimeInput"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</content>
+		<buttons>
+			<!--R-UX enable uppload and template, can't work with IDs ->duplicate ID error use text for identification -->
+			<!--<Button icon="sap-icon://add" text="{i18n>TEMPLATE_TXT}" press=".onPSearchHelp" tooltip="{i18n>TEMPLATE_TXT}"/>-->
+			<!--<Button id="link" icon="sap-icon://add" text="Link existing Document" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>-->
+			<Button icon="sap-icon://add" text="{i18n>UPLOAD_TXT}" press=".onLaunchURL" tooltip="{i18n>UPLOAD_TXT}"/>
+			<!-- end R-UX -->
+			<Button text="{i18n>Ok}" press="handleBCRFIReasonOk"/>
+			<Button text="{i18n>Cancel}" press="handleBCRFIReasonCancel"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>

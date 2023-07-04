@@ -1,0 +1,33 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionCode": "APO",
+	"Description": "Appeal Overturned"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionCode": "APP",
+	"Description": "Appeal Upheld in part"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionCode": "APU",
+	"Description": "Appeal Upheld"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RA",
+	"DecisionCode": "COM",
+	"Description": "Complete"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionCode": "DEC",
+	"Description": "Declined"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionCode": "GRT",
+	"Description": "Granted"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RA",
+	"DecisionCode": "ICP",
+	"Description": "Incomplete"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTlBOTREMkYwMUZFNDk0MjAsT1RD",
+	"DecisionCode": "WDN",
+	"Description": "Withdrawn"
+}]

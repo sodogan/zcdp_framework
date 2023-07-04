@@ -1,0 +1,83 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "aklc.cm.components.processApp",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"ach": "CA-UI5-DOC",
+		"dataSources": {
+			"processApi": {
+				"uri": "/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/",
+				"settings": {
+					"odataVersion": "2.0",
+					"type": "OData"
+				}
+			}
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": false
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.0.0",
+		"rootView": "aklc.cm.components.processApp.view.Main",
+		"resources": {
+			"css": [{
+				"uri": "css/ThreePanelViewer.css",
+				"id": "ThreePanelViewerCSS"
+			}, {
+				"uri": "css/VerticalNavigationBar.css",
+				"id": "VerticalNavigationBarCSS"
+			}]
+		},
+		"dependencies": {
+			"minUI5Version": "1.30",
+			"libs": {
+				"sap.m": {},
+				"sap.ui.layout": {},
+				"sap.ui.commons": {},
+				"sap.ui.ux3": {},
+				"aklc.cm.library.common": {}
+			}
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"uri": "i18n/i18n.properties"
+				}
+			},
+			"": {
+				"settings": {
+					"defaultBindingMode": "TwoWay",
+					"useBatch": true
+				},
+				"dataSource": "processApi"
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "aklc.cm.components.processApp.Router"
+			},
+			"routes": [{
+				"pattern": "",
+				"name": "empty"
+			}, {
+				"pattern": "process/{processkey}/step/{stepkey}",
+				"name": "process"
+			}]
+		}
+	}
+}

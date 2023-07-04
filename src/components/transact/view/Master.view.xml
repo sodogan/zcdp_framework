@@ -1,0 +1,31 @@
+<mvc:View controllerName="aklc.cm.components.transact.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Button icon="sap-icon://add" class="npcRowRepeatToolBar" enabled="{vm>/CreateMode}" press=".onAddRow" tooltip="{i18n>ADD_NEW_TRANSACTION}" type="Transparent" />
+    <Button icon="sap-icon://filter" class="npcRowRepeatToolBar" press=".onFilter" tooltip="{i18n>FILTER_LIST}" type="Transparent" />
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilters" tooltip="{i18n>RESET_FILTER}" type="Transparent" />
+    <ScrollContainer height="30rem" width="100%" horizontal="false" vertical="true" focusable="false">
+        <commons:RowRepeater id="relatedTransaction" design="Transparent" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows>
+                <layout:HorizontalLayout id="RowTransactionTmpl" class="npcRowRepeat">
+                    <commons:Image class="npcStatusBar"></commons:Image>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#RelatedTransaction/ApplicationText/@sap:label}" />
+                        <commons:TextView text="{ApplicationText}" width="8rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#RelatedTransaction/WorkDescription/@sap:label}" />
+                        <commons:TextView text="{WorkDescription}" width="16rem" wrapping="false" class="formLabel" design="Bold">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{WorkDescription}" title="{i18n>WORK_DESC}" />
+                            </commons:tooltip>
+                        </commons:TextView>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#RelatedTransaction/StatusText/@sap:label}" />
+                        <commons:TextView text="{StatusText}" width="8rem" wrapping="true" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <core:Icon src="sap-icon://decline" color="#FF0000" class="npcRowRepeatDelete" press="onDeleteRow" visible="true"></core:Icon>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

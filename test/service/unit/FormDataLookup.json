@@ -1,0 +1,49 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "MCOMBO",
+	"Key": "STM",
+	"Value": "Stream Work"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "MCOMBO",
+	"Key": "AAA",
+	"Value": "Additions & Alterations"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "MCOMBO",
+	"Key": "ACB",
+	"Value": "Accessory Building"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "COMBO",
+	"Key": "ACB",
+	"Value": "Accessory Building"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "COMBO",
+	"Key": "BAA",
+	"Value": "Business Activity - Alterations"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "COMBO",
+	"Key": "BAC",
+	"Value": "Change to existing business"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUTTONS",
+	"Key": "NO",
+	"Value": "No"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUTTONS",
+	"Key": "YES",
+	"Value": "Yes"
+}]

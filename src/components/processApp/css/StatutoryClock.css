@@ -1,0 +1,28 @@
+.donutWrap {
+	/*margin: 5px;*/
+	position: relative;
+	float:left;
+}
+.donutTitle1 {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	width: 20px;
+	top: 45px;
+	left: 65px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.donutTitle2 {
+	position: absolute;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+	top: 70px;
+	left: 45px;
+	width: 60px;
+	text-transform: uppercase;
+}

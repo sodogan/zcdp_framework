@@ -1,0 +1,19 @@
+<core:FragmentDefinition class="sapUiSizeCompact"
+	xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="aklc.cm.components.processApp.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<ResponsivePopover placement="Top" showHeader="false">
+		<content>
+			<!-- Action Sheet Buttons and this button will be loaded from back end based on the status -->
+			<List id="idActionSheetList" items="{ApplicationButtons>/ApplicationButtons/results}" class="ackActionSheetList">
+				<items>
+					<StandardListItem id="test" type="Active"
+						title="{ApplicationButtons>ButtonText}" icon="{ApplicationButtons>Icon}" info="{ApplicationButtons>ButtonId}"
+						tooltip="{ApplicationButtons>ButtonText}" press="onPressActionSheetOptions" class="
+						sapMSegBBtn" />
+					
+				</items> 
+			</List>
+		</content>
+	</ResponsivePopover>
+</core:FragmentDefinition>	

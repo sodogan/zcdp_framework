@@ -1,0 +1,219 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUTTONS2",
+	"Key": "NO",
+	"Value": "No"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUTTONS2",
+	"Key": "YES",
+	"Value": "Yes"
+}, 
+{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUTTONS3",
+	"Key": "NO",
+	"Value": "No"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUTTONS3",
+	"Key": "YES",
+	"Value": "Yes"
+},
+{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUILDING_CLASSIFICATION",
+	"Key": "ACPT",
+	"Value": "Accepted"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUILDING_CLASSIFICATION",
+	"Key": "INCOM",
+	"Value": "Incomplete"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "BUILDING_CLASSIFICATION",
+	"Key": "ACPT",
+	"Value": "Accepted"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "POOL_TYPE",
+	"Key": "ACB",
+	"Value": "Accessory Building"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "POOL_TYPE",
+	"Key": "BAA",
+	"Value": "Business Activity - Alterations"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "POOL_TYPE",
+	"Key": "BAC",
+	"Value": "Change to existing business"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "PROJECT_COMPLEXITY",
+	"Key": "BAN",
+	"Value": "Business Activity - New"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "PROJECT_COMPLEXITY",
+	"Key": "BIL",
+	"Value": "Billboard"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "PROJECT_COMPLEXITY",
+	"Key": "COU",
+	"Value": "Change of Use"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "RECEIVED_BY",
+	"Key": "CPK",
+	"Value": "Carpark"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "RECEIVED_BY",
+	"Key": "DAB",
+	"Value": "Drill or Alter Bore"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "RECEIVED_BY",
+	"Key": "DEM",
+	"Value": "Demolition"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "RECEIVING_OFFICE",
+	"Key": "DWG",
+	"Value": "Dwelling(s)"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "RECEIVING_OFFICE",
+	"Key": "EWN",
+	"Value": "Earthworks Non-Residential"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "RECEIVING_OFFICE",
+	"Key": "EWR",
+	"Value": "Earthworks Residential"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "STATS_NZ",
+	"Key": "MHU",
+	"Value": "Minor Household Unit"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "STATS_NZ",
+	"Key": "NWK",
+	"Value": "Network Utilities/Infrastructure"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "STATS_NZ",
+	"Key": "PBR",
+	"Value": "Pre 1987 Bores"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "STATS_NZ",
+	"Key": "QUY",
+	"Value": "Quarry"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "TYPE_OF_WORK",
+	"Key": "RLD",
+	"Value": "Relocatable Dwelling"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "TYPE_OF_WORK",
+	"Key": "SGN",
+	"Value": "Signs"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00001",
+	"Attribute": "TYPE_OF_WORK",
+	"Key": "SKY",
+	"Value": "Skylights/Solar Tubes"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FLOORING",
+	"Key": "STM",
+	"Value": "Stream Work"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FLOORING",
+	"Key": "AAA",
+	"Value": "Additions & Alterations"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FLOORING",
+	"Key": "ACB",
+	"Value": "Accessory Building sdsfnlksanfksanfnsafnsalknfsanfka"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FLOORING",
+	"Key": "BAA",
+	"Value": "Business Activity - Alterations"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FLOORING",
+	"Key": "BAC",
+	"Value": "Change to existing business"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FOUNDATION",
+	"Key": "BAN",
+	"Value": "Business Activity - New"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FOUNDATION",
+	"Key": "BIL",
+	"Value": "Billboard"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FOUNDATION",
+	"Key": "COU",
+	"Value": "Change of Use"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FOUNDATION",
+	"Key": "CPK",
+	"Value": "Carpark"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"SubStep": "00004",
+	"Attribute": "FOUNDATION",
+	"Key": "DAB",
+	"Value": "Drill or Alter Bore"
+}]

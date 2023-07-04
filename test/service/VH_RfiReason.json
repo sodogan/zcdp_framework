@@ -1,0 +1,13 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"Reason": "RFI",
+	"ReasonText": "Request For More Information"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"Reason": "S97",
+	"ReasonText": "Payment Request"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"Reason": "S35",
+	"ReasonText": "Insufficent Information"
+}]

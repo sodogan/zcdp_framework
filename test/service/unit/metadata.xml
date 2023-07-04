@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+        <edmx:DataServices m:DataServiceVersion="2.0">
+            <Schema Namespace="ZCDP_PROCESS_APP_SRV" xml:lang="en" sap:schema-version="1" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+                <EntityType Name="FormData" sap:content-version="1">
+                    <Key>
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="Attribute" />
+                    </Key>
+                    <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Attribute" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Attribute Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Required" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Enabled" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Visible" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Active" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Dirty" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Label" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Attribute Descriptio" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Type" Type="Edm.String" Nullable="false" sap:label="Data Type" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="ValuePath" Type="Edm.String" Nullable="false" sap:label="Value Path in Value structure" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Tooltip" Type="Edm.String" Nullable="false" sap:label="Tooltip for UI" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Placeholder" Type="Edm.String" Nullable="false" sap:label="Place Holder for UI" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="String" Type="Edm.String" Nullable="false" sap:label="COMBO/MCOMBO - Code lookup from ZTT_PNC_ATTRCHK" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Boolean" Type="Edm.Boolean" Nullable="false" sap:label="Boolean Variable (X=True, -=False, Space=Unknown)" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Date" Type="Edm.DateTime" Precision="7" sap:label="Date" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Number" Type="Edm.String" sap:label="Integer" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Currency" Type="Edm.Decimal" Precision="16" Scale="3" sap:label="Expected Sales Vol." sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Year" Type="Edm.String" MaxLength="4" sap:label="Fiscal Year" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Dependents" Type="Edm.String" Nullable="false" sap:label="Dependent Attributes" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="DependentsValue" Type="Edm.String" Nullable="false" MaxLength="512" sap:label="Attribute Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <NavigationProperty Name="FormDataLookup" Relationship="ZCDP_PROCESS_APP_SRV.FK_FormDataFormDataLookup" FromRole="FromRole_FK_FormDataFormDataLookup" ToRole="ToRole_FK_FormDataFormDataLookup" />
+                    <NavigationProperty Name="SubSteps" Relationship="ZCDP_PROCESS_APP_SRV.FK_SubStepFormData" FromRole="ToRole_FK_SubStepFormData" ToRole="FromRole_FK_SubStepFormData" />
+                </EntityType>
+                <EntityType Name="FormDataLookup" sap:content-version="1">
+                    <Key>
+                        <PropertyRef Name="StepKey" />
+                        <PropertyRef Name="SubStep" />
+                        <PropertyRef Name="Attribute" />
+                        <PropertyRef Name="Key" />
+                    </Key>
+                    <Property Name="StepKey" Type="Edm.String" Nullable="false" sap:label="Process Key" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="SubStep" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Group" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Attribute" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Attribute Name" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Key" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Lookup Value" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <Property Name="Value" Type="Edm.String" Nullable="false" MaxLength="120" sap:label="Description" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                    <NavigationProperty Name="FormData" Relationship="ZCDP_PROCESS_APP_SRV.FK_FormDataFormDataLookup" FromRole="ToRole_FK_FormDataFormDataLookup" ToRole="FromRole_FK_FormDataFormDataLookup" />
+                </EntityType>
+                <Association Name="FK_FormDataFormDataLookup" sap:content-version="1">
+                    <End Type="ZCDP_PROCESS_APP_SRV.FormData" Multiplicity="1" Role="FromRole_FK_FormDataFormDataLookup" />
+                    <End Type="ZCDP_PROCESS_APP_SRV.FormDataLookup" Multiplicity="*" Role="ToRole_FK_FormDataFormDataLookup" />
+                    <ReferentialConstraint>
+                        <Principal Role="FromRole_FK_FormDataFormDataLookup">
+                            <PropertyRef Name="Attribute" />
+                            <PropertyRef Name="SubStep" />
+                            <PropertyRef Name="StepKey" />
+                        </Principal>
+                        <Dependent Role="ToRole_FK_FormDataFormDataLookup">
+                            <PropertyRef Name="Attribute" />
+                            <PropertyRef Name="SubStep" />
+                            <PropertyRef Name="StepKey" />
+                        </Dependent>
+                    </ReferentialConstraint>
+                </Association>
+                <EntityContainer Name="ZCDP_PROCESS_APP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                    <EntitySet Name="FormData" EntityType="ZCDP_PROCESS_APP_SRV.FormData" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                    <EntitySet Name="FormDataLookup" EntityType="ZCDP_PROCESS_APP_SRV.FormDataLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1" />
+                    <AssociationSet Name="FK_FormDataFormDataLookup" Association="ZCDP_PROCESS_APP_SRV.FK_FormDataFormDataLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                        <End EntitySet="FormData" Role="FromRole_FK_FormDataFormDataLookup" />
+                        <End EntitySet="FormDataLookup" Role="ToRole_FK_FormDataFormDataLookup" />
+                    </AssociationSet>
+                </EntityContainer>
+                <atom:link rel="self" href="http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+                <atom:link rel="latest-version" href="http://vsapxd1ap1.aklc.govt.nz:8003/sap/opu/odata/sap/ZCDP_PROCESS_APP_SRV/$metadata" xmlns:atom="http://www.w3.org/2005/Atom" />
+            </Schema>
+        </edmx:DataServices>
+    </edmx:Edmx>

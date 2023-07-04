@@ -1,0 +1,21 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"ButtonId": "ACCEPT",
+	"Icon": "sap-icon://accept",
+	"ButtonText": "Accept"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"ButtonId": "REJECT",
+	"Icon": "sap-icon://decline",
+	"ButtonText": "Reject"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"ButtonId": "ONHOLD",
+	"Icon": "sap-icon://pause",
+	"ButtonText": "On Hold"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREVU",
+	"ButtonId": "OFFHOLD",
+	"Icon": "sap-icon://pause",
+	"ButtonText": "Off Hold"
+}]

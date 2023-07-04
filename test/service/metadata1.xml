@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema Namespace="ODataDemo" xml:lang="en" sap:schema-version="0000" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+            <EntityType Name="Process" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ProcessKey" />
+                </Key>
+                <Property Name="ProcessKey" Type="Edm.String" Nullable="false" />
+                <Property Name="Title" Type="Edm.String" />
+                <NavigationProperty Name="Steps" Relationship="ODataDemo.FK_ProcessSteps" FromRole="FromRole_ProcessSteps" ToRole="ToRole_ProcessSteps" />
+                <NavigationProperty Name="AssignedPartners" Relationship="ODataDemo.FK_ProcessAssignedPartners" FromRole="FromRole_ProcessAssignedPartners" ToRole="ToRole_ProcessAssignedPartners" />
+            </EntityType>
+            <EntityType Name="Steps" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ProcessKey" />
+                    <PropertyRef Name="StepKey" />
+                </Key>
+                <Property Name="ProcessKey" Type="Edm.String" Nullable="false" />
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" />
+                <Property Name="Title" Type="Edm.String" />
+                <Property Name="Icon" Type="Edm.String" />
+                <Property Name="Component" Type="Edm.String" />
+                <Property Name="Active" Type="Edm.Boolean" />
+                <Property Name="Current" Type="Edm.Boolean" />
+                <NavigationProperty Name="Fields" Relationship="ODataDemo.FK_StepsFields" FromRole="FromRole_StepsFields" ToRole="ToRole_StepsFields" />
+            </EntityType>
+            <EntityType Name="Fields" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="StepKey" />
+                    <PropertyRef Name="Attribute" />
+                </Key>
+                <Property Name="StepKey" Type="Edm.String" Nullable="false" />
+                <Property Name="Attribute" Type="Edm.String" Nullable="false" />
+                <Property Name="Label" Type="Edm.String" />
+                <Property Name="Type" Type="Edm.String" />
+                <Property Name="Value" Type="Edm.String" />
+                <Property Name="Placeholder" Type="Edm.String" />
+                <Property Name="Required" Type="Edm.Boolean" />
+                <NavigationProperty Name="Lookup" Relationship="ODataDemo.FK_FieldsLookup" FromRole="FromRole_FieldsLookup" ToRole="ToRole_FieldsLookup" />
+            </EntityType>
+            <EntityType Name="Lookup">
+                <Key>
+                    <PropertyRef Name="Attribute" />
+                    <PropertyRef Name="Key" />
+                </Key>
+                <Property Name="Attribute" Type="Edm.String" Nullable="false" />
+                <Property Name="Key" Type="Edm.String" Nullable="false" />
+                <Property Name="Value" Type="Edm.String" Nullable="false" />
+            </EntityType>
+            <EntityType Name="Conditions" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Key" />
+                </Key>
+                <Property Name="Key" Type="Edm.String" Nullable="false" />
+                <Property Name="Title" Type="Edm.String" Nullable="false" />
+                <Property Name="Group" Type="Edm.String" />
+                <Property Name="Text" Type="Edm.String" />
+                <Property Name="ValidFrom" Type="Edm.String" />
+                <Property Name="ValidTo" Type="Edm.String" />
+                <Property Name="Final" Type="Edm.String" />
+            </EntityType>
+            <EntityType Name="AssignedPartners" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Guid" />
+                </Key>
+                <Property Name="Guid" Type="Edm.Guid" Nullable="false" sap:label="Object GUID" sap:updatable="false" sap:sortable="false" sap:filterable="false" />
+                <Property Name="ProcessKey" Type="Edm.String" Nullable="false" />
+                <Property Name="PartnerFunctionCode" Type="Edm.Int32" Nullable="false" />
+                <Property Name="PartnerNumber" Type="Edm.Int32" />
+                <Property Name="ValidFrom" Type="Edm.DateTime" Nullable="false" />
+                <Property Name="ValidTo" Type="Edm.DateTime" Nullable="false" />
+                <Property Name="Readonly" Type="Edm.Boolean" Nullable="false" />
+                <Property Name="Mandatory" Type="Edm.Boolean" Nullable="false" />
+                <Property Name="Unassigned" Type="Edm.Boolean" Nullable="false" />
+                <NavigationProperty Name="Partners" Relationship="ODataDemo.FK_AssignedPartnersPartners" FromRole="AssignedPartners" ToRole="Partners" />
+                <NavigationProperty Name="PartnerFunctions" Relationship="ODataDemo.FK_AssignedPartnersPartnerFunctions" FromRole="AssignedPartners2" ToRole="PartnerFunctions" />
+            </EntityType>
+            <EntityType Name="Partners" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="PartnerNumber" />
+                </Key>
+                <Property Name="PartnerNumber" Type="Edm.Int32" />
+                <Property Name="FirstName" Type="Edm.String" />
+                <Property Name="LastName" Type="Edm.String" />
+                <Property Name="Company" Type="Edm.String" />
+                <Property Name="Address1" Type="Edm.String" />
+                <Property Name="Address2" Type="Edm.String" />
+                <Property Name="City" Type="Edm.String" />
+                <Property Name="State" Type="Edm.String" />
+                <Property Name="PostCode" Type="Edm.String" />
+                <Property Name="Country" Type="Edm.String" />
+                <Property Name="Telephone" Type="Edm.String" />
+                <Property Name="Email" Type="Edm.String" />
+                <NavigationProperty Name="PartnerRelations" Relationship="ODataDemo.FK_PartnersPartnerRelations" FromRole="Partners" ToRole="PartnerRelations" />
+            </EntityType>
+            <EntityType Name="PartnerRelations" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="PartnerNumber" />
+                    <PropertyRef Name="PartnerFunctionCode" />
+                </Key>
+                <Property Name="PartnerNumber" Type="Edm.Int32" />
+                <Property Name="PartnerFunctionCode" Type="Edm.Int32" Nullable="false" />
+                <NavigationProperty Name="Partners" Relationship="ODataDemo.FK_PartnerRelationsPartners" FromRole="FromRole_PartnerRelationsPartners" ToRole="ToRole_PartnerRelationsPartners" />
+            </EntityType>
+            <EntityType Name="PartnerFunctions" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="PartnerFunctionCode" />
+                </Key>
+                <Property Name="PartnerFunctionCode" Type="Edm.Int32" Nullable="false" />
+                <Property Name="Description" Type="Edm.String" />
+                <Property Name="CountLow" Type="Edm.Int16" Nullable="false" sap:label="No. of occurrences" />
+                <Property Name="CountHigh" Type="Edm.Int16" Nullable="false" sap:label="No. of occurrences" />
+                <Property Name="TransactionType" Type="Edm.String" MaxLength="4" />
+                <NavigationProperty Name="PartnerRelations" Relationship="ODataDemo.FK_PartnerFunctionsPartnerRelations" FromRole="FromRole_PartnerFunctionsPartnerRelations" ToRole="ToRole_PartnerFunctionsPartnerRelations" />
+            </EntityType>
+            <EntityType Name="PartnerFunctionFilters" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="Key" />
+                </Key>
+                <Property Name="Type" Type="String" />
+                <Property Name="Key" Type="String" Nullable="false" />
+            </EntityType>
+            <Association Name="FK_ProcessSteps">
+                <End Type="ODataDemo.Process" Multiplicity="1" Role="FromRole_ProcessSteps" />
+                <End Type="ODataDemo.Steps" Multiplicity="*" Role="ToRole_ProcessSteps" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_ProcessSteps">
+                        <PropertyRef Name="ProcessKey" />
+                    </Principal>
+                    <Dependent Role="ToRole_ProcessSteps">
+                        <PropertyRef Name="ProcessKey" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_StepsFields">
+                <End Type="ODataDemo.Steps" Multiplicity="1" Role="FromRole_StepsFields" />
+                <End Type="ODataDemo.Fields" Multiplicity="*" Role="ToRole_StepsFields" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_StepsFields">
+                        <PropertyRef Name="StepKey" />
+                    </Principal>
+                    <Dependent Role="ToRole_StepsFields">
+                        <PropertyRef Name="StepKey" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_FieldsLookup">
+                <End Type="ODataDemo.Fields" Multiplicity="1" Role="FromRole_FieldsLookup" />
+                <End Type="ODataDemo.Lookup" Multiplicity="*" Role="ToRole_FieldsLookup" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_FieldsLookup">
+                        <PropertyRef Name="Attribute" />
+                    </Principal>
+                    <Dependent Role="ToRole_FieldsLookup">
+                        <PropertyRef Name="Attribute" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_PartnersPartnerRelations">
+                <End Type="ODataDemo.Partners" Multiplicity="1" Role="Partners" />
+                <End Type="ODataDemo.PartnerRelations" Multiplicity="1" Role="PartnerRelations" />
+                <ReferentialConstraint>
+                    <Principal Role="Partners">
+                        <PropertyRef Name="PartnerNumber" />
+                    </Principal>
+                    <Dependent Role="PartnerRelations">
+                        <PropertyRef Name="PartnerNumber" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_PartnerRelationsPartners">
+                <End Type="ODataDemo.PartnerRelations" Multiplicity="1" Role="FromRole_PartnerRelationsPartners" />
+                <End Type="ODataDemo.Partners" Multiplicity="1" Role="ToRole_PartnerRelationsPartners" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_PartnerRelationsPartners">
+                        <PropertyRef Name="PartnerNumber" />
+                    </Principal>
+                    <Dependent Role="ToRole_PartnerRelationsPartners">
+                        <PropertyRef Name="PartnerNumber" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_PartnerFunctionsPartnerRelations">
+                <End Type="ODataDemo.PartnerFunctions" Multiplicity="1" Role="FromRole_PartnerFunctionsPartnerRelations" />
+                <End Type="ODataDemo.PartnerRelations" Multiplicity="*" Role="ToRole_PartnerFunctionsPartnerRelations" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_PartnerFunctionsPartnerRelations">
+                        <PropertyRef Name="PartnerFunctionCode" />
+                    </Principal>
+                    <Dependent Role="ToRole_PartnerFunctionsPartnerRelations">
+                        <PropertyRef Name="PartnerFunctionCode" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_AssignedPartnersPartners">
+                <End Type="ODataDemo.AssignedPartners" Multiplicity="1" Role="AssignedPartners" />
+                <End Type="ODataDemo.Partnera" Multiplicity="1" Role="Partners" />
+                <ReferentialConstraint>
+                    <Principal Role="AssignedPartners">
+                        <PropertyRef Name="PartnerNumber" />
+                    </Principal>
+                    <Dependent Role="Partners">
+                        <PropertyRef Name="PartnerNumber" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_ProcessAssignedPartners">
+                <End Type="ODataDemo.Process" Multiplicity="1" Role="FromRole_ProcessAssignedPartners" />
+                <End Type="ODataDemo.AssignedPartners" Multiplicity="*" Role="ToRole_ProcessAssignedPartners" />
+                <ReferentialConstraint>
+                    <Principal Role="FromRole_ProcessAssignedPartners">
+                        <PropertyRef Name="ProcessKey" />
+                    </Principal>
+                    <Dependent Role="ToRole_ProcessAssignedPartners">
+                        <PropertyRef Name="ProcessKey" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <Association Name="FK_AssignedPartnersPartnerFunctions">
+                <End Type="ODataDemo.AssignedPartners" Multiplicity="1" Role="AssignedPartners2" />
+                <End Type="ODataDemo.PartnerFunctions" Multiplicity="1" Role="PartnerFunctions" />
+                <ReferentialConstraint>
+                    <Principal Role="AssignedPartners2">
+                        <PropertyRef Name="PartnerFunctionCode" />
+                    </Principal>
+                    <Dependent Role="PartnerFunctions">
+                        <PropertyRef Name="PartnerFunctionCode" />
+                    </Dependent>
+                </ReferentialConstraint>
+            </Association>
+            <EntityContainer Name="DemoService" m:IsDefaultEntityContainer="true">
+                <EntitySet Name="Process" EntityType="ODataDemo.Process" sap:content-version="1" />
+                <EntitySet Name="Steps" EntityType="ODataDemo.Steps" sap:content-version="1" />
+                <EntitySet Name="Fields" EntityType="ODataDemo.Fields" sap:content-version="1" />
+                <EntitySet Name="Lookup" EntityType="ODataDemo.Lookup" sap:content-version="1" />
+                <EntitySet Name="Conditions" EntityType="ODataDemo.Conditions" sap:content-version="1" />
+                <EntitySet Name="AssignedPartners" EntityType="ODataDemo.AssignedPartners" sap:content-version="1" />
+                <EntitySet Name="Partners" EntityType="ODataDemo.Partners" sap:content-version="1" />
+                <EntitySet Name="PartnerRelations" EntityType="ODataDemo.PartnerRelations" sap:content-version="1" />
+                <EntitySet Name="PartnerFunctions" EntityType="ODataDemo.PartnerFunctions" sap:content-version="1" />
+                <EntitySet Name="PartnerFunctionFilters" EntityType="ODataDemo.PartnerFunctionFilters" sap:content-version="1" />
+                <AssociationSet Name="FK_ProcessSteps_Assoc" Association="ODataDemo.FK_ProcessSteps" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Process" Role="FromRole_ProcessSteps" />
+                    <End EntitySet="Steps" Role="ToRole_ProcessSteps" />
+                </AssociationSet>
+                <AssociationSet Name="FK_StepsFields_Assoc" Association="ODataDemo.FK_StepsFields" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Steps" Role="FromRole_StepsFields" />
+                    <End EntitySet="Fields" Role="ToRole_StepsFields" />
+                </AssociationSet>
+                <AssociationSet Name="FK_FieldsLookup_Assoc" Association="ODataDemo.FK_FieldsLookup" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Fields" Role="FromRole_FieldsLookup" />
+                    <End EntitySet="Lookup" Role="ToRole_FieldsLookup" />
+                </AssociationSet>
+                <AssociationSet Name="FK_PartnersPartnerRelations_Assoc" Association="ODataDemo.FK_PartnersPartnerRelations" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Partners" Role="Partners" />
+                    <End EntitySet="PartnerRelations" Role="PartnerRelations" />
+                </AssociationSet>
+                <AssociationSet Name="FK_PartnerRelationsPartners_Assoc" Association="ODataDemo.FK_PartnerRelationsPartners" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="PartnerRelations" Role="FromRole_PartnerRelationsPartners" />
+                    <End EntitySet="Partners" Role="ToRole_PartnerRelationsPartners" />
+                </AssociationSet>
+                <AssociationSet Name="FK_PartnerFunctionsPartnerRelations_Assoc" Association="ODataDemo.FK_PartnerFunctionsPartnerRelations" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="PartnerFunctions" Role="FromRole_PartnerFunctionsPartnerRelations" />
+                    <End EntitySet="PartnerRelations" Role="ToRole_PartnerFunctionsPartnerRelations" />
+                </AssociationSet>
+                <AssociationSet Name="FK_ProcessAssignedPartners_Assoc" Association="ODataDemo.FK_ProcessAssignedPartners" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="Process" Role="FromRole_ProcessAssignedPartners" />
+                    <End EntitySet="AssignedPartners" Role="ToRole_ProcessAssignedPartners" />
+                </AssociationSet>
+                <AssociationSet Name="FK_AssignedPartnersPartners_Assoc" Association="ODataDemo.FK_AssignedPartnersPartners" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="AssignedPartners" Role="AssignedPartners" />
+                    <End EntitySet="Partners" Role="Partners" />
+                </AssociationSet>
+                <AssociationSet Name="FK_AssignedPartnersPartnerFunctions_Assoc" Association="ODataDemo.FK_AssignedPartnersPartnerFunctions" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+                    <End EntitySet="AssignedPartners" Role="AssignedPartners2" />
+                    <End EntitySet="PartnerFunctions" Role="PartnerFunctions" />
+                </AssociationSet>
+            </EntityContainer>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

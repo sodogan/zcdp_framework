@@ -1,0 +1,28 @@
+<mvc:View  xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <!-- <unified:SplitContainer id="splitContainer" showSecondaryContent="true" secondaryContentSize="610px">
+        <unified:content>
+            <mvc:XMLView viewName="aklc.cm.components.checklist.view.Detail" />
+        </unified:content>
+        <unified:secondaryContent>
+            <mvc:XMLView viewName="aklc.cm.components.checklist.view.Master" />
+        </unified:secondaryContent>
+    </unified:SplitContainer> -->
+ 
+    <!-- <SplitApp id="checklistSplitContainer">
+		<masterPages>
+			<mvc:XMLView id="master" viewName="aklc.cm.components.checklist.view.Master"/>
+		</masterPages>
+		<detailPages>
+			<mvc:XMLView id="detail" viewName="aklc.cm.components.checklist.view.Detail"/>
+		</detailPages>
+	</SplitApp> -->
+	<SplitContainer id="checklistSplitContainer">
+		<masterPages>
+			<mvc:XMLView id="master" viewName="aklc.cm.components.checklist.view.Master"/>
+		</masterPages>
+		<detailPages>
+			<mvc:XMLView id="detail" viewName="aklc.cm.components.checklist.view.Detail"/>
+		</detailPages>
+	</SplitContainer>
+
+</mvc:View>

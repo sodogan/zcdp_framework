@@ -1,0 +1,63 @@
+[{
+  
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "TextObject" : "CRM_ORDERH",
+        "TextName" : "005056BC09BD1ED5A3CF616442FAF424",
+        "TextId" : "0002",
+        "Language" : "EN",
+        "TextType" : "General note",
+        "Impact" : "10",
+        "ImpactDesc" : "Normal",
+        "UserName" : "F013722",
+        "DateSystem" : "\/Date(1444003200000)\/",
+        "Subject" : "BCO00002572",
+        "Text" : "<HTML><HEAD><TITLE>X</TITLE></HEAD><BODY><P>tst</P></BODY></HTML>",
+        "MigratedFlag" : false
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "TextObject" : "CRM_ORDERH",
+        "TextName" : "005056BC09BD1ED5A3CF68B0533CF424",
+        "TextId" : "S002",
+        "Language" : "EN",
+        "TextType" : "Monitoring note",
+        "Impact" : "30",
+        "ImpactDesc" : "Critical",
+        "UserName" : "F013722",
+        "DateSystem" : "\/Date(1144003200000)\/", 
+        "Subject" : "8700002572",
+        "Text" : "<HTML><HEAD><TITLE>X</TITLE></HEAD><BODY><P>This transaction is created as a follow up</P></BODY></HTML>",
+        "MigratedFlag" : true
+      },
+      {
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "TextObject" : "CRM_ORDERH",
+        "TextName" : "005056BC09BD1ED58BFE0C9546519420",
+        "TextId" : "Y008",
+        "Language" : "EN",
+        "TextType" : "Enforcement Note",
+        "Impact" : "20",
+        "ImpactDesc" : "Urgent",
+        "UserName" : "F013722",
+        "DateSystem" :"\/Date(1244003200000)\/", 
+        "Subject" : "WOF20000105",
+        "Text" : "<HTML><HEAD><TITLE>X</TITLE></HEAD><BODY><P>This related transaction is added manualy</P></BODY></HTML>",
+        "MigratedFlag" : false,
+        "Log" : "X"
+      },
+      {
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0Mjasdfgh",
+        "TextObject" : "CRM_ORDERH",
+        "TextName" : "005056BC09BD1ED5B1AD94886334F424",
+        "TextId" : "Y004",
+        "Language" : "EN",
+        "TextType" : "Engineering Note",
+        "Impact" : "10",
+        "ImpactDesc" : "Normal",
+        "UserName" : "F013722",
+        "DateSystem" : "\/Date(1423003200000)\/", 
+        "Subject" : "BCO00002572",
+        "Text" : "<HTML><HEAD><TITLE>X</TITLE></HEAD><BODY><P>tst</P></BODY></HTML>",
+        "MigratedFlag" : true
+      }]

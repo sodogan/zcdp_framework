@@ -1,0 +1,42 @@
+<mvc:View controllerName="aklc.cm.components.parties.controller.Master" xmlns:mvc="sap.ui.core.mvc" xmlns:layout="sap.ui.layout" xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:commons="sap.ui.commons" xmlns:html="http://www.w3.org/1999/xhtml">
+    <Button icon="sap-icon://add" class="npcRowRepeatAdd" press=".onAddRow" type="Transparent" enabled="{vm>/CreateMode}" tooltip="{i18n>ADD_ROW}" />
+    <Button icon="sap-icon://map" id="gis" text="{i18n>GIS}" class="npcRowRepeatAdd" press=".onAddGIS" type="Accept" enabled="{vm>/CreateMode}" tooltip="{i18n>ADD_GIS}" />
+    <Button icon="sap-icon://filter" class="npcRowRepeatToolBar" press=".onFilter" tooltip="{i18n>FILTER_LIST}" type="Transparent" />
+    <Button icon="sap-icon://undo" class="npcRowRepeatToolBar" press=".onResetFilter" tooltip="{i18n>RESET_FILTER}" type="Transparent" />
+    <Button icon="sap-icon://refresh" class="npcRowRepeatToolBar" press=".onResetFilter" type="Transparent" tooltip="{i18n>REFRESH}" />
+    <ScrollContainer height="30rem" width="100%" horizontal="false" vertical="true" focusable="false">
+        <commons:RowRepeater id="parties" design="Transparent" numberOfRows="50" sort=".rowRepeatSort">
+            <commons:rows title="{i18n>FILTER_TITLE}">
+                <layout:HorizontalLayout id="RowTemp" class="npcRowRepeat">
+                    <commons:Image class="npcStatusBar"></commons:Image>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{PartyTypeText}" />
+                        <commons:TextView text="{PartnerFullName}" width="8rem" class="formLabel" wrapping="false" design="Bold">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{PartnerFullName}" title="{PartyTypeText}" />
+                            </commons:tooltip>
+                        </commons:TextView>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#AffectedParties/PropertyAddress/@sap:label}" />
+                        <commons:TextView text="{PropertyAddress}" width="15rem" class="formLabel" wrapping="false" design="Bold">
+                            <commons:tooltip>
+                                <commons:RichTooltip text="{PropertyAddress}" title="{/#AffectedParties/PropertyAddress/@sap:label}" />
+                            </commons:tooltip>
+                        </commons:TextView>
+                    </layout:VerticalLayout>
+                    <layout:VerticalLayout>
+                        <commons:Label text="{/#AffectedParties/ResponseType/@sap:label}" />
+                        <commons:TextView text="{ResponseText}" width="6rem" class="formLabel" design="Bold" />
+                    </layout:VerticalLayout>
+                    <core:Icon src="{ path : 'FromGIS' , 
+                                      formatter: '.VisibilityFromGIS'
+                    }" width="1.8rem" color="#007833" class="npcRowRepeatDelete"></core:Icon>
+                    <core:Icon src="{ path : 'CanBeDeleted' , 
+                                      formatter: '.VisibilityOnDelete'
+                    }" class="npcRowRepeatDelete" color="#FF0000" press="onDeleteRow"></core:Icon>
+                </layout:HorizontalLayout>
+            </commons:rows>
+        </commons:RowRepeater>
+    </ScrollContainer>
+</mvc:View>

@@ -1,0 +1,21 @@
+<core:FragmentDefinition class="sapUiSizeCompact"
+	xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"  xmlns:form="sap.ui.layout.form" controllerName="aklc.cm.components.processApp.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Dialog title="{i18n>Rejecttitle}" contentWidth="500px">
+		<content>
+		<layout:HorizontalLayout class="acklFooterActionTitleHL">
+			<core:Icon class="acklFooterActionTitlestatusIcon" src="sap-icon://letter" />
+			<VBox class="acklFooterActionTitleVBox">
+			<Label text="{i18n>RejectConfirmationPopupMessage1}" design="Bold"/>
+			<Text text="{i18n>RejectConfirmationPopupMessage2}"/>
+			<Text text="{i18n>RejectConfirmationPopupMessage3}" />
+			</VBox>
+		</layout:HorizontalLayout>
+		</content>
+		<buttons>
+			<Button text="{i18n>Ok}" press="handleRejectOk"/>
+			<Button text="{i18n>Cancel}" press="handleRejectCancel"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>	

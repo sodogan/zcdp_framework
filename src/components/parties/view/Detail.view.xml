@@ -1,0 +1,126 @@
+<mvc:View controllerName="aklc.cm.components.parties.controller.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:commons="sap.ui.commons" xmlns:mvc="sap.ui.core.mvc">
+    <form:Form class="editableForm" id="PARTIES_FORM" editable="true">
+        <form:title>
+        </form:title>
+        <form:layout>
+            <form:ResponsiveGridLayout columnsM="1" columnsL="1" labelSpanL="2" labelSpanM="2" emptySpanL="2" emptySpanM="2" />
+        </form:layout>
+        <form:formContainers>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="partnerSearchLabel" text="{/#AffectedParties/PartnerFullName/@sap:label}" class="formLabel" required="true" />
+                            <Input id="partnerSearch" value="{PartnerFullName}" liveChange=".cancelKeyPress" valueLiveUpdate="true" placeholder="{i18n>PS_PLACEHOLDER_TEXT}" showValueHelp="true" suggestionItemSelected=".getNameDetails" valueHelpRequest=".handlePSearchHelp" editable="false">
+                            <suggestionItems>
+                                <core:Item text="{PartnerFullName}" />
+                            </suggestionItems>
+                            <tooltip>
+                                <commons:RichTooltip text="{PartnerFullName}" title="{/#AffectedParties/PartnerFullName/@sap:label}" />
+                            </tooltip>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AffectedParties/PartyType/@sap:label}" class="formLabel" required="false" />
+                            <Input id="partyTypeText" value="{PartyTypeText}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AffectedParties/LegalDescription/@sap:label}" class="formLabel" required="false" />
+                            <Input id="legalDescription" value="{LegalDescription}" editable="false">
+                            <tooltip>
+                                <commons:RichTooltip text="{LegalDescription}" title="{/#AffectedParties/LegalDescription/@sap:label}" />
+                            </tooltip>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AffectedParties/PropertyAddress/@sap:label}" class="formLabel" />
+                            <Input id="propertyAddress" value="{PropertyAddress}" editable="false" class="formLabel">
+                            <tooltip>
+                                <commons:RichTooltip text="{PropertyAddress}" title="{/#AffectedParties/PropertyAddress/@sap:label}" />
+                            </tooltip>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="{/#AffectedParties/MailingAddress/@sap:label}" class="formLabel" />
+                            <Input id="mailingAddress" value="{MailingAddress}" editable="false">
+                            <tooltip>
+                                <commons:RichTooltip text="{MailingAddress}" title="{/#AffectedParties/MailingAddress/@sap:label}" />
+                            </tooltip>
+                            </Input>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="toBeHeardLabel" text="{/#AffectedParties/ToBeHeard/@sap:label}" class="formLabel" required="false" />
+                            <ComboBox id="toBeHeard" placeholder="{i18n>SELECT_HEARD}" selectedKey="{ToBeHeard}" editable="false">
+                                <core:Item id="toBeHeardItem" key="true" text="{i18n>YES_TXT}" tooltip="Yes" />
+                                <core:Item id="toBeHeardItem1" key="false" text="{i18n>NO_TXT}" tooltip="No" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="responseLabel" text="{/#AffectedParties/ResponseType/@sap:label}" class="formLabel" required="false" />
+                            <ComboBox id="response" placeholder="{i18n>SELECT_RESP}" selectedKey="{ResponseType}" editable="false">
+                                <core:Item id="responseItem" key="{ResponseType}" text="{ResponseText}" tooltip="{ResponseText}" />
+                            </ComboBox>
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label id="responseDateLabel" text="{/#AffectedParties/ResponseDate/@sap:label}" class="formLabel" required="false" />
+                            <DatePicker id="responseDate" displayFormat="dd/MM/yyyy" dateValue="{ResponseDate}" editable="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+            <form:FormContainer>
+                <form:formElements>
+                    <form:FormElement>
+                        <form:fields>
+                            <commons:Label text="" class="formLabel" />
+                            <commons:Button id="save" text="{i18n>SAVE_BTN_TEXT}" press=".onSave" style="Emph" class="nextButton navButton" visible="false" />
+                            <commons:Button id="update" text="{i18n>UPDATE_BTN_TEXT}" press=".onUpdate" style="Emph" class="nextButton navButton" visible="false" />
+                        </form:fields>
+                    </form:FormElement>
+                </form:formElements>
+            </form:FormContainer>
+        </form:formContainers>
+    </form:Form>
+</mvc:View>

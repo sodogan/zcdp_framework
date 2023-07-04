@@ -1,0 +1,17 @@
+[{
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREXX",
+	"ResponseType": "",
+	"ResponseText": "Not Recorded"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREXX",
+	"ResponseType": "NEUTRAL",
+	"ResponseText": "Neutral"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREXX",
+	"ResponseType": "OPPOSE",
+	"ResponseText": "Oppose"
+}, {
+	"StepKey": "MDA1MDU2QkMwOUJEMUVENTk2RTZENDMxRkZGMzE0MjAsREXX",
+	"ResponseType": "SUPPORT",
+	"ResponseText": "Support"
+}]

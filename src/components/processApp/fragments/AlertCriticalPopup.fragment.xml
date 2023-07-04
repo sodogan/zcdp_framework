@@ -1,0 +1,28 @@
+<core:FragmentDefinition class="sapUiSizeCompact"
+      xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc"
+      xmlns="sap.m" xmlns:form="sap.ui.layout.form" 
+      controllerName="aklc.cm.components.processApp.controller.Main"
+      xmlns:html="http://www.w3.org/1999/xhtml">
+      <Dialog title="{i18n>AlertPopupTitle}" contentWidth="500px">
+            <content>
+                  <Table id="list" items="{AlertMessages>/AlertMessages}"
+                        width="auto" mode="SingleSelectMaster" showUnread="true" class="acklOnHoldTable">
+                        <columns>
+                              <Column>
+                                    <Text text="{i18n>Messages}" />                                     
+                              </Column>
+                        </columns>
+                        <items>
+                              <ColumnListItem id="listItem" class="stepsTblCell acklOnHoldReason">
+                                    <cells>
+                                    <ObjectIdentifier  title="{AlertMessages>MessageTitle}" text="{ path: 'AlertMessages>MessageText', formatter: '.formatString' }" />                                  
+                                    </cells>
+                              </ColumnListItem>
+                        </items>
+                  </Table>
+            </content>
+            <buttons>
+                  <Button text="{i18n>Close}" press="handleAlertClose" />
+            </buttons>
+      </Dialog>
+</core:FragmentDefinition>

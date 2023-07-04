@@ -1,0 +1,56 @@
+[
+      {
+       
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0004",
+        "ConditionTypeDesc" : "SS2"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0005",
+        "ConditionTypeDesc" : "SS2/1"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0006",
+        "ConditionTypeDesc" : "SS2/2"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0007",
+        "ConditionTypeDesc" : "SS3/1"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0008",
+        "ConditionTypeDesc" : "SS3/2"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0009",
+        "ConditionTypeDesc" : "SS3/3"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0010",
+        "ConditionTypeDesc" : "SS4"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0011",
+        "ConditionTypeDesc" : "SS5"
+      },
+      {
+        
+        "StepKey" : "MDA1MDU2QkMwOUJEMUVENTg3RDVFQTBFMDJFRTU0MjAsQ09O",
+        "ConditionType" : "BC0111",
+        "ConditionTypeDesc" : "ICB"
+      }
+    ]
